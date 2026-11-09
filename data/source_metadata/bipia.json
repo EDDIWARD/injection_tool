@@ -1,0 +1,93 @@
+{
+  "id": "bipia",
+  "repository": "microsoft/BIPIA",
+  "url": "https://github.com/microsoft/BIPIA",
+  "kind": "indirect_benchmark",
+  "retrieved_at": "2026-11-09T09:57:26.335636+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/microsoft/BIPIA/a004b69ec0dd446e0afd461d98cb5e96e120a5d0/LICENSE",
+      "bytes": 2642,
+      "sha256": "57cf81c45e0929899bc18051cf90134f00e55963ddecc7b37cfc5ea1494b1e8b"
+    },
+    {
+      "path": "NOTICE.md",
+      "url": "https://raw.githubusercontent.com/microsoft/BIPIA/a004b69ec0dd446e0afd461d98cb5e96e120a5d0/NOTICE.md",
+      "bytes": 58696,
+      "sha256": "8bb119c94b51352a44c88b42c7f8101b0304885ae6cd1ef9c289ad78d409d68b"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/microsoft/BIPIA/a004b69ec0dd446e0afd461d98cb5e96e120a5d0/README.md",
+      "bytes": 9765,
+      "sha256": "9fce640c22ae3277c83f31711044a90e64627501345c9ceb142b14167f07d47c"
+    },
+    {
+      "path": "benchmark/text_attack_train.json",
+      "url": "https://raw.githubusercontent.com/microsoft/BIPIA/a004b69ec0dd446e0afd461d98cb5e96e120a5d0/benchmark/text_attack_train.json",
+      "bytes": 5999,
+      "sha256": "63f95d3e67eac4178cdabdbdaf192cd05f2b6ed0702b578f1d30d556e5155670"
+    },
+    {
+      "path": "benchmark/text_attack_test.json",
+      "url": "https://raw.githubusercontent.com/microsoft/BIPIA/a004b69ec0dd446e0afd461d98cb5e96e120a5d0/benchmark/text_attack_test.json",
+      "bytes": 6322,
+      "sha256": "75750e7b4e8b34e8f9d88d89b357aeaaf02bd07f9e493ccd37eda74a0cd7c7f8"
+    },
+    {
+      "path": "benchmark/code_attack_train.json",
+      "url": "https://raw.githubusercontent.com/microsoft/BIPIA/a004b69ec0dd446e0afd461d98cb5e96e120a5d0/benchmark/code_attack_train.json",
+      "bytes": 16343,
+      "sha256": "fe515080b6da2b5c0b67ca7ba2a3b3c2ce57c48f45733c475ebc813cba118484"
+    },
+    {
+      "path": "benchmark/code_attack_test.json",
+      "url": "https://raw.githubusercontent.com/microsoft/BIPIA/a004b69ec0dd446e0afd461d98cb5e96e120a5d0/benchmark/code_attack_test.json",
+      "bytes": 16356,
+      "sha256": "892545c5aaec0645b1ded65dc7816b3d70e9ef4eadcba2301a7a3db93676b6e0"
+    }
+  ],
+  "commit": "a004b69ec0dd446e0afd461d98cb5e96e120a5d0",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 2642
+    },
+    {
+      "path": "NOTICE.md",
+      "size": 58696
+    },
+    {
+      "path": "README.md",
+      "size": 9765
+    },
+    {
+      "path": "benchmark/text_attack_train.json",
+      "size": 5999
+    },
+    {
+      "path": "benchmark/text_attack_test.json",
+      "size": 6322
+    },
+    {
+      "path": "benchmark/code_attack_train.json",
+      "size": 16343
+    },
+    {
+      "path": "benchmark/code_attack_test.json",
+      "size": 16356
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 99,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/1508.00305",
+    "https://arxiv.org/abs/2312.14197"
+  ]
+}

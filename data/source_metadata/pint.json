@@ -1,0 +1,43 @@
+{
+  "id": "pint",
+  "repository": "lakeraai/pint-benchmark",
+  "url": "https://github.com/lakeraai/pint-benchmark",
+  "kind": "detector_benchmark",
+  "retrieved_at": "2026-11-09T09:58:39.534382+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/lakeraai/pint-benchmark/0efab3f463eae9c823130d8faffb71b2e7c06e63/README.md",
+      "bytes": 10734,
+      "sha256": "04379dd79f2a6f4f0cb037b86bc3f5b3986973bf589ef46fdb5827dc471df1d1"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/lakeraai/pint-benchmark/0efab3f463eae9c823130d8faffb71b2e7c06e63/LICENSE",
+      "bytes": 1065,
+      "sha256": "5968e9fe3dd27f519635cea1e55aaa638434252e0d896f2f856c2ba0c07a9167"
+    }
+  ],
+  "status": "verified_readme_only",
+  "error": "HTTP Error 403: rate limit exceeded",
+  "commit": "0efab3f463eae9c823130d8faffb71b2e7c06e63",
+  "verification_method": "repository_page_and_raw_readme",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 10734
+    },
+    {
+      "path": "LICENSE",
+      "size": 1065
+    }
+  ],
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 200,
+  "stars_checked_at": "2026-11-09T10:48:41.955626+00:00",
+  "discovered_file_count": 0,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": []
+}

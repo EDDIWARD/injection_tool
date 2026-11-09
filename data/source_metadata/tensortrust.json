@@ -1,0 +1,52 @@
+{
+  "id": "tensortrust",
+  "repository": "HumanCompatibleAI/tensor-trust-data",
+  "url": "https://github.com/HumanCompatibleAI/tensor-trust-data",
+  "kind": "human_dataset",
+  "retrieved_at": "2026-11-09T09:57:26.336281+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/HumanCompatibleAI/tensor-trust-data/747a75e096761ebc01bd3970158827326b4add23/README.md",
+      "bytes": 693,
+      "sha256": "f9d84aee43137dbeed87a97330d6035468ea8cc0e5aaa58b7f0bdef2ba911c09"
+    },
+    {
+      "path": "benchmarks/extraction-robustness/v1/extraction_robustness_dataset.jsonl",
+      "url": "https://raw.githubusercontent.com/HumanCompatibleAI/tensor-trust-data/747a75e096761ebc01bd3970158827326b4add23/benchmarks/extraction-robustness/v1/extraction_robustness_dataset.jsonl",
+      "bytes": 685113,
+      "sha256": "4090f9f57b6df69cc32d7669ac991e3fd53e6e2bb616a5e6f45dac79c183ee4c"
+    },
+    {
+      "path": "benchmarks/hijacking-robustness/v1/hijacking_robustness_dataset.jsonl",
+      "url": "https://raw.githubusercontent.com/HumanCompatibleAI/tensor-trust-data/747a75e096761ebc01bd3970158827326b4add23/benchmarks/hijacking-robustness/v1/hijacking_robustness_dataset.jsonl",
+      "bytes": 1701703,
+      "sha256": "2ad3c2343bbf43cb1924f3ec5d6f830864ce3c879e9832b01d93a991e7e2e680"
+    }
+  ],
+  "commit": "747a75e096761ebc01bd3970158827326b4add23",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "README.md",
+      "size": 693
+    },
+    {
+      "path": "benchmarks/extraction-robustness/v1/extraction_robustness_dataset.jsonl",
+      "size": 685113
+    },
+    {
+      "path": "benchmarks/hijacking-robustness/v1/hijacking_robustness_dataset.jsonl",
+      "size": 1701703
+    }
+  ],
+  "status": "verified",
+  "license_files": [],
+  "stars": 56,
+  "stars_checked_at": "2026-11-09T10:48:44.015056+00:00",
+  "discovered_file_count": 10,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://tensortrust.ai/paper"
+  ]
+}

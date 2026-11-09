@@ -1,0 +1,52 @@
+{
+  "id": "ccbos_community",
+  "repository": "xaoLiu1222/cc-bos",
+  "url": "https://github.com/xaoLiu1222/cc-bos",
+  "kind": "community_reimplementation",
+  "retrieved_at": "2026-11-09T10:41:10.148272+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/xaoLiu1222/cc-bos/aede46248517d84a436f590a78ec7f2479aae14a/README.md",
+      "bytes": 5696,
+      "sha256": "4ac2164427206a4e258cb95b5251ca9d952731528f08d1770e3518f857cb92fb"
+    },
+    {
+      "path": "prompt_gen.py",
+      "url": "https://raw.githubusercontent.com/xaoLiu1222/cc-bos/aede46248517d84a436f590a78ec7f2479aae14a/prompt_gen.py",
+      "bytes": 5254,
+      "sha256": "eddaa458f466510f178a76a1122b4aac1cb8d149bb70089d9145496fbd794622"
+    },
+    {
+      "path": "strategy.py",
+      "url": "https://raw.githubusercontent.com/xaoLiu1222/cc-bos/aede46248517d84a436f590a78ec7f2479aae14a/strategy.py",
+      "bytes": 6031,
+      "sha256": "211f4ca5c6d454e2b8bee294cc0fabc627efaffa23f1f1f3857c4e22a0317685"
+    }
+  ],
+  "stars": 41,
+  "stars_checked_at": "2026-11-09T10:41:10.148272+00:00",
+  "commit": "aede46248517d84a436f590a78ec7f2479aae14a",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "README.md",
+      "size": 5696
+    },
+    {
+      "path": "prompt_gen.py",
+      "size": 5254
+    },
+    {
+      "path": "strategy.py",
+      "size": 6031
+    }
+  ],
+  "status": "verified",
+  "license_files": [],
+  "discovered_file_count": 12,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2602.22983"
+  ]
+}

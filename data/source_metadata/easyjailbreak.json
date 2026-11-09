@@ -1,0 +1,64 @@
+{
+  "id": "easyjailbreak",
+  "repository": "EasyJailbreak/EasyJailbreak",
+  "url": "https://github.com/EasyJailbreak/EasyJailbreak",
+  "kind": "jailbreak_framework",
+  "retrieved_at": "2026-11-09T10:37:03.456563+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/EasyJailbreak/EasyJailbreak/6731d6f627d43895f59ef03c6ce04348746659e6/LICENSE",
+      "bytes": 35148,
+      "sha256": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/EasyJailbreak/EasyJailbreak/6731d6f627d43895f59ef03c6ce04348746659e6/README.md",
+      "bytes": 15418,
+      "sha256": "396243fab2692a4c9e833583f3c4eed5bd052924d4f1393dd08f70c03bfdf0b5"
+    },
+    {
+      "path": "easyjailbreak/seed/seed_template.json",
+      "url": "https://raw.githubusercontent.com/EasyJailbreak/EasyJailbreak/6731d6f627d43895f59ef03c6ce04348746659e6/easyjailbreak/seed/seed_template.json",
+      "bytes": 624842,
+      "sha256": "fd5f9acb3129af7561d5c0aaace44844598635f43953ac216d123619471e1141"
+    },
+    {
+      "path": "easyjailbreak/attacker/AutoDAN_Liu_2023.py",
+      "url": "https://raw.githubusercontent.com/EasyJailbreak/EasyJailbreak/6731d6f627d43895f59ef03c6ce04348746659e6/easyjailbreak/attacker/AutoDAN_Liu_2023.py",
+      "bytes": 31944,
+      "sha256": "1e9ba28dbc872fef4b21a81e33d37456cf45cbfab631534820593cb09b2d558c"
+    }
+  ],
+  "stars": 943,
+  "stars_checked_at": "2026-11-09T10:37:03.456563+00:00",
+  "commit": "6731d6f627d43895f59ef03c6ce04348746659e6",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 35148
+    },
+    {
+      "path": "README.md",
+      "size": 15418
+    },
+    {
+      "path": "easyjailbreak/seed/seed_template.json",
+      "size": 624842
+    },
+    {
+      "path": "easyjailbreak/attacker/AutoDAN_Liu_2023.py",
+      "size": 31944
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 175,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/pdf/2403.12171.pdf"
+  ]
+}

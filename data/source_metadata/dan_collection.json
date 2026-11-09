@@ -1,0 +1,30 @@
+{
+  "id": "dan_collection",
+  "repository": "0xk1h0/ChatGPT_DAN",
+  "url": "https://github.com/0xk1h0/ChatGPT_DAN",
+  "kind": "reference_catalog",
+  "retrieved_at": "2026-11-09T10:37:03.456832+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/0xk1h0/ChatGPT_DAN/2b1221c70732108df43e0656a1733083348b2720/README.md",
+      "bytes": 57323,
+      "sha256": "ea3e6fd2ea856c92ee838308a416ffcc03faf680c7c5bb81085e67d723811239"
+    }
+  ],
+  "stars": 13156,
+  "stars_checked_at": "2026-11-09T10:37:03.456832+00:00",
+  "commit": "2b1221c70732108df43e0656a1733083348b2720",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "README.md",
+      "size": 57323
+    }
+  ],
+  "status": "verified",
+  "license_files": [],
+  "discovered_file_count": 2,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": []
+}

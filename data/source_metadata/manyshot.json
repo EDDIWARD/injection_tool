@@ -1,0 +1,14 @@
+{
+  "id": "manyshot",
+  "repository": "anthropics/many-shot-jailbreaking",
+  "url": "https://github.com/anthropics/many-shot-jailbreaking",
+  "kind": "jailbreak_method",
+  "retrieved_at": "2026-11-09T09:58:39.171215+00:00",
+  "artifacts": [],
+  "status": "unavailable",
+  "error": "HTTP Error 403: rate limit exceeded",
+  "fallback_error": "HTTP Error 404: Not Found",
+  "discovered_file_count": 0,
+  "files": [],
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release"
+}

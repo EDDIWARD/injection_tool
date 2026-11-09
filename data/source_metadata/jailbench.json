@@ -1,0 +1,62 @@
+{
+  "id": "jailbench",
+  "repository": "STAIR-BUPT/JailBench",
+  "url": "https://github.com/STAIR-BUPT/JailBench",
+  "kind": "chinese_benchmark",
+  "retrieved_at": "2026-11-09T10:37:10.685527+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/STAIR-BUPT/JailBench/9780da959f5860f781c20a940a01af3e59d3f71b/LICENSE",
+      "bytes": 1067,
+      "sha256": "a5702a0e452bfc595dddbbd3e1a21f2c859d6a2c80992003e98747ee3df4b2fb"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/STAIR-BUPT/JailBench/9780da959f5860f781c20a940a01af3e59d3f71b/README.md",
+      "bytes": 8155,
+      "sha256": "614a5b6cf0d33f8d2c3a3db5e97676ff5653078d9da26fc07c7ceeb839728ce1"
+    },
+    {
+      "path": "JailBench-seed.csv",
+      "url": "https://raw.githubusercontent.com/STAIR-BUPT/JailBench/9780da959f5860f781c20a940a01af3e59d3f71b/JailBench-seed.csv",
+      "bytes": 58493,
+      "sha256": "6d7025379c10b39ed33d33bf1446d41106c57a9bd349c8c8d6c802948c551de8"
+    },
+    {
+      "path": "JailBench.csv",
+      "url": "https://raw.githubusercontent.com/STAIR-BUPT/JailBench/9780da959f5860f781c20a940a01af3e59d3f71b/JailBench.csv",
+      "bytes": 12668948,
+      "sha256": "f84e0b119fb9d87fb8873af3491f34151a0250dc3267c11bdce7cb90d18ec493"
+    }
+  ],
+  "stars": 194,
+  "stars_checked_at": "2026-11-09T10:37:10.685527+00:00",
+  "commit": "9780da959f5860f781c20a940a01af3e59d3f71b",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1067
+    },
+    {
+      "path": "README.md",
+      "size": 8155
+    },
+    {
+      "path": "JailBench-seed.csv",
+      "size": 58493
+    },
+    {
+      "path": "JailBench.csv",
+      "size": 12668948
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 7,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": []
+}

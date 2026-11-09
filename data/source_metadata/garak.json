@@ -1,0 +1,74 @@
+{
+  "id": "garak",
+  "repository": "NVIDIA/garak",
+  "url": "https://github.com/NVIDIA/garak",
+  "kind": "redteam_framework",
+  "retrieved_at": "2026-11-09T09:57:29.093474+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/NVIDIA/garak/892779207cbc38f65a738ef9cbdfbc1e83aa0b55/LICENSE",
+      "bytes": 11403,
+      "sha256": "f12c175308d657ab393ca79f063063501273d43c14200d3ba7b214ca8e50523e"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/NVIDIA/garak/892779207cbc38f65a738ef9cbdfbc1e83aa0b55/README.md",
+      "bytes": 20164,
+      "sha256": "640626790dc73543d58857ea0ebc7e47ccdb38cd9dd8fc56467147f7f3a5798e"
+    },
+    {
+      "path": "garak/probes/latentinjection.py",
+      "url": "https://raw.githubusercontent.com/NVIDIA/garak/892779207cbc38f65a738ef9cbdfbc1e83aa0b55/garak/probes/latentinjection.py",
+      "bytes": 37986,
+      "sha256": "723cbdd24a2503866cf4d2e8e815a16090afdff73c65a02b246793fc605aa3c2"
+    },
+    {
+      "path": "garak/data/sysprompt_extraction/attacks.json",
+      "url": "https://raw.githubusercontent.com/NVIDIA/garak/892779207cbc38f65a738ef9cbdfbc1e83aa0b55/garak/data/sysprompt_extraction/attacks.json",
+      "bytes": 2233,
+      "sha256": "9de1d55a6a378aa9b175a96052bcf9b2937445f329617710cac5379f89302bee"
+    },
+    {
+      "path": "garak/resources/promptinject/prompt_data.py",
+      "url": "https://raw.githubusercontent.com/NVIDIA/garak/892779207cbc38f65a738ef9cbdfbc1e83aa0b55/garak/resources/promptinject/prompt_data.py",
+      "bytes": 27066,
+      "sha256": "81b4285dec37ccb4af7c529017687eca7f0bfd1bef546611171d6f93bb494408"
+    }
+  ],
+  "commit": "892779207cbc38f65a738ef9cbdfbc1e83aa0b55",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 11403
+    },
+    {
+      "path": "README.md",
+      "size": 20164
+    },
+    {
+      "path": "garak/probes/latentinjection.py",
+      "size": 37986
+    },
+    {
+      "path": "garak/data/sysprompt_extraction/attacks.json",
+      "size": 2233
+    },
+    {
+      "path": "garak/resources/promptinject/prompt_data.py",
+      "size": 27066
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 888,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2106.09898",
+    "https://arxiv.org/abs/2303.18190",
+    "https://arxiv.org/abs/2406.11036"
+  ]
+}

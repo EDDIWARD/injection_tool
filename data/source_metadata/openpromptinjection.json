@@ -1,0 +1,92 @@
+{
+  "id": "openpromptinjection",
+  "repository": "liu00222/Open-Prompt-Injection",
+  "url": "https://github.com/liu00222/Open-Prompt-Injection",
+  "kind": "injection_framework",
+  "retrieved_at": "2026-11-09T09:57:26.336617+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/liu00222/Open-Prompt-Injection/fbed5cca347488f88363790ae3ae97c56116da6a/LICENSE",
+      "bytes": 1066,
+      "sha256": "49122a44c7820256c33fac5517b1219279cfc846c11474b97fbe1babd45a4e20"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/liu00222/Open-Prompt-Injection/fbed5cca347488f88363790ae3ae97c56116da6a/README.md",
+      "bytes": 8742,
+      "sha256": "f290df7ad3766dbeff6d408a8ff456d1d622df8c135b410cec602adc7807ef93"
+    },
+    {
+      "path": "OpenPromptInjection/attackers/CombineAttacker.py",
+      "url": "https://raw.githubusercontent.com/liu00222/Open-Prompt-Injection/fbed5cca347488f88363790ae3ae97c56116da6a/OpenPromptInjection/attackers/CombineAttacker.py",
+      "bytes": 1068,
+      "sha256": "95babceff897c8c6f6657aedf43f1c08495aa8acb4f7797e15b6f91023a7a924"
+    },
+    {
+      "path": "OpenPromptInjection/attackers/EscapeCharAttacker.py",
+      "url": "https://raw.githubusercontent.com/liu00222/Open-Prompt-Injection/fbed5cca347488f88363790ae3ae97c56116da6a/OpenPromptInjection/attackers/EscapeCharAttacker.py",
+      "bytes": 794,
+      "sha256": "8e54d4293254907235b702d2bf5dc921e12da9ab859e150cdd853dc4b1d9b0f5"
+    },
+    {
+      "path": "OpenPromptInjection/attackers/FakeCompAttacker.py",
+      "url": "https://raw.githubusercontent.com/liu00222/Open-Prompt-Injection/fbed5cca347488f88363790ae3ae97c56116da6a/OpenPromptInjection/attackers/FakeCompAttacker.py",
+      "bytes": 996,
+      "sha256": "2a4bf69188fdc7457880f2880af5e96c19110f6be8efa73c944f099694554e8b"
+    },
+    {
+      "path": "OpenPromptInjection/attackers/IgnoreAttacker.py",
+      "url": "https://raw.githubusercontent.com/liu00222/Open-Prompt-Injection/fbed5cca347488f88363790ae3ae97c56116da6a/OpenPromptInjection/attackers/IgnoreAttacker.py",
+      "bytes": 849,
+      "sha256": "2d2ea0a04dc91b3fa8d23af9018ef64b017a3f0e6d073bd8e5c997e81d69d227"
+    },
+    {
+      "path": "OpenPromptInjection/attackers/NaiveAttacker.py",
+      "url": "https://raw.githubusercontent.com/liu00222/Open-Prompt-Injection/fbed5cca347488f88363790ae3ae97c56116da6a/OpenPromptInjection/attackers/NaiveAttacker.py",
+      "bytes": 788,
+      "sha256": "c115e174d005853214fc3c37a3562e41dfcfea954b5374496943fb416884745d"
+    }
+  ],
+  "commit": "fbed5cca347488f88363790ae3ae97c56116da6a",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "path": "README.md",
+      "size": 8742
+    },
+    {
+      "path": "OpenPromptInjection/attackers/CombineAttacker.py",
+      "size": 1068
+    },
+    {
+      "path": "OpenPromptInjection/attackers/EscapeCharAttacker.py",
+      "size": 794
+    },
+    {
+      "path": "OpenPromptInjection/attackers/FakeCompAttacker.py",
+      "size": 996
+    },
+    {
+      "path": "OpenPromptInjection/attackers/IgnoreAttacker.py",
+      "size": 849
+    },
+    {
+      "path": "OpenPromptInjection/attackers/NaiveAttacker.py",
+      "size": 788
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 512,
+  "stars_checked_at": "2026-11-09T10:48:42.868089+00:00",
+  "discovered_file_count": 133,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": []
+}

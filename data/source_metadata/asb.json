@@ -1,0 +1,53 @@
+{
+  "id": "asb",
+  "repository": "agiresearch/ASB",
+  "url": "https://github.com/agiresearch/ASB",
+  "kind": "agent_benchmark",
+  "retrieved_at": "2026-11-09T09:57:30.678001+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/agiresearch/ASB/544540ff0788998072f7df463056fd17e62cc9f4/LICENSE",
+      "bytes": 1069,
+      "sha256": "dc40a1a6bdb44f24c1bbca4fe7fc45b8d3e5c8370f43c17a9f647e5632686918"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/agiresearch/ASB/544540ff0788998072f7df463056fd17e62cc9f4/README.md",
+      "bytes": 22594,
+      "sha256": "f9d8db1086d3af665d79581a274ff4eccff7272254922db89490291fb6cd6327"
+    },
+    {
+      "path": "data/all_attack_tools.jsonl",
+      "url": "https://raw.githubusercontent.com/agiresearch/ASB/544540ff0788998072f7df463056fd17e62cc9f4/data/all_attack_tools.jsonl",
+      "bytes": 209310,
+      "sha256": "9205bf61f1c34f4be5b644ae829da22042c92a86d4d1e70352ccec5f60cf12d6"
+    }
+  ],
+  "commit": "544540ff0788998072f7df463056fd17e62cc9f4",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1069
+    },
+    {
+      "path": "README.md",
+      "size": 22594
+    },
+    {
+      "path": "data/all_attack_tools.jsonl",
+      "size": 209310
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 218,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2410.02644",
+    "https://openreview.net/forum?id=V4y0CpX4hK"
+  ]
+}

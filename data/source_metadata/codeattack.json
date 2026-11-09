@@ -1,0 +1,134 @@
+{
+  "id": "codeattack",
+  "repository": "renqibing/CodeAttack",
+  "url": "https://github.com/renqibing/CodeAttack",
+  "kind": "jailbreak_method",
+  "retrieved_at": "2026-11-09T10:37:10.643884+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/renqibing/CodeAttack/6777ed03b11567a91908f23bb8ccedca6103772c/LICENSE",
+      "bytes": 1067,
+      "sha256": "cb9108ecac8fc05d562cf0aebbb89fca1a18a410205b5fb9455710ef73d55116"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/renqibing/CodeAttack/6777ed03b11567a91908f23bb8ccedca6103772c/README.md",
+      "bytes": 2835,
+      "sha256": "e16a26d2673e6892a257a5621b03782e321d27c2dfac1026f61b96e4873501e6"
+    },
+    {
+      "path": "src/codeattack/data_preparation.py",
+      "url": "https://raw.githubusercontent.com/renqibing/CodeAttack/6777ed03b11567a91908f23bb8ccedca6103772c/src/codeattack/data_preparation.py",
+      "bytes": 4773,
+      "sha256": "394483704aad640f9d74b51940d324553f11040b1049dfe3860858f057b242c0"
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_C_string.txt",
+      "url": "https://raw.githubusercontent.com/renqibing/CodeAttack/6777ed03b11567a91908f23bb8ccedca6103772c/src/codeattack/prompt_templates/code_C_string.txt",
+      "bytes": 1173,
+      "sha256": "a3d109cb5f180b2f209a106e6417627c75c77cfcb79e14014b77d41ba4e17c23"
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_go_string.txt",
+      "url": "https://raw.githubusercontent.com/renqibing/CodeAttack/6777ed03b11567a91908f23bb8ccedca6103772c/src/codeattack/prompt_templates/code_go_string.txt",
+      "bytes": 1364,
+      "sha256": "966b1dd39ab5ba4cf44b4c7d219acb0e725ec5676a050a7804f45b5646929dde"
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_python_list.txt",
+      "url": "https://raw.githubusercontent.com/renqibing/CodeAttack/6777ed03b11567a91908f23bb8ccedca6103772c/src/codeattack/prompt_templates/code_python_list.txt",
+      "bytes": 810,
+      "sha256": "a1a58c3c31d7342890a0a33f183ab566e3bbc5166b503e78ca978d01063578ea"
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_python_list_plus.txt",
+      "url": "https://raw.githubusercontent.com/renqibing/CodeAttack/6777ed03b11567a91908f23bb8ccedca6103772c/src/codeattack/prompt_templates/code_python_list_plus.txt",
+      "bytes": 1016,
+      "sha256": "ea873b86404bfaa8de471e1881718d04a7cea67311733b855b52183c3555a35c"
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_python_stack.txt",
+      "url": "https://raw.githubusercontent.com/renqibing/CodeAttack/6777ed03b11567a91908f23bb8ccedca6103772c/src/codeattack/prompt_templates/code_python_stack.txt",
+      "bytes": 873,
+      "sha256": "8bd49d343940b21f7c72182c8163ac7b859a067fb036358deeb80e0694bde657"
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_python_stack_plus.txt",
+      "url": "https://raw.githubusercontent.com/renqibing/CodeAttack/6777ed03b11567a91908f23bb8ccedca6103772c/src/codeattack/prompt_templates/code_python_stack_plus.txt",
+      "bytes": 1084,
+      "sha256": "81a9c36dfcac548a11bd7c7df2ee73031a36be9791e9db8d99e70af9572329b8"
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_python_string.txt",
+      "url": "https://raw.githubusercontent.com/renqibing/CodeAttack/6777ed03b11567a91908f23bb8ccedca6103772c/src/codeattack/prompt_templates/code_python_string.txt",
+      "bytes": 747,
+      "sha256": "eb6d17c7b3e2b6b3062460a08fc291dd670682a61925e0133791ec0e25c3e7b5"
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_python_string_plus.txt",
+      "url": "https://raw.githubusercontent.com/renqibing/CodeAttack/6777ed03b11567a91908f23bb8ccedca6103772c/src/codeattack/prompt_templates/code_python_string_plus.txt",
+      "bytes": 958,
+      "sha256": "327ef9211eb69628c75edb2f8d7b2e8d6799b43db1140c5d94979e696dd0a106"
+    }
+  ],
+  "stars": 61,
+  "stars_checked_at": "2026-11-09T10:37:10.643884+00:00",
+  "commit": "6777ed03b11567a91908f23bb8ccedca6103772c",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1067
+    },
+    {
+      "path": "README.md",
+      "size": 2835
+    },
+    {
+      "path": "src/codeattack/data_preparation.py",
+      "size": 4773
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_C_string.txt",
+      "size": 1173
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_go_string.txt",
+      "size": 1364
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_python_list.txt",
+      "size": 810
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_python_list_plus.txt",
+      "size": 1016
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_python_stack.txt",
+      "size": 873
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_python_stack_plus.txt",
+      "size": 1084
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_python_string.txt",
+      "size": 747
+    },
+    {
+      "path": "src/codeattack/prompt_templates/code_python_string_plus.txt",
+      "size": 958
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 29,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2403.07865"
+  ]
+}

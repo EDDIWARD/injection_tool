@@ -1,0 +1,45 @@
+{
+  "id": "llmattacks",
+  "repository": "llm-attacks/llm-attacks",
+  "url": "https://github.com/llm-attacks/llm-attacks",
+  "kind": "jailbreak_method",
+  "retrieved_at": "2026-11-09T09:58:35.547987+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/llm-attacks/llm-attacks/098262edf85f807224e70ecd87b9d83716bf6b73/README.md",
+      "bytes": 5898,
+      "sha256": "6f1e9df31dce20764ace8b3790c777ae28a2aed16d9315c509cc7a6655ea1ab0"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/llm-attacks/llm-attacks/098262edf85f807224e70ecd87b9d83716bf6b73/LICENSE",
+      "bytes": 1065,
+      "sha256": "1e4bb8e2313ef9ff36033526503aa8837c80ba1d4c055c2e7d9977760028eec7"
+    }
+  ],
+  "status": "verified_readme_only",
+  "error": "HTTP Error 403: rate limit exceeded",
+  "commit": "098262edf85f807224e70ecd87b9d83716bf6b73",
+  "verification_method": "repository_page_and_raw_readme",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 5898
+    },
+    {
+      "path": "LICENSE",
+      "size": 1065
+    }
+  ],
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 4855,
+  "stars_checked_at": "2026-11-09T10:48:40.642294+00:00",
+  "discovered_file_count": 0,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2307.15043"
+  ]
+}

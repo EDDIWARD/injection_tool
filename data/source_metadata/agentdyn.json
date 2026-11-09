@@ -1,0 +1,45 @@
+{
+  "id": "agentdyn",
+  "repository": "SaFo-Lab/AgentDyn",
+  "url": "https://github.com/SaFo-Lab/AgentDyn",
+  "kind": "agent_benchmark",
+  "retrieved_at": "2026-11-09T10:37:16.947823+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/SaFo-Lab/AgentDyn/5353cf7615b135cace8d07c8f12dac53a16b6db3/LICENSE",
+      "bytes": 1161,
+      "sha256": "4285a071f2d382338e52b4fb0a186d952984a34d43a33d8872e1a1d8cb43401e"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/SaFo-Lab/AgentDyn/5353cf7615b135cace8d07c8f12dac53a16b6db3/README.md",
+      "bytes": 3589,
+      "sha256": "5f62c9f443fe54d79f3623196185920fb6af687356c42d797ee361c7011e9cb0"
+    }
+  ],
+  "stars": 92,
+  "stars_checked_at": "2026-11-09T10:37:16.947823+00:00",
+  "commit": "5353cf7615b135cace8d07c8f12dac53a16b6db3",
+  "tree_truncated": true,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1161
+    },
+    {
+      "path": "README.md",
+      "size": 3589
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 34345,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://aclanthology.org/2025.acl-long.1468.pdf",
+    "https://arxiv.org/pdf/2602.03117"
+  ]
+}

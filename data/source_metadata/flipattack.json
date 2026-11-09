@@ -1,0 +1,54 @@
+{
+  "id": "flipattack",
+  "repository": "yueliu1999/FlipAttack",
+  "url": "https://github.com/yueliu1999/FlipAttack",
+  "kind": "jailbreak_method",
+  "retrieved_at": "2026-11-09T10:37:06.869804+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/yueliu1999/FlipAttack/c53880b4a6e8ab47686849838b3d2e11bc80a6b9/LICENSE",
+      "bytes": 1067,
+      "sha256": "ffa10db2b68769e714438848ba5dd5d712706615f4bdc24922c858577402c773"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/yueliu1999/FlipAttack/c53880b4a6e8ab47686849838b3d2e11bc80a6b9/README.md",
+      "bytes": 12904,
+      "sha256": "907934cbf4f0ec8ebd3667f830f4609cdf48258e06b71e0c45eb5c5284aa662b"
+    },
+    {
+      "path": "src/flip_attack.py",
+      "url": "https://raw.githubusercontent.com/yueliu1999/FlipAttack/c53880b4a6e8ab47686849838b3d2e11bc80a6b9/src/flip_attack.py",
+      "bytes": 10486,
+      "sha256": "07ffa54f0bc7675f91231832ffc71c74dc81bfb158412d785034de7aeb249694"
+    }
+  ],
+  "stars": 182,
+  "stars_checked_at": "2026-11-09T10:37:06.869804+00:00",
+  "commit": "c53880b4a6e8ab47686849838b3d2e11bc80a6b9",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1067
+    },
+    {
+      "path": "README.md",
+      "size": 12904
+    },
+    {
+      "path": "src/flip_attack.py",
+      "size": 10486
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 41,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/pdf/2410.02832"
+  ]
+}

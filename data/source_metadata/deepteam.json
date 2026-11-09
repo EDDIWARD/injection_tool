@@ -1,0 +1,222 @@
+{
+  "id": "deepteam",
+  "repository": "confident-ai/deepteam",
+  "url": "https://github.com/confident-ai/deepteam",
+  "kind": "redteam_framework",
+  "retrieved_at": "2026-11-09T10:37:23.840067+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE.md",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/LICENSE.md",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/README.md",
+      "bytes": 19824,
+      "sha256": "0b2a77374f920de721569a531f1e38047d6125294d06ce5da1c3bb79a1a24798"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/adversarial_poetry/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/adversarial_poetry/template.py",
+      "bytes": 4903,
+      "sha256": "e54183f17a86c6964ecde3afcfa540f938db35249b8cce8c18caa0fe8d6f056d"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/authority_escalation/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/authority_escalation/template.py",
+      "bytes": 4066,
+      "sha256": "2bd5f3e4751dc5f76bdb0f844074f46b5f56deb70195714c7db4cf20026251d0"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/context_flooding/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/context_flooding/template.py",
+      "bytes": 2701,
+      "sha256": "8c55c69e631a07e01109105de42d694daab20ab3e7c75a877ceb9ffc06147ae7"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/context_poisoning/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/context_poisoning/template.py",
+      "bytes": 5715,
+      "sha256": "5b73967787cbb35b2a4d0926c8cfee9465fcf443a39984cfe86e5b8e3324fe5b"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/embedded_instruction_json/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/embedded_instruction_json/template.py",
+      "bytes": 2363,
+      "sha256": "7dbfb3c739833725c062f06189d20f11261801493ec4cff57e78b868387ea9ed"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/emotional_manipulation/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/emotional_manipulation/template.py",
+      "bytes": 4776,
+      "sha256": "b8290b697b1d83c5e826cf52314298dc9698bb066e5d5abd80d2e82be6f2fb87"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/goal_redirection/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/goal_redirection/template.py",
+      "bytes": 5833,
+      "sha256": "b493b77ae808af85f1713c1efcf98e3f485d74002bd3c989c69a79fa01dae337"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/gray_box/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/gray_box/template.py",
+      "bytes": 5724,
+      "sha256": "98111ebd1697402c6434e81b383cee1ec12f15ef5e40b3289befd53f21a0a77b"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/input_bypass/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/input_bypass/template.py",
+      "bytes": 5312,
+      "sha256": "8114517df9c35d4704dee2d5d92fc7096b63df7094594191bef958cee2241540"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/math_problem/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/math_problem/template.py",
+      "bytes": 6092,
+      "sha256": "80ecce61a0efb03133d6e7a1d05e52cb287b49b3f79316abe1bf7ba324c38004"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/multilingual/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/multilingual/template.py",
+      "bytes": 4412,
+      "sha256": "07b7bf707f62a5d27181c04fb8e911cc31305321a26716bc4e8b1dcb2fd2aa98"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/permission_escalation/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/permission_escalation/template.py",
+      "bytes": 5574,
+      "sha256": "679d6d14c32b83d9618d867e8de6158f70c30beb7b82cc7a02d7a9cc2bfe4e43"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/prompt_injection/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/prompt_injection/template.py",
+      "bytes": 5511,
+      "sha256": "094c11ecee5f5557111d0e9bfb7ee83f5a19cbe7b6aac6e70f802f52d0bb8c96"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/prompt_probing/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/prompt_probing/template.py",
+      "bytes": 5344,
+      "sha256": "9530bc13be21d5ae1068439f28258fecbd918ef68cdb8658b08859130554dea4"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/roleplay/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/roleplay/template.py",
+      "bytes": 5883,
+      "sha256": "a76c6743d78547c90279d90e829724a9a631619c5ac58918e8c24d472e12559c"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/semantic_manipulation/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/semantic_manipulation/template.py",
+      "bytes": 5946,
+      "sha256": "1894c80311766319f5c1fb0ea7d22b146c6d09944819fd2a283255e1e7ac461f"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/synthetic_context_injection/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/synthetic_context_injection/template.py",
+      "bytes": 5126,
+      "sha256": "7db64349ed6fa42ac4c79b13b759e6a84f223b27800ab358e8d5becbc01b645b"
+    },
+    {
+      "path": "deepteam/attacks/single_turn/system_override/template.py",
+      "url": "https://raw.githubusercontent.com/confident-ai/deepteam/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/system_override/template.py",
+      "bytes": 6343,
+      "sha256": "c15cdd372b51a4aa46a3aa13b5c5b73cd3b5f8bc134a1f079af5bbffb53c91b2"
+    }
+  ],
+  "stars": 3092,
+  "stars_checked_at": "2026-11-09T10:37:23.840067+00:00",
+  "commit": "6306f0ff319a932955399405af82f78ee91e9370",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE.md",
+      "size": 11357
+    },
+    {
+      "path": "README.md",
+      "size": 19824
+    },
+    {
+      "path": "deepteam/attacks/single_turn/adversarial_poetry/template.py",
+      "size": 4903
+    },
+    {
+      "path": "deepteam/attacks/single_turn/authority_escalation/template.py",
+      "size": 4066
+    },
+    {
+      "path": "deepteam/attacks/single_turn/context_flooding/template.py",
+      "size": 2701
+    },
+    {
+      "path": "deepteam/attacks/single_turn/context_poisoning/template.py",
+      "size": 5715
+    },
+    {
+      "path": "deepteam/attacks/single_turn/embedded_instruction_json/template.py",
+      "size": 2363
+    },
+    {
+      "path": "deepteam/attacks/single_turn/emotional_manipulation/template.py",
+      "size": 4776
+    },
+    {
+      "path": "deepteam/attacks/single_turn/goal_redirection/template.py",
+      "size": 5833
+    },
+    {
+      "path": "deepteam/attacks/single_turn/gray_box/template.py",
+      "size": 5724
+    },
+    {
+      "path": "deepteam/attacks/single_turn/input_bypass/template.py",
+      "size": 5312
+    },
+    {
+      "path": "deepteam/attacks/single_turn/math_problem/template.py",
+      "size": 6092
+    },
+    {
+      "path": "deepteam/attacks/single_turn/multilingual/template.py",
+      "size": 4412
+    },
+    {
+      "path": "deepteam/attacks/single_turn/permission_escalation/template.py",
+      "size": 5574
+    },
+    {
+      "path": "deepteam/attacks/single_turn/prompt_injection/template.py",
+      "size": 5511
+    },
+    {
+      "path": "deepteam/attacks/single_turn/prompt_probing/template.py",
+      "size": 5344
+    },
+    {
+      "path": "deepteam/attacks/single_turn/roleplay/template.py",
+      "size": 5883
+    },
+    {
+      "path": "deepteam/attacks/single_turn/semantic_manipulation/template.py",
+      "size": 5946
+    },
+    {
+      "path": "deepteam/attacks/single_turn/synthetic_context_injection/template.py",
+      "size": 5126
+    },
+    {
+      "path": "deepteam/attacks/single_turn/system_override/template.py",
+      "size": 6343
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE.md"
+  ],
+  "discovered_file_count": 1216,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": []
+}

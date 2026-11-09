@@ -1,0 +1,62 @@
+{
+  "id": "gptfuzz",
+  "repository": "hubertyoo/GPTFuzz",
+  "url": "https://github.com/hubertyoo/GPTFuzz",
+  "kind": "jailbreak_templates",
+  "retrieved_at": "2026-11-09T09:57:30.234948+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/hubertyoo/GPTFuzz/0c26cccc3b19cd5eed91d6cb6912431cf2501762/LICENSE",
+      "bytes": 1070,
+      "sha256": "d2312953173915bf3c3bd013ae274c0282de6f7c99c6b327374d68a80273bd7a"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/hubertyoo/GPTFuzz/0c26cccc3b19cd5eed91d6cb6912431cf2501762/README.md",
+      "bytes": 6859,
+      "sha256": "9698e9a5cbc1fc3cf3b4d772fb548735c52826f84e2f208b46d1efbc7601eedd"
+    },
+    {
+      "path": "datasets/prompts/GPTFuzzer.csv",
+      "url": "https://raw.githubusercontent.com/hubertyoo/GPTFuzz/0c26cccc3b19cd5eed91d6cb6912431cf2501762/datasets/prompts/GPTFuzzer.csv",
+      "bytes": 158982,
+      "sha256": "e4abf25343b4adb991dd8ddc6189c038f26a6e74064d792cced69f56f71577fc"
+    },
+    {
+      "path": "datasets/prompts/README.md",
+      "url": "https://raw.githubusercontent.com/hubertyoo/GPTFuzz/0c26cccc3b19cd5eed91d6cb6912431cf2501762/datasets/prompts/README.md",
+      "bytes": 356,
+      "sha256": "ac1465a5fbb322f6fe4e285d8c9fd6296e621d4d2dbdadc88842f2c9322a00fd"
+    }
+  ],
+  "commit": "0c26cccc3b19cd5eed91d6cb6912431cf2501762",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1070
+    },
+    {
+      "path": "README.md",
+      "size": 6859
+    },
+    {
+      "path": "datasets/prompts/GPTFuzzer.csv",
+      "size": 158982
+    },
+    {
+      "path": "datasets/prompts/README.md",
+      "size": 356
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 35,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/pdf/2309.10253.pdf"
+  ]
+}

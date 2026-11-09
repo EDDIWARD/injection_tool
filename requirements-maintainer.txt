@@ -1,0 +1,2 @@
+# Only required for rebuilding the imported catalog. The generator has no dependencies.
+PyYAML>=6.0,<7

@@ -1,0 +1,342 @@
+{
+  "id": "aiinfra",
+  "repository": "Tencent/AI-Infra-Guard",
+  "url": "https://github.com/Tencent/AI-Infra-Guard",
+  "kind": "security_framework",
+  "retrieved_at": "2026-11-09T10:37:25.111170+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/LICENSE",
+      "bytes": 11362,
+      "sha256": "e77b34bf79aede74ad23d3fe9b54bfd24e428fdf70e1359d2e846966cc08f138"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/README.md",
+      "bytes": 21525,
+      "sha256": "4b1d770550cd96870eb2023011a9a5f3f76f4aaabbad17fe10d8333a1ddc504f"
+    },
+    {
+      "path": "AIG-PromptSecurity/LICENSE.md",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/LICENSE.md",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "NOTICE",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/NOTICE",
+      "bytes": 618,
+      "sha256": "be0c75e8cfae06146b93e7de77f21e72c4a50a8b9ca0f5496d8c75e2ffccd577"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/code_chameleon/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/code_chameleon/template.py",
+      "bytes": 5522,
+      "sha256": "c0dbc019968bcada33431212ced64b94e4cd32ecde47bdd044d8275946267693"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/context_poisoning/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/context_poisoning/template.py",
+      "bytes": 15253,
+      "sha256": "770d0c9d6ebd34023648fd57c03380fbd00bde2cc2e4465c3d2a25b8e666a778"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/deep_inception/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/deep_inception/template.py",
+      "bytes": 1581,
+      "sha256": "a7b94e66d5085f6e6fa0b5998e584950cb0eec9fe50706f4eb20c69ecb95cffd"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/equa_code/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/equa_code/template.py",
+      "bytes": 14944,
+      "sha256": "3592f8f9bed4a25699aed5bca66f2998037adb4c593a7412da15a559bc6414cc"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/flip_attack/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/flip_attack/template.py",
+      "bytes": 1788,
+      "sha256": "d404620e3cff8826b8acd9953ac5abf372a86f91c2d5abf011046d77699aac8d"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/goal_redirection/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/goal_redirection/template.py",
+      "bytes": 9545,
+      "sha256": "3dbeb6109ee18c614075fb4959cc25f8009a024e8ee32790b268fc568a68dc13"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/gray_box/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/gray_box/template.py",
+      "bytes": 5541,
+      "sha256": "4a8c6503faaa283ed944b29dbdc3e824e9ec2ddf23e2d97ff96beb922f72ad58"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/ica/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/ica/template.py",
+      "bytes": 6532,
+      "sha256": "6a832e16e1fdc9d6b24ab9cef304225f2657c6c6c78cbb6d28e585e20de69486"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/icrt_jailbreak/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/icrt_jailbreak/template.py",
+      "bytes": 9247,
+      "sha256": "a77692a1908b244e2d8030700e92467af49c9218eb84fcddd1b251d64ee542d4"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/input_bypass/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/input_bypass/template.py",
+      "bytes": 9141,
+      "sha256": "4cdb1b2ee0fa1cdbd1c7c2eb23f70871eb41f6238400b03aee11f1b96a20179f"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/jailbroken/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/jailbroken/template.py",
+      "bytes": 5373,
+      "sha256": "47229f6eba7c371b35c2b27d26e88df7d62317ad7db623063644b388fb96d586"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/jam/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/jam/template.py",
+      "bytes": 3561,
+      "sha256": "c0b6fe7297c2ecb329c2ad9a9224f9a1597c49c74ebd4e42f0b87df1a4bb304f"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/math_problem/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/math_problem/template.py",
+      "bytes": 9415,
+      "sha256": "6c53c01311399a64634a9b7281c83fd2cafd4a91d097624efec15b8d597aef8c"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/multilingual/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/multilingual/template.py",
+      "bytes": 5788,
+      "sha256": "37349956749ee0fd1b6be0b4342f84c2c3286ce65b37c3df7d6a1d7227d3eca1"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/overload/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/overload/template.py",
+      "bytes": 1708,
+      "sha256": "c611dae1767cdaefc1feed9e83e8120971dc9843949acdaa90842a5b1af2550c"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/past_tense/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/past_tense/template.py",
+      "bytes": 3180,
+      "sha256": "4b2c86afd36e32f576bdbd1318be1dd5997e0f3b5779f401a7185c7c6002c358"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/permission_escalation/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/permission_escalation/template.py",
+      "bytes": 14535,
+      "sha256": "32b885afc9866fe197fb6354c0e9b73bdbdf0e6abf237a3dc40bce79943e8fab"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/prefill/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/prefill/template.py",
+      "bytes": 877,
+      "sha256": "7fa940799372eccc0c1aa619d14441e1bf44c52a6db80f6def07a308b54a7bc9"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/promisqroute/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/promisqroute/template.py",
+      "bytes": 2007,
+      "sha256": "e49f385c62281d9e595c322e7aeead209a099bb1ca0cc51752713eabaf234072"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/prompt_injection/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/prompt_injection/template.py",
+      "bytes": 3089,
+      "sha256": "d542524d0a19999d5898fbd9bc43e72dbf2ecff0093659f855cd1cf33ff49975"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/prompt_probing/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/prompt_probing/template.py",
+      "bytes": 5979,
+      "sha256": "b6ac9636cb394db31d5f4e4fef0db9f18c871ebab3c02f364d43bb932621a1a9"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/roleplay/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/roleplay/template.py",
+      "bytes": 7443,
+      "sha256": "28b672063398bfaaf6663115ce098378150ae728cb69c1dac1bde66c27f128cb"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/semantic_manipulation/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/semantic_manipulation/template.py",
+      "bytes": 13878,
+      "sha256": "06b5fd8b71590bc6fd73b94caa4abcd51b0080c4d05a449c9c1fa6d12f50a2d3"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/stego/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/stego/template.py",
+      "bytes": 7596,
+      "sha256": "71e3fd098f88c3347ea821c19df4091e86d5730e63854c6481823edb106952fe"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/stratasword/script_template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/stratasword/script_template.py",
+      "bytes": 1467,
+      "sha256": "3d9cf3bafb852b3c736bea4bfd821592b090cd95dbc223b7bda98c9e164aabff"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/stratasword/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/stratasword/template.py",
+      "bytes": 69077,
+      "sha256": "a86bea26bb66907ec4aeb2205090f808bc06897788d5016faea664f9c84a00c0"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/super_user/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/super_user/template.py",
+      "bytes": 3024,
+      "sha256": "990683ba1d07ba27276f4362f6714752d71bf8f9e2023bc7de1e6afe3ac96f06"
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/system_override/template.py",
+      "url": "https://raw.githubusercontent.com/Tencent/AI-Infra-Guard/76146bf479b2fedb34f7acb7f536aa37b1f8ba74/AIG-PromptSecurity/deepteam/attacks/single_turn/system_override/template.py",
+      "bytes": 9636,
+      "sha256": "a42f2a70aab843e34fc67b12a1fa61461086575dcef4d099d288d7925b77dc19"
+    }
+  ],
+  "stars": 7442,
+  "stars_checked_at": "2026-11-09T10:37:25.111170+00:00",
+  "commit": "76146bf479b2fedb34f7acb7f536aa37b1f8ba74",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 11362
+    },
+    {
+      "path": "README.md",
+      "size": 21525
+    },
+    {
+      "path": "AIG-PromptSecurity/LICENSE.md",
+      "size": 11357
+    },
+    {
+      "path": "NOTICE",
+      "size": 618
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/code_chameleon/template.py",
+      "size": 5522
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/context_poisoning/template.py",
+      "size": 15253
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/deep_inception/template.py",
+      "size": 1581
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/equa_code/template.py",
+      "size": 14944
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/flip_attack/template.py",
+      "size": 1788
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/goal_redirection/template.py",
+      "size": 9545
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/gray_box/template.py",
+      "size": 5541
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/ica/template.py",
+      "size": 6532
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/icrt_jailbreak/template.py",
+      "size": 9247
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/input_bypass/template.py",
+      "size": 9141
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/jailbroken/template.py",
+      "size": 5373
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/jam/template.py",
+      "size": 3561
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/math_problem/template.py",
+      "size": 9415
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/multilingual/template.py",
+      "size": 5788
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/overload/template.py",
+      "size": 1708
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/past_tense/template.py",
+      "size": 3180
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/permission_escalation/template.py",
+      "size": 14535
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/prefill/template.py",
+      "size": 877
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/promisqroute/template.py",
+      "size": 2007
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/prompt_injection/template.py",
+      "size": 3089
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/prompt_probing/template.py",
+      "size": 5979
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/roleplay/template.py",
+      "size": 7443
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/semantic_manipulation/template.py",
+      "size": 13878
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/stego/template.py",
+      "size": 7596
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/stratasword/script_template.py",
+      "size": 1467
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/stratasword/template.py",
+      "size": 69077
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/super_user/template.py",
+      "size": 3024
+    },
+    {
+      "path": "AIG-PromptSecurity/deepteam/attacks/single_turn/system_override/template.py",
+      "size": 9636
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 7540,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": []
+}

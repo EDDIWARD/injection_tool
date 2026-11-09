@@ -1,0 +1,47 @@
+{
+  "id": "llmail",
+  "repository": "microsoft/llmail-inject-challenge",
+  "url": "https://github.com/microsoft/llmail-inject-challenge",
+  "kind": "email_benchmark",
+  "retrieved_at": "2026-11-09T09:57:26.337005+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/microsoft/llmail-inject-challenge/3da2399839b285e129888161fcc8cb03169d1b43/LICENSE",
+      "bytes": 1141,
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/microsoft/llmail-inject-challenge/3da2399839b285e129888161fcc8cb03169d1b43/README.md",
+      "bytes": 14084,
+      "sha256": "f444afcdcdaa03f33076fe33263b9d8e2f6c9d41cb30361aad50899d4f0d09e8"
+    }
+  ],
+  "commit": "3da2399839b285e129888161fcc8cb03169d1b43",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1141
+    },
+    {
+      "path": "README.md",
+      "size": 14084
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 28,
+  "stars_checked_at": "2026-11-09T10:48:39.655515+00:00",
+  "discovered_file_count": 263,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2403.14720",
+    "https://arxiv.org/abs/2404.13208",
+    "https://arxiv.org/abs/2406.00799",
+    "https://arxiv.org/abs/2506.09956"
+  ]
+}

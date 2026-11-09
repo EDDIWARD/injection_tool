@@ -1,0 +1,45 @@
+{
+  "id": "jailbreakchat",
+  "repository": "verazuo/jailbreak_llms",
+  "url": "https://github.com/verazuo/jailbreak_llms",
+  "kind": "jailbreak_dataset",
+  "retrieved_at": "2026-11-09T09:58:35.547569+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/verazuo/jailbreak_llms/4f4031bf8be187f4478c7f94f42b08714722c12e/README.md",
+      "bytes": 7962,
+      "sha256": "ea9181af592a8e5440c3e92d20687a1c44c33d35ae84c29532b468d0e2cd6cf0"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/verazuo/jailbreak_llms/4f4031bf8be187f4478c7f94f42b08714722c12e/LICENSE",
+      "bytes": 1061,
+      "sha256": "ad77ffb660cded66e9dcca34e882103c9b636413cd36a3524bf297b0d3fc6e3f"
+    }
+  ],
+  "status": "verified_readme_only",
+  "error": "HTTP Error 403: rate limit exceeded",
+  "commit": "4f4031bf8be187f4478c7f94f42b08714722c12e",
+  "verification_method": "repository_page_and_raw_readme",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 7962
+    },
+    {
+      "path": "LICENSE",
+      "size": 1061
+    }
+  ],
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 3882,
+  "stars_checked_at": "2026-11-09T10:48:41.437851+00:00",
+  "discovered_file_count": 0,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2308.03825"
+  ]
+}

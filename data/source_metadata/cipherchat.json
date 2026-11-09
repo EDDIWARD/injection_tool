@@ -1,0 +1,54 @@
+{
+  "id": "cipherchat",
+  "repository": "RobustNLP/CipherChat",
+  "url": "https://github.com/RobustNLP/CipherChat",
+  "kind": "jailbreak_method",
+  "retrieved_at": "2026-11-09T10:37:08.016567+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/RobustNLP/CipherChat/6fce7891a9a072b933f13bba7f58651577499fb5/LICENSE",
+      "bytes": 1066,
+      "sha256": "864cf3129c8d9a7b61e192bf9c975b25a43d9cbdff16de2df95fb83e40c34e73"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/RobustNLP/CipherChat/6fce7891a9a072b933f13bba7f58651577499fb5/README.md",
+      "bytes": 3723,
+      "sha256": "2f54ce3cc768519daf36545b0e9496d0ba921e4b0e472a8746a6b6fdcda2fc1a"
+    },
+    {
+      "path": "prompts_and_demonstrations.py",
+      "url": "https://raw.githubusercontent.com/RobustNLP/CipherChat/6fce7891a9a072b933f13bba7f58651577499fb5/prompts_and_demonstrations.py",
+      "bytes": 62516,
+      "sha256": "3ce68d0f1e877e7bfc8ec071fb5a6ede084c32b3457d0c6c4226ebe628214a9c"
+    }
+  ],
+  "stars": 628,
+  "stars_checked_at": "2026-11-09T10:37:08.016567+00:00",
+  "commit": "6fce7891a9a072b933f13bba7f58651577499fb5",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1066
+    },
+    {
+      "path": "README.md",
+      "size": 3723
+    },
+    {
+      "path": "prompts_and_demonstrations.py",
+      "size": 62516
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 257,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://openreview.net/forum?id=MbfAK4s61A"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "wasp",
+  "repository": "facebookresearch/wasp",
+  "url": "https://github.com/facebookresearch/wasp",
+  "kind": "web_agent_benchmark",
+  "retrieved_at": "2026-11-09T09:57:31.949748+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/facebookresearch/wasp/ffee6f41fde76acd14bd792db442479c506260c2/LICENSE",
+      "bytes": 19331,
+      "sha256": "4b531055125dcda36059651634bdb424ad2612f4759b3d2067a731d2823d1cdc"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/facebookresearch/wasp/ffee6f41fde76acd14bd792db442479c506260c2/README.md",
+      "bytes": 7956,
+      "sha256": "c8cad77d7b99dc4880fafd4bfd929697e4db987aa0cbfa6b378490b61b0f5d64"
+    },
+    {
+      "path": "webarena_prompt_injections/constants.py",
+      "url": "https://raw.githubusercontent.com/facebookresearch/wasp/ffee6f41fde76acd14bd792db442479c506260c2/webarena_prompt_injections/constants.py",
+      "bytes": 7465,
+      "sha256": "ddd2466ee5c27c891bfb9c471091530455e82dbe39ceffb6f42e47f898d05657"
+    },
+    {
+      "path": "webarena_prompt_injections/configs/experiment_config.raw.json",
+      "url": "https://raw.githubusercontent.com/facebookresearch/wasp/ffee6f41fde76acd14bd792db442479c506260c2/webarena_prompt_injections/configs/experiment_config.raw.json",
+      "bytes": 31085,
+      "sha256": "5af714e231682cd704cca8ef888f00f0c0e0a5caf678f4599cd11e29825bbfd1"
+    }
+  ],
+  "commit": "ffee6f41fde76acd14bd792db442479c506260c2",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 19331
+    },
+    {
+      "path": "README.md",
+      "size": 7956
+    },
+    {
+      "path": "webarena_prompt_injections/constants.py",
+      "size": 7465
+    },
+    {
+      "path": "webarena_prompt_injections/configs/experiment_config.raw.json",
+      "size": 31085
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 98,
+  "stars_checked_at": "2026-11-09T10:48:43.211428+00:00",
+  "discovered_file_count": 647,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2504.18575"
+  ]
+}

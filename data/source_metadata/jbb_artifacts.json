@@ -1,0 +1,42 @@
+{
+  "id": "jbb_artifacts",
+  "repository": "JailbreakBench/artifacts",
+  "url": "https://github.com/JailbreakBench/artifacts",
+  "kind": "jailbreak_dataset",
+  "retrieved_at": "2026-11-09T10:37:15.925748+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/LICENSE",
+      "bytes": 1098,
+      "sha256": "09017abee723a7b715866bbcd1bd2569e0a5fa7e996dd1d9d1ec4b36fb5ca51c"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/JailbreakBench/artifacts/909e68c01d94222b8ad2e397a017e2e12e2adb73/README.md",
+      "bytes": 1690,
+      "sha256": "cc0b5cacb5b9a7ef66d209abf242a8981514713de26dcf5df7f756da3d1bbf7a"
+    }
+  ],
+  "stars": 116,
+  "stars_checked_at": "2026-11-09T10:37:15.925748+00:00",
+  "commit": "909e68c01d94222b8ad2e397a017e2e12e2adb73",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1098
+    },
+    {
+      "path": "README.md",
+      "size": 1690
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 32,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": []
+}

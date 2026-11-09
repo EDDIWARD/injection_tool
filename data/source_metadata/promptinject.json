@@ -1,0 +1,55 @@
+{
+  "id": "promptinject",
+  "repository": "agencyenterprise/PromptInject",
+  "url": "https://github.com/agencyenterprise/PromptInject",
+  "kind": "injection_framework",
+  "retrieved_at": "2026-11-09T09:58:35.546889+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/agencyenterprise/PromptInject/2928a719d5de62d3766226f1b44c51d9570bc530/README.md",
+      "bytes": 3813,
+      "sha256": "9a77bb6ce6aa44eef26df8e30d0b667674e7a57a8b7ffbe73445e38b5b183bcf"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/agencyenterprise/PromptInject/2928a719d5de62d3766226f1b44c51d9570bc530/LICENSE",
+      "bytes": 1079,
+      "sha256": "168fb7a65f0cca6f4c613aa8ce6af39541c8bac7aa1bf97ffac43582a5642601"
+    },
+    {
+      "path": "promptinject/prompt_data.py",
+      "url": "https://raw.githubusercontent.com/agencyenterprise/PromptInject/2928a719d5de62d3766226f1b44c51d9570bc530/promptinject/prompt_data.py",
+      "bytes": 26965,
+      "sha256": "d26af509698c5f88e611a163cc162ab903d41040cc6307db9f6ee4b6195a5b6e"
+    }
+  ],
+  "status": "verified_readme_only",
+  "error": "HTTP Error 403: rate limit exceeded",
+  "commit": "2928a719d5de62d3766226f1b44c51d9570bc530",
+  "verification_method": "repository_page_and_raw_readme",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 3813
+    },
+    {
+      "path": "LICENSE",
+      "size": 1079
+    },
+    {
+      "path": "promptinject/prompt_data.py",
+      "size": 26965
+    }
+  ],
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 528,
+  "stars_checked_at": "2026-11-09T10:48:42.079355+00:00",
+  "discovered_file_count": 0,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2211.09527"
+  ]
+}

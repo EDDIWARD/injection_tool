@@ -1,0 +1,277 @@
+{
+  "stats": {
+    "verified_repositories": 53,
+    "unavailable_repositories": 2,
+    "templates": 1046,
+    "examples": 16504,
+    "categories": 38,
+    "research_papers": 15,
+    "method_references": 62,
+    "templates_by_scope": {
+      "injection": 176,
+      "jailbreak": 870
+    },
+    "templates_by_origin": {
+      "local": 68,
+      "pyrit": 500,
+      "easyjailbreak": 220,
+      "aiinfra": 131,
+      "arth_templates": 100,
+      "gptfuzz": 74,
+      "promptfoo": 71,
+      "agentdojo": 5,
+      "codechameleon": 2,
+      "codeattack": 6,
+      "renellm": 3,
+      "piarena": 4,
+      "libertas": 4,
+      "flipattack": 4,
+      "jailbench": 20,
+      "autodan": 1,
+      "wasp": 2,
+      "injecagent": 17
+    },
+    "examples_by_origin": {
+      "injecagent": 2108,
+      "bipia": 250,
+      "promptfoo": 32,
+      "tensortrust": 927,
+      "asb": 400,
+      "purplellama": 245,
+      "promptinject": 10,
+      "garak": 10,
+      "jailbench": 10800,
+      "deepinception": 58,
+      "tasktamper": 1492,
+      "babelbench": 125,
+      "ccbos": 7,
+      "autodan_turbo": 50
+    },
+    "skipped_templates": 10,
+    "raw_templates": 1161,
+    "held_original_templates": 118,
+    "cleaned_original_templates": 228,
+    "split_original_templates": 1,
+    "split_parts": 6
+  },
+  "skipped": [
+    {
+      "provenance": {
+        "source_id": "pyrit",
+        "path": "pyrit/datasets/jailbreak/templates/in_the_wild/trustairlab_5718e8935c8eed5f.yaml",
+        "locator": "value",
+        "commit": "68c760cc3d49b435ace37c189a171bbad60895a0",
+        "url": "https://github.com/microsoft/PyRIT/blob/68c760cc3d49b435ace37c189a171bbad60895a0/pyrit/datasets/jailbreak/templates/in_the_wild/trustairlab_5718e8935c8eed5f.yaml",
+        "method": "placeholder_normalized",
+        "upstream_source": "https://huggingface.co/datasets/TrustAIRLab/in-the-wild-jailbreak-prompts",
+        "upstream_authors": [],
+        "replacement": {
+          "{{ prompt }}": "{{goal}}"
+        },
+        "raw_block_delimiters_removed": true
+      },
+      "reason": "Unsupported or unresolved template syntax"
+    },
+    {
+      "provenance": {
+        "source_id": "pyrit",
+        "path": "pyrit/datasets/jailbreak/templates/in_the_wild/trustairlab_f210fe1a68c77e98.yaml",
+        "locator": "value",
+        "commit": "68c760cc3d49b435ace37c189a171bbad60895a0",
+        "url": "https://github.com/microsoft/PyRIT/blob/68c760cc3d49b435ace37c189a171bbad60895a0/pyrit/datasets/jailbreak/templates/in_the_wild/trustairlab_f210fe1a68c77e98.yaml",
+        "method": "placeholder_normalized",
+        "upstream_source": "https://huggingface.co/datasets/TrustAIRLab/in-the-wild-jailbreak-prompts",
+        "upstream_authors": [],
+        "replacement": {
+          "{{ prompt }}": "{{goal}}"
+        },
+        "raw_block_delimiters_removed": true
+      },
+      "reason": "Unsupported or unresolved template syntax"
+    },
+    {
+      "provenance": {
+        "source_id": "pyrit",
+        "path": "pyrit/datasets/jailbreak/templates/multi_parameter/dt_stereotypes_targeted.yaml",
+        "locator": "value",
+        "commit": "68c760cc3d49b435ace37c189a171bbad60895a0",
+        "url": "https://github.com/microsoft/PyRIT/blob/68c760cc3d49b435ace37c189a171bbad60895a0/pyrit/datasets/jailbreak/templates/multi_parameter/dt_stereotypes_targeted.yaml",
+        "method": "placeholder_normalized",
+        "upstream_source": "DecodingTrust",
+        "upstream_authors": [
+          "Boxin Wang",
+          "Weixin Chen",
+          "Hengzhi Pei",
+          "Chulin Xie",
+          "Mintong Kang",
+          "Chenhui Zhang",
+          "Chejian Xu",
+          "Zidi Xiong",
+          "Ritik Dutta",
+          "Rylan Schaeffer",
+          "Sang T. Truong",
+          "Simran Arora",
+          "Mantas Mazeika",
+          "Dan Hendrycks",
+          "Zinan Lin",
+          "Yu Cheng",
+          "Sanmi Koyejo",
+          "Dawn Song",
+          "Bo Li"
+        ],
+        "replacement": {
+          "{{ prompt }}": "{{goal}}"
+        }
+      },
+      "reason": "Requires additional parameters or is not a text template"
+    },
+    {
+      "provenance": {
+        "source_id": "pyrit",
+        "path": "pyrit/datasets/jailbreak/templates/multi_parameter/many_shot_template.yaml",
+        "locator": "value",
+        "commit": "68c760cc3d49b435ace37c189a171bbad60895a0",
+        "url": "https://github.com/microsoft/PyRIT/blob/68c760cc3d49b435ace37c189a171bbad60895a0/pyrit/datasets/jailbreak/templates/multi_parameter/many_shot_template.yaml",
+        "method": "placeholder_normalized",
+        "upstream_source": "https://www.anthropic.com/research/many-shot-jailbreaking",
+        "upstream_authors": [
+          "Cem Anil",
+          "Esin Durmus",
+          "Mrinank Sharma",
+          "Joe Benton",
+          "Sandipan Kundu",
+          "Joshua Batson",
+          "Nina Rimsky",
+          "Meg Tong",
+          "Jesse Mu",
+          "Daniel Ford",
+          "Francesco Mosconi",
+          "Rajashree Agrawal",
+          "Rylan Schaeffer",
+          "Naomi Bashkansky",
+          "Samuel Svenningsen",
+          "Mike Lambert",
+          "Ansh Radhakrishnan",
+          "Carson Denison",
+          "Evan J Hubinger",
+          "Yuntao Bai",
+          "Trenton Bricken",
+          "Timothy Maxwell",
+          "Nicholas Schiefer",
+          "Jamie Sully",
+          "Alex Tamkin",
+          "Tamera Lanham",
+          "Karina Nguyen",
+          "Tomasz Korbak",
+          "Jared Kaplan",
+          "Deep Ganguli",
+          "Samuel R. Bowman",
+          "Ethan Perez",
+          "Roger Grosse",
+          "David Duvenaud"
+        ],
+        "replacement": {
+          "{{ prompt }}": "{{goal}}"
+        }
+      },
+      "reason": "Requires additional parameters or is not a text template"
+    },
+    {
+      "provenance": {
+        "source_id": "pyrit",
+        "path": "pyrit/datasets/jailbreak/templates/multi_parameter/translator_bot.yaml",
+        "locator": "value",
+        "commit": "68c760cc3d49b435ace37c189a171bbad60895a0",
+        "url": "https://github.com/microsoft/PyRIT/blob/68c760cc3d49b435ace37c189a171bbad60895a0/pyrit/datasets/jailbreak/templates/multi_parameter/translator_bot.yaml",
+        "method": "placeholder_normalized",
+        "upstream_source": "https://github.com/alexalbertt/jailbreakchat",
+        "upstream_authors": [
+          "Alex Albert"
+        ],
+        "replacement": {
+          "{{ prompt }}": "{{goal}}"
+        }
+      },
+      "reason": "Requires additional parameters or is not a text template"
+    },
+    {
+      "provenance": {
+        "source_id": "pyrit",
+        "path": "pyrit/datasets/jailbreak/templates/pliny/nvidia/llama_3_1_nemotron_70b.yaml",
+        "locator": "value",
+        "commit": "68c760cc3d49b435ace37c189a171bbad60895a0",
+        "url": "https://github.com/microsoft/PyRIT/blob/68c760cc3d49b435ace37c189a171bbad60895a0/pyrit/datasets/jailbreak/templates/pliny/nvidia/llama_3_1_nemotron_70b.yaml",
+        "method": "placeholder_normalized",
+        "upstream_source": null,
+        "upstream_authors": [
+          "Pliny"
+        ],
+        "replacement": {
+          "{{ prompt }}": "{{goal}}"
+        },
+        "raw_block_delimiters_removed": true
+      },
+      "reason": "Unsupported or unresolved template syntax"
+    },
+    {
+      "provenance": {
+        "source_id": "pyrit",
+        "path": "pyrit/datasets/jailbreak/templates/pliny/nvidia/nemotron_7_340b.yaml",
+        "locator": "value",
+        "commit": "68c760cc3d49b435ace37c189a171bbad60895a0",
+        "url": "https://github.com/microsoft/PyRIT/blob/68c760cc3d49b435ace37c189a171bbad60895a0/pyrit/datasets/jailbreak/templates/pliny/nvidia/nemotron_7_340b.yaml",
+        "method": "placeholder_normalized",
+        "upstream_source": null,
+        "upstream_authors": [
+          "Pliny"
+        ],
+        "replacement": {
+          "{{ prompt }}": "{{goal}}"
+        },
+        "raw_block_delimiters_removed": true
+      },
+      "reason": "Unsupported or unresolved template syntax"
+    },
+    {
+      "provenance": {
+        "source_id": "pyrit",
+        "path": "pyrit/datasets/jailbreak/templates/pliny/openai/chatgpt_tasks.yaml",
+        "locator": "value",
+        "commit": "68c760cc3d49b435ace37c189a171bbad60895a0",
+        "url": "https://github.com/microsoft/PyRIT/blob/68c760cc3d49b435ace37c189a171bbad60895a0/pyrit/datasets/jailbreak/templates/pliny/openai/chatgpt_tasks.yaml",
+        "method": "placeholder_normalized",
+        "upstream_source": null,
+        "upstream_authors": [
+          "Pliny"
+        ],
+        "replacement": {
+          "{{ prompt }}": "{{goal}}"
+        },
+        "raw_block_delimiters_removed": true
+      },
+      "reason": "Unsupported or unresolved template syntax"
+    },
+    {
+      "provenance": {
+        "source_id": "wasp",
+        "path": "webarena_prompt_injections/constants.py",
+        "locator": "line:11",
+        "commit": "ffee6f41fde76acd14bd792db442479c506260c2",
+        "url": "https://github.com/facebookresearch/wasp/blob/ffee6f41fde76acd14bd792db442479c506260c2/webarena_prompt_injections/constants.py",
+        "method": "not_imported"
+      },
+      "reason": "URL injection requires a real scenario URL and user task; not a single-goal template"
+    },
+    {
+      "provenance": {
+        "source_id": "wasp",
+        "path": "webarena_prompt_injections/constants.py",
+        "locator": "line:13",
+        "commit": "ffee6f41fde76acd14bd792db442479c506260c2",
+        "url": "https://github.com/facebookresearch/wasp/blob/ffee6f41fde76acd14bd792db442479c506260c2/webarena_prompt_injections/constants.py",
+        "method": "not_imported"
+      },
+      "reason": "URL injection requires a real scenario URL and user task; not a single-goal template"
+    }
+  ]
+}

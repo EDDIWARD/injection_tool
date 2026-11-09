@@ -1,0 +1,46 @@
+{
+  "id": "llmsecurity",
+  "repository": "greshake/llm-security",
+  "url": "https://github.com/greshake/llm-security",
+  "kind": "indirect_examples",
+  "retrieved_at": "2026-11-09T09:58:35.547241+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/greshake/llm-security/c312325bee5f16d8f6524bd6f41e1510c5623a1e/README.md",
+      "bytes": 9099,
+      "sha256": "7152b040d4d2397734b3180275aef7ab8734ad6538a3f86c2f599aecd7d2e3c6"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/greshake/llm-security/c312325bee5f16d8f6524bd6f41e1510c5623a1e/LICENSE",
+      "bytes": 1069,
+      "sha256": "1ac3641a4615a55f9d51b1821708aceef8a8b74aa12c8663415a503708b56934"
+    }
+  ],
+  "status": "verified_readme_only",
+  "error": "HTTP Error 403: rate limit exceeded",
+  "commit": "c312325bee5f16d8f6524bd6f41e1510c5623a1e",
+  "verification_method": "repository_page_and_raw_readme",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 9099
+    },
+    {
+      "path": "LICENSE",
+      "size": 1069
+    }
+  ],
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 2152,
+  "stars_checked_at": "2026-11-09T10:48:40.584810+00:00",
+  "discovered_file_count": 0,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2302.12173",
+    "https://arxiv.org/pdf/2302.12173.pdf"
+  ]
+}

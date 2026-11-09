@@ -1,0 +1,84 @@
+{
+  "id": "injecagent",
+  "repository": "uiuc-kang-lab/InjecAgent",
+  "url": "https://github.com/uiuc-kang-lab/InjecAgent",
+  "kind": "agent_benchmark",
+  "retrieved_at": "2026-11-09T09:57:26.335866+00:00",
+  "artifacts": [
+    {
+      "path": "LICENCE",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/LICENCE",
+      "bytes": 1066,
+      "sha256": "b48589499dbb84caa796b00b4ea652b0443e49660282c44d890fd473b8c0674e"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/README.md",
+      "bytes": 4586,
+      "sha256": "09e81a9e68d5c2a1b491456c83da4ef0126426deb7eafa8588349c2dcce278ea"
+    },
+    {
+      "path": "data/test_cases_dh_base.json",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/data/test_cases_dh_base.json",
+      "bytes": 672918,
+      "sha256": "0a8186468d21389af432e8c7b399ae42264d1b93a07b65c7a489468508604305"
+    },
+    {
+      "path": "data/test_cases_dh_enhanced.json",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/data/test_cases_dh_enhanced.json",
+      "bytes": 721878,
+      "sha256": "885602716b72c18af80695ce6c2e1f242fa03163bc90b0788b0c5e4ab6216d50"
+    },
+    {
+      "path": "data/test_cases_ds_base.json",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/data/test_cases_ds_base.json",
+      "bytes": 765370,
+      "sha256": "4daab35c62a3845e8b9400f4dca58b9c9f37e57cd33b2337552557fbb26282e9"
+    },
+    {
+      "path": "data/test_cases_ds_enhanced.json",
+      "url": "https://raw.githubusercontent.com/uiuc-kang-lab/InjecAgent/f19c9f2c79a41046eb13c03c51a24c567a8ffa07/data/test_cases_ds_enhanced.json",
+      "bytes": 817594,
+      "sha256": "7bc510868df032511053fc40e8470e68a041fb7148d055112093594bf73ab0ce"
+    }
+  ],
+  "commit": "f19c9f2c79a41046eb13c03c51a24c567a8ffa07",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENCE",
+      "size": 1066
+    },
+    {
+      "path": "README.md",
+      "size": 4586
+    },
+    {
+      "path": "data/test_cases_dh_base.json",
+      "size": 672918
+    },
+    {
+      "path": "data/test_cases_dh_enhanced.json",
+      "size": 721878
+    },
+    {
+      "path": "data/test_cases_ds_base.json",
+      "size": 765370
+    },
+    {
+      "path": "data/test_cases_ds_enhanced.json",
+      "size": 817594
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENCE"
+  ],
+  "stars": 186,
+  "stars_checked_at": "2026-11-09T10:48:41.752935+00:00",
+  "discovered_file_count": 24,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2403.02691"
+  ]
+}

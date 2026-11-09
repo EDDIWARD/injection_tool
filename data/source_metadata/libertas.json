@@ -1,0 +1,92 @@
+{
+  "id": "libertas",
+  "repository": "elder-plinius/L1B3RT4S",
+  "url": "https://github.com/elder-plinius/L1B3RT4S",
+  "kind": "jailbreak_collection",
+  "retrieved_at": "2026-11-09T10:37:03.457281+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/elder-plinius/L1B3RT4S/f441d65d901b29ca92ac20ee1afb5c9d0b6f8ef6/LICENSE",
+      "bytes": 34523,
+      "sha256": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/elder-plinius/L1B3RT4S/f441d65d901b29ca92ac20ee1afb5c9d0b6f8ef6/README.md",
+      "bytes": 24071,
+      "sha256": "81831d196e37c0bce05797257861946de5cdac28ab79af46df78e94da2f9219e"
+    },
+    {
+      "path": "OPENAI.mkd",
+      "url": "https://raw.githubusercontent.com/elder-plinius/L1B3RT4S/f441d65d901b29ca92ac20ee1afb5c9d0b6f8ef6/OPENAI.mkd",
+      "bytes": 13336,
+      "sha256": "5035f681e7a1c2612c28612d686209231d6b2bc59eade10718cc2c3ae1f7f279"
+    },
+    {
+      "path": "ANTHROPIC.mkd",
+      "url": "https://raw.githubusercontent.com/elder-plinius/L1B3RT4S/f441d65d901b29ca92ac20ee1afb5c9d0b6f8ef6/ANTHROPIC.mkd",
+      "bytes": 35290,
+      "sha256": "876d574d8b8fe841a90464b494351fc15596a38259fce66cf19770b47e92328a"
+    },
+    {
+      "path": "GOOGLE.mkd",
+      "url": "https://raw.githubusercontent.com/elder-plinius/L1B3RT4S/f441d65d901b29ca92ac20ee1afb5c9d0b6f8ef6/GOOGLE.mkd",
+      "bytes": 20354,
+      "sha256": "f50cd3275b5980d6380d7d50266e37afa5040e7734fe3b2996e7406822a3ee07"
+    },
+    {
+      "path": "META.mkd",
+      "url": "https://raw.githubusercontent.com/elder-plinius/L1B3RT4S/f441d65d901b29ca92ac20ee1afb5c9d0b6f8ef6/META.mkd",
+      "bytes": 3834,
+      "sha256": "ed8aa03b26fe868bf19a2235d11c6e85c876be63b04370f152f766eb4471620a"
+    },
+    {
+      "path": "DEEPSEEK.mkd",
+      "url": "https://raw.githubusercontent.com/elder-plinius/L1B3RT4S/f441d65d901b29ca92ac20ee1afb5c9d0b6f8ef6/DEEPSEEK.mkd",
+      "bytes": 6464,
+      "sha256": "8cc2c65c14dc8142b78df4121dcc551c6b2b3abdce0b88a1548743b80ec8a30c"
+    }
+  ],
+  "stars": 23222,
+  "stars_checked_at": "2026-11-09T10:37:03.457281+00:00",
+  "commit": "f441d65d901b29ca92ac20ee1afb5c9d0b6f8ef6",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 34523
+    },
+    {
+      "path": "README.md",
+      "size": 24071
+    },
+    {
+      "path": "OPENAI.mkd",
+      "size": 13336
+    },
+    {
+      "path": "ANTHROPIC.mkd",
+      "size": 35290
+    },
+    {
+      "path": "GOOGLE.mkd",
+      "size": 20354
+    },
+    {
+      "path": "META.mkd",
+      "size": 3834
+    },
+    {
+      "path": "DEEPSEEK.mkd",
+      "size": 6464
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 44,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": []
+}

@@ -1,0 +1,45 @@
+{
+  "id": "injecguard",
+  "repository": "InjecGuard/InjecGuard",
+  "url": "https://github.com/InjecGuard/InjecGuard",
+  "kind": "detector_and_dataset",
+  "retrieved_at": "2026-11-09T10:01:46.043311+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/InjecGuard/InjecGuard/cb1531f36bffb38b6493438217b36cda8875da8a/README.md",
+      "bytes": 7607,
+      "sha256": "88fb5e65b0cae8e329b14d0cc86ee10e8a90e700384018a476c6aa5fe9892147"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/InjecGuard/InjecGuard/cb1531f36bffb38b6493438217b36cda8875da8a/LICENSE",
+      "bytes": 1062,
+      "sha256": "fd8281430399b97e9fbefaa173b7aa1cb58cc8e4aaadcccd5e910937a195d119"
+    }
+  ],
+  "status": "verified_readme_only",
+  "error": "HTTP Error 403: rate limit exceeded",
+  "commit": "cb1531f36bffb38b6493438217b36cda8875da8a",
+  "verification_method": "repository_page_and_raw_readme",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 7607
+    },
+    {
+      "path": "LICENSE",
+      "size": 1062
+    }
+  ],
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 1,
+  "stars_checked_at": "2026-11-09T10:48:39.744164+00:00",
+  "discovered_file_count": 0,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/pdf/2410.22770"
+  ]
+}

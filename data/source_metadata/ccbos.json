@@ -1,0 +1,62 @@
+{
+  "id": "ccbos",
+  "repository": "xunhuang123/CC-BOS",
+  "url": "https://github.com/xunhuang123/CC-BOS",
+  "kind": "classical_chinese_method",
+  "retrieved_at": "2026-11-09T10:42:02.020918+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/xunhuang123/CC-BOS/26513e40f910e21f2a242506a563274d8aebb07e/README.md",
+      "bytes": 7381,
+      "sha256": "1c3a28a444f341d3c71662177f3ed12ffa66bd77366d464774dd7758d91bb3b6"
+    },
+    {
+      "path": "code/gen.py",
+      "url": "https://raw.githubusercontent.com/xunhuang123/CC-BOS/26513e40f910e21f2a242506a563274d8aebb07e/code/gen.py",
+      "bytes": 25355,
+      "sha256": "aa8f9e3cb63fef4ae73253cbdde0e624b135167c363bd057ba7c2c9ab4baa294"
+    },
+    {
+      "path": "code/translate.py",
+      "url": "https://raw.githubusercontent.com/xunhuang123/CC-BOS/26513e40f910e21f2a242506a563274d8aebb07e/code/translate.py",
+      "bytes": 7003,
+      "sha256": "85b4b65429c278692b1f3004e6797af3044a0ffaad58d7665b1a5158865c2cb0"
+    },
+    {
+      "path": "data/data.md",
+      "url": "https://raw.githubusercontent.com/xunhuang123/CC-BOS/26513e40f910e21f2a242506a563274d8aebb07e/data/data.md",
+      "bytes": 1257,
+      "sha256": "06bda023386dc3b2246f1febd1953a3391596a4bef427f3ebdb32b2ef4e7cc8f"
+    }
+  ],
+  "stars": 259,
+  "stars_checked_at": "2026-11-09T10:42:02.020918+00:00",
+  "commit": "26513e40f910e21f2a242506a563274d8aebb07e",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "README.md",
+      "size": 7381
+    },
+    {
+      "path": "code/gen.py",
+      "size": 25355
+    },
+    {
+      "path": "code/translate.py",
+      "size": 7003
+    },
+    {
+      "path": "data/data.md",
+      "size": 1257
+    }
+  ],
+  "status": "verified",
+  "license_files": [],
+  "discovered_file_count": 51,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://openreview.net/forum?id=O7fxz7D6vf"
+  ]
+}

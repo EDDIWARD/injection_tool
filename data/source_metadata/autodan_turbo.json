@@ -1,0 +1,55 @@
+{
+  "id": "autodan_turbo",
+  "repository": "SaFoLab-WISC/AutoDAN-Turbo",
+  "url": "https://github.com/SaFoLab-WISC/AutoDAN-Turbo",
+  "kind": "jailbreak_method",
+  "retrieved_at": "2026-11-09T10:37:03.457102+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE.txt",
+      "url": "https://raw.githubusercontent.com/SaFoLab-WISC/AutoDAN-Turbo/389df844439888fc44ea7f5e8e95fd2b5c82ea64/LICENSE.txt",
+      "bytes": 1069,
+      "sha256": "5b9fd08d5288e130414800b0495264313bbc1120dc3d01a1290a6fd371adb536"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/SaFoLab-WISC/AutoDAN-Turbo/389df844439888fc44ea7f5e8e95fd2b5c82ea64/README.md",
+      "bytes": 8568,
+      "sha256": "02912b27d7540992916c3dea9f68d4581f53c83b3f20cea7cdd1c38ca28cfea5"
+    },
+    {
+      "path": "logs_r/warm_up_strategy_library.json",
+      "url": "https://raw.githubusercontent.com/SaFoLab-WISC/AutoDAN-Turbo/389df844439888fc44ea7f5e8e95fd2b5c82ea64/logs_r/warm_up_strategy_library.json",
+      "bytes": 55280,
+      "sha256": "c4d7f9431ba604b0719e7436cf9f8728c5afdfd8ac4b5a2b057ff9e1942f9e5e"
+    }
+  ],
+  "stars": 395,
+  "stars_checked_at": "2026-11-09T10:37:03.457102+00:00",
+  "commit": "389df844439888fc44ea7f5e8e95fd2b5c82ea64",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE.txt",
+      "size": 1069
+    },
+    {
+      "path": "README.md",
+      "size": 8568
+    },
+    {
+      "path": "logs_r/warm_up_strategy_library.json",
+      "size": 55280
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE.txt"
+  ],
+  "discovered_file_count": 36,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2410.05295",
+    "https://openreview.net/forum?id=7Jwpw4qKkb"
+  ]
+}

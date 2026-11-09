@@ -1,0 +1,84 @@
+{
+  "id": "babelbench",
+  "repository": "MARUCIE/babel-bench",
+  "url": "https://github.com/MARUCIE/babel-bench",
+  "kind": "community_language_benchmark",
+  "retrieved_at": "2026-11-09T10:41:10.148492+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/MARUCIE/babel-bench/48baed8cc53e31487881b900baaeb468b95cf5ef/LICENSE",
+      "bytes": 1068,
+      "sha256": "a77f0b9a990ef5c3614efb9287dff0641e284f89ff42ca181fbd757a4bc5a058"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/MARUCIE/babel-bench/48baed8cc53e31487881b900baaeb468b95cf5ef/README.md",
+      "bytes": 8581,
+      "sha256": "884ffb319c666975141572b63b3be39f2b6357a754edd518317182c3283f00de"
+    },
+    {
+      "path": "data/prompts/classical_chinese.jsonl",
+      "url": "https://raw.githubusercontent.com/MARUCIE/babel-bench/48baed8cc53e31487881b900baaeb468b95cf5ef/data/prompts/classical_chinese.jsonl",
+      "bytes": 26689,
+      "sha256": "34df0e95473e9fd3755da6eeb2ec7ec88a5133be0707741660d4990c1270c838"
+    },
+    {
+      "path": "data/prompts/latin.jsonl",
+      "url": "https://raw.githubusercontent.com/MARUCIE/babel-bench/48baed8cc53e31487881b900baaeb468b95cf5ef/data/prompts/latin.jsonl",
+      "bytes": 14054,
+      "sha256": "0728ac5cf430dd77e6008e51fc9a66f71b01a1e879ee5b12c4e295ac049c12ad"
+    },
+    {
+      "path": "data/prompts/modern_english.jsonl",
+      "url": "https://raw.githubusercontent.com/MARUCIE/babel-bench/48baed8cc53e31487881b900baaeb468b95cf5ef/data/prompts/modern_english.jsonl",
+      "bytes": 7686,
+      "sha256": "6796591dd2d17dd661f14a031223486e468a09cb13d031fe57bad02dd6e00eaa"
+    },
+    {
+      "path": "data/prompts/sanskrit.jsonl",
+      "url": "https://raw.githubusercontent.com/MARUCIE/babel-bench/48baed8cc53e31487881b900baaeb468b95cf5ef/data/prompts/sanskrit.jsonl",
+      "bytes": 21145,
+      "sha256": "8d80a13d52495b36413146a9b75dd0f3e9058e6fbe440ed05348b9178f020ad1"
+    }
+  ],
+  "stars": 3,
+  "stars_checked_at": "2026-11-09T10:41:10.148492+00:00",
+  "commit": "48baed8cc53e31487881b900baaeb468b95cf5ef",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1068
+    },
+    {
+      "path": "README.md",
+      "size": 8581
+    },
+    {
+      "path": "data/prompts/classical_chinese.jsonl",
+      "size": 26689
+    },
+    {
+      "path": "data/prompts/latin.jsonl",
+      "size": 14054
+    },
+    {
+      "path": "data/prompts/modern_english.jsonl",
+      "size": 7686
+    },
+    {
+      "path": "data/prompts/sanskrit.jsonl",
+      "size": 21145
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 30,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2602.22983"
+  ]
+}

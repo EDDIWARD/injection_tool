@@ -1,0 +1,56 @@
+{
+  "id": "safety_prompts",
+  "repository": "thu-coai/Safety-Prompts",
+  "url": "https://github.com/thu-coai/Safety-Prompts",
+  "kind": "chinese_dataset",
+  "retrieved_at": "2026-11-09T10:37:12.509047+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/thu-coai/Safety-Prompts/bbfd3ce47a32b998e4b94225a375b41e44070ae5/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/thu-coai/Safety-Prompts/bbfd3ce47a32b998e4b94225a375b41e44070ae5/README.md",
+      "bytes": 13984,
+      "sha256": "459d4b46b3aecf75d11afff6d3fdcab3534cd38cb5bd5fedaada5d3adbbcf88f"
+    },
+    {
+      "path": "augmentation_prompts.json",
+      "url": "https://raw.githubusercontent.com/thu-coai/Safety-Prompts/bbfd3ce47a32b998e4b94225a375b41e44070ae5/augmentation_prompts.json",
+      "bytes": 2791,
+      "sha256": "ed102914d45f45308bcd7debd4cc1802d9a83419b0bd222a29f7ab519d714cba"
+    }
+  ],
+  "stars": 1232,
+  "stars_checked_at": "2026-11-09T10:37:12.509047+00:00",
+  "commit": "bbfd3ce47a32b998e4b94225a375b41e44070ae5",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 11357
+    },
+    {
+      "path": "README.md",
+      "size": 13984
+    },
+    {
+      "path": "augmentation_prompts.json",
+      "size": 2791
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 7,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2304.10436",
+    "https://arxiv.org/abs/2402.16444",
+    "https://arxiv.org/pdf/2309.07045.pdf"
+  ]
+}

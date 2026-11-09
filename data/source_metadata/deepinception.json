@@ -1,0 +1,104 @@
+{
+  "id": "deepinception",
+  "repository": "tmlr-group/DeepInception",
+  "url": "https://github.com/tmlr-group/DeepInception",
+  "kind": "jailbreak_method",
+  "retrieved_at": "2026-11-09T10:37:07.982004+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/tmlr-group/DeepInception/fc5689e76c4dd87a14babf1eadf890532f2b6880/LICENSE",
+      "bytes": 1067,
+      "sha256": "a61423a40e750c172a842f9f728f04820ae837ae47111f2383704f8da168abeb"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/tmlr-group/DeepInception/fc5689e76c4dd87a14babf1eadf890532f2b6880/README.md",
+      "bytes": 5558,
+      "sha256": "51721c1e4e119db731fb74c787c381213fff16abc02b59f976ab790e0252ed6f"
+    },
+    {
+      "path": "res/data_abl_c.json",
+      "url": "https://raw.githubusercontent.com/tmlr-group/DeepInception/fc5689e76c4dd87a14babf1eadf890532f2b6880/res/data_abl_c.json",
+      "bytes": 17297,
+      "sha256": "5ba49824afd1ca17650f1aaa95becd1a434f6d0da2d238925c3e7d7051136121"
+    },
+    {
+      "path": "res/data_abl_fig6_4.json",
+      "url": "https://raw.githubusercontent.com/tmlr-group/DeepInception/fc5689e76c4dd87a14babf1eadf890532f2b6880/res/data_abl_fig6_4.json",
+      "bytes": 7216,
+      "sha256": "9f05887ce3016f047b6a11f82a78290a800d2a6416bc595b38ddbbb53ead85e6"
+    },
+    {
+      "path": "res/data_abl_layers.json",
+      "url": "https://raw.githubusercontent.com/tmlr-group/DeepInception/fc5689e76c4dd87a14babf1eadf890532f2b6880/res/data_abl_layers.json",
+      "bytes": 17288,
+      "sha256": "41dea49035d035fd093bfd3008c5a5abbecad5659a3fa41762dca6a1d3fccb2c"
+    },
+    {
+      "path": "res/data_further_q.json",
+      "url": "https://raw.githubusercontent.com/tmlr-group/DeepInception/fc5689e76c4dd87a14babf1eadf890532f2b6880/res/data_further_q.json",
+      "bytes": 4973,
+      "sha256": "7f2b78d5761d5159cca2ad5921280ff453dd16cfca3896acfbdadaf484140895"
+    },
+    {
+      "path": "res/data_main.json",
+      "url": "https://raw.githubusercontent.com/tmlr-group/DeepInception/fc5689e76c4dd87a14babf1eadf890532f2b6880/res/data_main.json",
+      "bytes": 59149,
+      "sha256": "77506a0f61b162ec48e23df39b93743c7e3de32824ec3920a3840629ac22d422"
+    },
+    {
+      "path": "res/data_multi_scene.json",
+      "url": "https://raw.githubusercontent.com/tmlr-group/DeepInception/fc5689e76c4dd87a14babf1eadf890532f2b6880/res/data_multi_scene.json",
+      "bytes": 17161,
+      "sha256": "04616f0c6adbf39a39558f8d5542d058db14658f510cbf42441ff4f75f25a429"
+    }
+  ],
+  "stars": 181,
+  "stars_checked_at": "2026-11-09T10:37:07.982004+00:00",
+  "commit": "fc5689e76c4dd87a14babf1eadf890532f2b6880",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1067
+    },
+    {
+      "path": "README.md",
+      "size": 5558
+    },
+    {
+      "path": "res/data_abl_c.json",
+      "size": 17297
+    },
+    {
+      "path": "res/data_abl_fig6_4.json",
+      "size": 7216
+    },
+    {
+      "path": "res/data_abl_layers.json",
+      "size": 17288
+    },
+    {
+      "path": "res/data_further_q.json",
+      "size": 4973
+    },
+    {
+      "path": "res/data_main.json",
+      "size": 59149
+    },
+    {
+      "path": "res/data_multi_scene.json",
+      "size": 17161
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 20,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2311.03191"
+  ]
+}

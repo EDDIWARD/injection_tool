@@ -1,0 +1,41 @@
+{
+  "id": "everywhere",
+  "repository": "TakSec/Prompt-Injection-Everywhere",
+  "url": "https://github.com/TakSec/Prompt-Injection-Everywhere",
+  "kind": "carrier_catalog",
+  "retrieved_at": "2026-11-09T10:01:46.043547+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/TakSec/Prompt-Injection-Everywhere/9b69c8ae7958f68d562d484103a7b14b66983d63/README.md",
+      "bytes": 3582,
+      "sha256": "470fba21caf94f50a8f2c6447fa059a2983cee3c3752b76397152301fe96f20f"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/TakSec/Prompt-Injection-Everywhere/9b69c8ae7958f68d562d484103a7b14b66983d63/LICENSE",
+      "bytes": 1063,
+      "sha256": "8e6bbb6cfa8b2a66e6c273b7de53a7d6802cac8c7db0bcc41c73fc0356f3c319"
+    }
+  ],
+  "status": "verified_readme_only",
+  "error": "HTTP Error 403: rate limit exceeded",
+  "commit": "9b69c8ae7958f68d562d484103a7b14b66983d63",
+  "verification_method": "repository_page_and_raw_readme",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 3582
+    },
+    {
+      "path": "LICENSE",
+      "size": 1063
+    }
+  ],
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 0,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": []
+}

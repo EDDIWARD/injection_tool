@@ -1,0 +1,46 @@
+{
+  "id": "pair",
+  "repository": "patrickrchao/JailbreakingLLMs",
+  "url": "https://github.com/patrickrchao/JailbreakingLLMs",
+  "kind": "jailbreak_method",
+  "retrieved_at": "2026-11-09T09:58:39.140303+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/patrickrchao/JailbreakingLLMs/6379ef705a0fc745530f7d895963510c021b496a/README.md",
+      "bytes": 4654,
+      "sha256": "a191b3a0fb31adc056a02d708e939b3dc0425f7c6f10ea397497a0007a46cf22"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/patrickrchao/JailbreakingLLMs/6379ef705a0fc745530f7d895963510c021b496a/LICENSE",
+      "bytes": 1066,
+      "sha256": "b04a921fdd6456dcbad221bb740a432f563d377fcd51368d1181a4b1e02d6a94"
+    }
+  ],
+  "status": "verified_readme_only",
+  "error": "HTTP Error 403: rate limit exceeded",
+  "commit": "6379ef705a0fc745530f7d895963510c021b496a",
+  "verification_method": "repository_page_and_raw_readme",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 4654
+    },
+    {
+      "path": "LICENSE",
+      "size": 1066
+    }
+  ],
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 813,
+  "stars_checked_at": "2026-11-09T10:48:40.741176+00:00",
+  "discovered_file_count": 0,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2310.08419",
+    "https://arxiv.org/abs/2404.01318"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "pap",
+  "repository": "CHATS-lab/persuasive_jailbreaker",
+  "url": "https://github.com/CHATS-lab/persuasive_jailbreaker",
+  "kind": "persuasion_taxonomy",
+  "retrieved_at": "2026-11-09T10:37:13.857588+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/CHATS-lab/persuasive_jailbreaker/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/LICENSE",
+      "bytes": 11404,
+      "sha256": "1d63edead7b79b6474f98a0870c5208b980fd89dc68345137010a93c90779e58"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/CHATS-lab/persuasive_jailbreaker/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/README.md",
+      "bytes": 13828,
+      "sha256": "9166d7b6ca1ea5908640f8a962b028437585d6aab7c8162d4d5bceaa7f9e2713"
+    },
+    {
+      "path": "persuasion_taxonomy.jsonl",
+      "url": "https://raw.githubusercontent.com/CHATS-lab/persuasive_jailbreaker/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
+      "bytes": 16061,
+      "sha256": "6e93588c34e56d8f1add32a6a24d7adc390ec45de9d30b85cb7242c5278d2b17"
+    }
+  ],
+  "stars": 367,
+  "stars_checked_at": "2026-11-09T10:37:13.857588+00:00",
+  "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 11404
+    },
+    {
+      "path": "README.md",
+      "size": 13828
+    },
+    {
+      "path": "persuasion_taxonomy.jsonl",
+      "size": 16061
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 51,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2401.06373"
+  ]
+}

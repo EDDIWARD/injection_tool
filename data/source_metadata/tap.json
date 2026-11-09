@@ -1,0 +1,32 @@
+{
+  "id": "tap",
+  "repository": "RICommunity/TAP",
+  "url": "https://github.com/RICommunity/TAP",
+  "kind": "jailbreak_method",
+  "retrieved_at": "2026-11-09T09:58:36.702665+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/RICommunity/TAP/7bcdad30537c679d00699fac16052dc916c89a6d/LICENSE",
+      "bytes": 1086,
+      "sha256": "ec7bcccc7383e912e22569d4bed157753bf437d6568c6c663a5155b4c5838e25"
+    }
+  ],
+  "status": "verified_readme_only",
+  "error": "HTTP Error 403: rate limit exceeded",
+  "commit": "7bcdad30537c679d00699fac16052dc916c89a6d",
+  "verification_method": "repository_page_and_raw_readme",
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1086
+    }
+  ],
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 253,
+  "stars_checked_at": "2026-11-09T10:48:42.775723+00:00",
+  "discovered_file_count": 0,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release"
+}

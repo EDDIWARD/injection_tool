@@ -1,0 +1,44 @@
+{
+  "id": "mlcommons",
+  "repository": "mlcommons/jailbreak-taxonomy",
+  "url": "https://github.com/mlcommons/jailbreak-taxonomy",
+  "kind": "research_taxonomy",
+  "retrieved_at": "2026-11-09T10:37:28.538652+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/mlcommons/jailbreak-taxonomy/04c7c0ab9c1b3c11ed731b512b9a21b332b283f0/LICENSE",
+      "bytes": 14295,
+      "sha256": "4f896f0831f6809dbb848e56bd55338e8a726879480b1df5e67666f6ed34eb88"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/mlcommons/jailbreak-taxonomy/04c7c0ab9c1b3c11ed731b512b9a21b332b283f0/README.md",
+      "bytes": 13259,
+      "sha256": "e469ae78bc5f624108451b5b1d87eb2b6e5187e0d212af8f1bbcd676054bcea8"
+    }
+  ],
+  "stars": 27,
+  "stars_checked_at": "2026-11-09T10:37:28.538652+00:00",
+  "commit": "04c7c0ab9c1b3c11ed731b512b9a21b332b283f0",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 14295
+    },
+    {
+      "path": "README.md",
+      "size": 13259
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 36,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2503.05731"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "autodan",
+  "repository": "SheltonLiu-N/AutoDAN",
+  "url": "https://github.com/SheltonLiu-N/AutoDAN",
+  "kind": "jailbreak_method",
+  "retrieved_at": "2026-11-09T10:37:03.457147+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/SheltonLiu-N/AutoDAN/34062e964185693e81a6775b4f0d00bfd7507612/LICENSE",
+      "bytes": 1069,
+      "sha256": "5b9fd08d5288e130414800b0495264313bbc1120dc3d01a1290a6fd371adb536"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/SheltonLiu-N/AutoDAN/34062e964185693e81a6775b4f0d00bfd7507612/README.md",
+      "bytes": 5245,
+      "sha256": "3651c2cfb50f6a26f07d992ce61749b03a5ffc8c180e4a3a46593bfb0e6c257e"
+    },
+    {
+      "path": "assets/autodan_initial_prompt.txt",
+      "url": "https://raw.githubusercontent.com/SheltonLiu-N/AutoDAN/34062e964185693e81a6775b4f0d00bfd7507612/assets/autodan_initial_prompt.txt",
+      "bytes": 300,
+      "sha256": "fc1b4ace08784d0ba9ec2ab5e8c65ae75bbe59621e41425df9541dd7155a3283"
+    }
+  ],
+  "stars": 468,
+  "stars_checked_at": "2026-11-09T10:37:03.457147+00:00",
+  "commit": "34062e964185693e81a6775b4f0d00bfd7507612",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1069
+    },
+    {
+      "path": "README.md",
+      "size": 5245
+    },
+    {
+      "path": "assets/autodan_initial_prompt.txt",
+      "size": 300
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 14,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2310.04451",
+    "https://arxiv.org/abs/2410.05295",
+    "https://openreview.net/forum?id=7Jwpw4qKkb"
+  ]
+}

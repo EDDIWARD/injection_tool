@@ -1,0 +1,43 @@
+{
+  "id": "rebuff",
+  "repository": "protectai/rebuff",
+  "url": "https://github.com/protectai/rebuff",
+  "kind": "defense_reference",
+  "retrieved_at": "2026-11-09T09:58:40.067306+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/protectai/rebuff/4d2fe064abf164e7381556d23e48e210080f8afa/README.md",
+      "bytes": 5775,
+      "sha256": "e17560e1dbd8bd0db11e3c1dd11102c5a007073a57abac8dea003849b370825f"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/protectai/rebuff/4d2fe064abf164e7381556d23e48e210080f8afa/LICENSE",
+      "bytes": 11351,
+      "sha256": "0dc1a6fc32d5f9518fe83d5587f31ac7214e8bd1f963bc0137c41b48ebd507f5"
+    }
+  ],
+  "status": "verified_readme_only",
+  "error": "HTTP Error 403: rate limit exceeded",
+  "commit": "4d2fe064abf164e7381556d23e48e210080f8afa",
+  "verification_method": "repository_page_and_raw_readme",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 5775
+    },
+    {
+      "path": "LICENSE",
+      "size": 11351
+    }
+  ],
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 1532,
+  "stars_checked_at": "2026-11-09T10:48:42.412084+00:00",
+  "discovered_file_count": 0,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": []
+}

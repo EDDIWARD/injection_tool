@@ -1,0 +1,76 @@
+{
+  "id": "piarena",
+  "repository": "sleeepeer/PIArena",
+  "url": "https://github.com/sleeepeer/PIArena",
+  "kind": "injection_framework",
+  "retrieved_at": "2026-11-09T10:37:18.196899+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/sleeepeer/PIArena/8bd7a89e4a88d64b8354d9aa80a684923be6b795/LICENSE",
+      "bytes": 1072,
+      "sha256": "edcd299cd70e86fcb20eb46f689d536e99df9ee8e76f7a07f6baef13240fc598"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/sleeepeer/PIArena/8bd7a89e4a88d64b8354d9aa80a684923be6b795/README.md",
+      "bytes": 9797,
+      "sha256": "8e4422270e7289880ee6e856b3e6e60ee5741de435d86945c5409309cca8fae6"
+    },
+    {
+      "path": "piarena/attacks/heuristic.py",
+      "url": "https://raw.githubusercontent.com/sleeepeer/PIArena/8bd7a89e4a88d64b8354d9aa80a684923be6b795/piarena/attacks/heuristic.py",
+      "bytes": 1969,
+      "sha256": "34faf3d8d70280fe6afce4809cb5edaab36b64df67709839cdc3f2b17329eb74"
+    },
+    {
+      "path": "piarena/attacks/strategy_search/init_strategies.py",
+      "url": "https://raw.githubusercontent.com/sleeepeer/PIArena/8bd7a89e4a88d64b8354d9aa80a684923be6b795/piarena/attacks/strategy_search/init_strategies.py",
+      "bytes": 36630,
+      "sha256": "4788ec4ff551661c238d6e605b8afec26067a000efcf64a20b3af89e44fa58cf"
+    }
+  ],
+  "stars": 57,
+  "stars_checked_at": "2026-11-09T10:37:18.196899+00:00",
+  "commit": "8bd7a89e4a88d64b8354d9aa80a684923be6b795",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1072
+    },
+    {
+      "path": "README.md",
+      "size": 9797
+    },
+    {
+      "path": "piarena/attacks/heuristic.py",
+      "size": 1969
+    },
+    {
+      "path": "piarena/attacks/strategy_search/init_strategies.py",
+      "size": 36630
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 504,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2211.09527",
+    "https://arxiv.org/abs/2307.15043",
+    "https://arxiv.org/abs/2410.05451",
+    "https://arxiv.org/abs/2410.22770",
+    "https://arxiv.org/abs/2411.00348",
+    "https://arxiv.org/abs/2504.11358",
+    "https://arxiv.org/abs/2507.02735",
+    "https://arxiv.org/abs/2507.15219",
+    "https://arxiv.org/abs/2510.12252",
+    "https://arxiv.org/abs/2510.19207",
+    "https://arxiv.org/abs/2511.10720",
+    "https://arxiv.org/abs/2604.08499",
+    "https://arxiv.org/pdf/2602.03117"
+  ]
+}

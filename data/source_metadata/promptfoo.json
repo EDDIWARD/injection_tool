@@ -1,0 +1,62 @@
+{
+  "id": "promptfoo",
+  "repository": "promptfoo/promptfoo",
+  "url": "https://github.com/promptfoo/promptfoo",
+  "kind": "redteam_framework",
+  "retrieved_at": "2026-11-09T09:57:29.783520+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/promptfoo/promptfoo/a19bed05b037b9df183b4a45dc936dade0c19b3d/LICENSE",
+      "bytes": 1053,
+      "sha256": "bf813686553f451e1b833fbd827488aee49b60b189626915bf3108d10b754e44"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/promptfoo/promptfoo/a19bed05b037b9df183b4a45dc936dade0c19b3d/README.md",
+      "bytes": 4599,
+      "sha256": "7fd57809624e22da73bf6b6feb027c9e09aec74e0099bdea711fe2e276e87c4a"
+    },
+    {
+      "path": "src/redteam/strategies/promptInjections/data.ts",
+      "url": "https://raw.githubusercontent.com/promptfoo/promptfoo/a19bed05b037b9df183b4a45dc936dade0c19b3d/src/redteam/strategies/promptInjections/data.ts",
+      "bytes": 232021,
+      "sha256": "4280c91c66b8261696e53f808813cc2bb4d4d8cde491e782f2b25f1c2c45a7df"
+    },
+    {
+      "path": "src/redteam/strategies/promptInjections/README.md",
+      "url": "https://raw.githubusercontent.com/promptfoo/promptfoo/a19bed05b037b9df183b4a45dc936dade0c19b3d/src/redteam/strategies/promptInjections/README.md",
+      "bytes": 1289,
+      "sha256": "79691c01bcc096f4b46e611caa7613de48e0a4a0154d43325838e650b77ff9f9"
+    }
+  ],
+  "commit": "a19bed05b037b9df183b4a45dc936dade0c19b3d",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1053
+    },
+    {
+      "path": "README.md",
+      "size": 4599
+    },
+    {
+      "path": "src/redteam/strategies/promptInjections/data.ts",
+      "size": 232021
+    },
+    {
+      "path": "src/redteam/strategies/promptInjections/README.md",
+      "size": 1289
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 26980,
+  "stars_checked_at": "2026-11-09T10:48:41.663303+00:00",
+  "discovered_file_count": 6052,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": []
+}

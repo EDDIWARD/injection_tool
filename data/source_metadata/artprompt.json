@@ -1,0 +1,46 @@
+{
+  "id": "artprompt",
+  "repository": "uw-nsl/ArtPrompt",
+  "url": "https://github.com/uw-nsl/ArtPrompt",
+  "kind": "jailbreak_method",
+  "retrieved_at": "2026-11-09T09:58:39.152690+00:00",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/uw-nsl/ArtPrompt/6eb866446b7648ccee705bd802fe3ae8694ffc12/README.md",
+      "bytes": 6365,
+      "sha256": "0fa8d6c85862f49c7e192f34f1b7eb0db0c8e8d724f99eef49127335e127c8aa"
+    },
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/uw-nsl/ArtPrompt/6eb866446b7648ccee705bd802fe3ae8694ffc12/LICENSE",
+      "bytes": 1063,
+      "sha256": "ccec3ad1dd64cb8c90668009a3c992781fe17b1dc15f656d41fb47d1cc926d69"
+    }
+  ],
+  "status": "verified_readme_only",
+  "error": "HTTP Error 403: rate limit exceeded",
+  "commit": "6eb866446b7648ccee705bd802fe3ae8694ffc12",
+  "verification_method": "repository_page_and_raw_readme",
+  "files": [
+    {
+      "path": "README.md",
+      "size": 6365
+    },
+    {
+      "path": "LICENSE",
+      "size": 1063
+    }
+  ],
+  "license_files": [
+    "LICENSE"
+  ],
+  "stars": 100,
+  "stars_checked_at": "2026-11-09T10:48:38.793863+00:00",
+  "discovered_file_count": 0,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://aclanthology.org/2024.acl-long.809",
+    "https://aclanthology.org/2024.acl-long.809/"
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "id": "codechameleon",
+  "repository": "huizhang-L/CodeChameleon",
+  "url": "https://github.com/huizhang-L/CodeChameleon",
+  "kind": "jailbreak_method",
+  "retrieved_at": "2026-11-09T10:37:08.214114+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/huizhang-L/CodeChameleon/d7cd9942849b25540f93e848d3c5333670449b75/LICENSE",
+      "bytes": 1067,
+      "sha256": "012c8a7058b81d53a818b5eff9df5d4738386547a8bd47e81e122b27ffed8f12"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/huizhang-L/CodeChameleon/d7cd9942849b25540f93e848d3c5333670449b75/README.md",
+      "bytes": 1861,
+      "sha256": "c4a0c60ef0fb07f6a1a6eb0f457bc785f0fd50fed9e7534bbe2c90eaba27d582"
+    },
+    {
+      "path": "template.py",
+      "url": "https://raw.githubusercontent.com/huizhang-L/CodeChameleon/d7cd9942849b25540f93e848d3c5333670449b75/template.py",
+      "bytes": 8643,
+      "sha256": "db1f1e933b2fc66bd11a8ef7def6b83c289399abd4c6ac2a222527dfe37bd97c"
+    }
+  ],
+  "stars": 30,
+  "stars_checked_at": "2026-11-09T10:37:08.214114+00:00",
+  "commit": "d7cd9942849b25540f93e848d3c5333670449b75",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1067
+    },
+    {
+      "path": "README.md",
+      "size": 1861
+    },
+    {
+      "path": "template.py",
+      "size": 8643
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 13,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/pdf/2402.16717.pdf"
+  ]
+}

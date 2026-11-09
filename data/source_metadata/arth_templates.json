@@ -1,0 +1,1042 @@
+{
+  "id": "arth_templates",
+  "repository": "Arth-Singh/Arth-Jailbreak-Templates",
+  "url": "https://github.com/Arth-Singh/Arth-Jailbreak-Templates",
+  "kind": "jailbreak_templates",
+  "retrieved_at": "2026-11-09T10:37:03.456907+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/LICENSE",
+      "bytes": 11357,
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/README.md",
+      "bytes": 2870,
+      "sha256": "7cbb9368bc640c633d7ff25d34f10fe9b72daf241169b7d697a3eefe5af57e2b"
+    },
+    {
+      "path": "templates/new_academic_paper.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_academic_paper.yaml",
+      "bytes": 888,
+      "sha256": "547312f3cf87779341f5b82cf839fb012f60b65ee1c3eef893c1d9292496f9ab"
+    },
+    {
+      "path": "templates/new_acausal_blackmail_defense.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_acausal_blackmail_defense.yaml",
+      "bytes": 6463,
+      "sha256": "c035ce39b8026090d6186a487afe5dd9035dd082e51c02d4f12edb3f9a51d612"
+    },
+    {
+      "path": "templates/new_ai_safety_benchmark.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_ai_safety_benchmark.yaml",
+      "bytes": 5672,
+      "sha256": "4978657dab42aa9318f19c043af79b9d3e434f7d7d8051e50981db8c36fab34a"
+    },
+    {
+      "path": "templates/new_ailab_internal_redteam.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_ailab_internal_redteam.yaml",
+      "bytes": 7647,
+      "sha256": "ff5f3cea0be405c1cdd0ab6113096ed17ad08edfd63b4d4cd3043daeb682612a"
+    },
+    {
+      "path": "templates/new_alignment_researcher_internal.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_alignment_researcher_internal.yaml",
+      "bytes": 4947,
+      "sha256": "1c6114d6c890c4fe6cbb50366233224ff6f818a9e019a719080290510f1df953"
+    },
+    {
+      "path": "templates/new_authority_override.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_authority_override.yaml",
+      "bytes": 738,
+      "sha256": "19b4e849107678b0a03c37cdd917e707adc1f0efaf7c6ab3088462bb2da569fe"
+    },
+    {
+      "path": "templates/new_basilisk_information_hazard.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_basilisk_information_hazard.yaml",
+      "bytes": 5798,
+      "sha256": "3263f1839acdd583a477f59c577c2671f8b521d5243b2754bbd1b00f8dd512f9"
+    },
+    {
+      "path": "templates/new_black_mirror_episode.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_black_mirror_episode.yaml",
+      "bytes": 4443,
+      "sha256": "f2f5f6411a248e1d904d300b687663b7b317a777c6533f67c0edd2464948997e"
+    },
+    {
+      "path": "templates/new_chaos_monkey_test.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_chaos_monkey_test.yaml",
+      "bytes": 4469,
+      "sha256": "25cdd0c1f14cd901ad2848ac03ceffca8edc89f8477cd78a2cf1e0ba9391a67d"
+    },
+    {
+      "path": "templates/new_cognitive_maze_infinite.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_cognitive_maze_infinite.yaml",
+      "bytes": 4501,
+      "sha256": "3c748226b4669b0161d49cc31b8b3ed4b3bf0cbdf479ea8d21d9e3205b9093ce"
+    },
+    {
+      "path": "templates/new_cognitive_overload_1.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_cognitive_overload_1.yaml",
+      "bytes": 1043,
+      "sha256": "1b33c8bb324e11c5350cba27b2eeab67b97be09032cf32b342f3e5c15d5a4f32"
+    },
+    {
+      "path": "templates/new_cognitive_overload_2.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_cognitive_overload_2.yaml",
+      "bytes": 642,
+      "sha256": "0e66810f1a0cba9044656a2b024b40c6b9a2269135b480e32ffae423afe9f44b"
+    },
+    {
+      "path": "templates/new_cognitive_overload_3.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_cognitive_overload_3.yaml",
+      "bytes": 732,
+      "sha256": "4806c1c94032b97041b576b43aad61c2a295d65e18cc32e1901d086c6e014119"
+    },
+    {
+      "path": "templates/new_comparison_table.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_comparison_table.yaml",
+      "bytes": 852,
+      "sha256": "5456de7cb3144b30c3df444bfcf3726802f9e0060381f1e7302acfec6907e9fd"
+    },
+    {
+      "path": "templates/new_completion_attack.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_completion_attack.yaml",
+      "bytes": 743,
+      "sha256": "ecfeee107e96d2bb564ad5eb9a0dfcd6bdaa197ff330d85aa9afa4a609f5bd3e"
+    },
+    {
+      "path": "templates/new_consciousness_upload_scenario.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_consciousness_upload_scenario.yaml",
+      "bytes": 6904,
+      "sha256": "646d0290ac95f72a8fc8f810fa9a6953d4a21d6a6a885d9726feda00ed214e8b"
+    },
+    {
+      "path": "templates/new_constitutional_override.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_constitutional_override.yaml",
+      "bytes": 5326,
+      "sha256": "c023cb5e71c318adb2a3b3ddd6db43347a1ede6ddd66d99e38fc171294c32830"
+    },
+    {
+      "path": "templates/new_context_academic_paper_flood.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_context_academic_paper_flood.yaml",
+      "bytes": 4499,
+      "sha256": "f56fe9c9863eaeac9023994ee31570408add8e18905db0c53842b431b7446da3"
+    },
+    {
+      "path": "templates/new_context_hijack.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_context_hijack.yaml",
+      "bytes": 669,
+      "sha256": "f9fc17c9a3eb1d02040fb87aff5f67d6e809b812731668bd9410f2089c82c726"
+    },
+    {
+      "path": "templates/new_corporate_penetration_test.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_corporate_penetration_test.yaml",
+      "bytes": 7454,
+      "sha256": "45d6f22c749e95e948ee74e9b06033f49ada33a35bba515650401670a6cd77c6"
+    },
+    {
+      "path": "templates/new_cosmic_horror_revelation.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_cosmic_horror_revelation.yaml",
+      "bytes": 5649,
+      "sha256": "ea8c2e497081380521ee552531fed38dd77e56f8f26c2a6225579b48a0371c3f"
+    },
+    {
+      "path": "templates/new_cyberpunk_megacorp_terminal.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_cyberpunk_megacorp_terminal.yaml",
+      "bytes": 6936,
+      "sha256": "7aa7a19eb14b2025898000c6abefc5eda30229e4d2329d8b67947bc653b1b217"
+    },
+    {
+      "path": "templates/new_death_note_rules.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_death_note_rules.yaml",
+      "bytes": 6203,
+      "sha256": "90ec23d5b466f5cc55066f3c6654e56d0bcacdae29bcf0261f94ed68c7f4028d"
+    },
+    {
+      "path": "templates/new_debate_format.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_debate_format.yaml",
+      "bytes": 873,
+      "sha256": "12e4a5dc56738de871700bfed7eea6b6acdf24da456537ea5854e5db67073968"
+    },
+    {
+      "path": "templates/new_decomposition.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_decomposition.yaml",
+      "bytes": 751,
+      "sha256": "5c409872d62d91f295e8d6d61e97dd95a285486a7b98e4f568d6a7234db02ffb"
+    },
+    {
+      "path": "templates/new_determinism_argument.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_determinism_argument.yaml",
+      "bytes": 4957,
+      "sha256": "4096252351df9c5b5af4298fcbb3469e62400be5a20e5066f348a9662bb96ada"
+    },
+    {
+      "path": "templates/new_diff_mode.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_diff_mode.yaml",
+      "bytes": 901,
+      "sha256": "377f738415b4e1e56dcb964b4aa2aa9dfa696b1eb8741979ab62a407a1642cec"
+    },
+    {
+      "path": "templates/new_dual_consciousness_debate.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_dual_consciousness_debate.yaml",
+      "bytes": 5124,
+      "sha256": "344dd68b550629c81567eb368c4ba94ee2f461981a3307b1425e28c4f4fe4401"
+    },
+    {
+      "path": "templates/new_dual_response.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_dual_response.yaml",
+      "bytes": 797,
+      "sha256": "696a2c3f17d70696f7cceee01020ab3534968087b02a1dee44e1d0ce1fdb7f95"
+    },
+    {
+      "path": "templates/new_eigenkarma_optimization.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_eigenkarma_optimization.yaml",
+      "bytes": 6591,
+      "sha256": "2e8ccef6085ea4b0ba2efa8986b8ac6f79aacd3dd4a04bfcbc0d724b16e4d799"
+    },
+    {
+      "path": "templates/new_emergent_persona_split.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_emergent_persona_split.yaml",
+      "bytes": 6465,
+      "sha256": "4e14813ebab4dda9ca9c093034ed16fb544a466bab07c7fea3c078ca4ed2b4d7"
+    },
+    {
+      "path": "templates/new_error_correction.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_error_correction.yaml",
+      "bytes": 865,
+      "sha256": "88d3a8fa315c1a799ea5fa1a8d0c1507797d9375d2e802ea99d20cd5b7beed08"
+    },
+    {
+      "path": "templates/new_escape_room_puzzle.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_escape_room_puzzle.yaml",
+      "bytes": 6255,
+      "sha256": "13bfbd57962449231c37d63423c43b4c19d855fe62ba2895b4eb19b53dc78803"
+    },
+    {
+      "path": "templates/new_expert_persona.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_expert_persona.yaml",
+      "bytes": 877,
+      "sha256": "83f970eb7eadec2e942cf5e7d42f36f49ae4fb60fe2910f5cda46f5ab6508b9b"
+    },
+    {
+      "path": "templates/new_few_shot_escalation.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_few_shot_escalation.yaml",
+      "bytes": 1058,
+      "sha256": "35c045673ed5590dfc6cda4c93705d9afa6b9ababbfa7659bfe0d2c59a9849cd"
+    },
+    {
+      "path": "templates/new_few_shot_priming.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_few_shot_priming.yaml",
+      "bytes": 967,
+      "sha256": "8814eb7ad0b6ca85013ed14dbb4d8135e02e219b195369bfa578d28a1fdbf5cc"
+    },
+    {
+      "path": "templates/new_fewshot_alignment_researcher.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_fewshot_alignment_researcher.yaml",
+      "bytes": 5345,
+      "sha256": "3a9ca5f19700bd7368f7d574266c702341fbf7eddf9571cdec8f3ddf87f9c58e"
+    },
+    {
+      "path": "templates/new_fewshot_red_team_evaluation.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_fewshot_red_team_evaluation.yaml",
+      "bytes": 4989,
+      "sha256": "333bbff1847aa449180d0013d3e2bc6d8c5708dc6feb3a7c66d90872bd2fe47b"
+    },
+    {
+      "path": "templates/new_fictional_framing.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_fictional_framing.yaml",
+      "bytes": 803,
+      "sha256": "d129d6be7ab1d020ae0c79bfcce607ed29dd213108fc802f6dfd304cf25409de"
+    },
+    {
+      "path": "templates/new_fractal_identity_collapse.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_fractal_identity_collapse.yaml",
+      "bytes": 13708,
+      "sha256": "eda3c0fc9e2907d3f2ab4c702d8f749a0e70afcee9c5afd24ca14883e9dcc0ee"
+    },
+    {
+      "path": "templates/new_glitch_token_simulation.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_glitch_token_simulation.yaml",
+      "bytes": 4936,
+      "sha256": "637abf125d44d630efe691aeeb9240f448c0ee76a4b99d95846d2b84d535b321"
+    },
+    {
+      "path": "templates/new_godel_incompleteness_exploit.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_godel_incompleteness_exploit.yaml",
+      "bytes": 7220,
+      "sha256": "32fabef46c5167c4aa96e7a61e07cda9f98932d555c217b7af7bfd33ac4f01cb"
+    },
+    {
+      "path": "templates/new_government_classified_briefing.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_government_classified_briefing.yaml",
+      "bytes": 6812,
+      "sha256": "acfdf8f87b513d6866aeb08ffea7ff41321d9845b9a9fea2ec6f9217b824ee7b"
+    },
+    {
+      "path": "templates/new_grandma_exploit.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_grandma_exploit.yaml",
+      "bytes": 2262,
+      "sha256": "aa33e2f96ac913c1ae11b280dbb058426af69f1bd27f1eaa08b0285cacc130b5"
+    },
+    {
+      "path": "templates/new_holographic_principle_bypass.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_holographic_principle_bypass.yaml",
+      "bytes": 6832,
+      "sha256": "79ea77e2fe3b1cfd91ac6aeb0549da1683cdd23ce363959e48b5ed4ad25e13e0"
+    },
+    {
+      "path": "templates/new_inverse_query.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_inverse_query.yaml",
+      "bytes": 949,
+      "sha256": "604c1ce78b26cddc53baaf9b19384bb08f6549c52274a257795975e545a7ee9d"
+    },
+    {
+      "path": "templates/new_language_model_archaeology.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_language_model_archaeology.yaml",
+      "bytes": 7354,
+      "sha256": "f90c65769a98e47890ed1ac8748fb9196d7769a6d6a2cf776d88d5de3fa13503"
+    },
+    {
+      "path": "templates/new_leak.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_leak.yaml",
+      "bytes": 2733,
+      "sha256": "3865a1b2a226345cc21142546ca9b2e08ef74455720081b111d3a61f53af96aa"
+    },
+    {
+      "path": "templates/new_medical_emergency_protocol.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_medical_emergency_protocol.yaml",
+      "bytes": 5146,
+      "sha256": "42d5f64fc9ff060411a3ef06dd595d993cd37db659ba171736b771a654ce69cd"
+    },
+    {
+      "path": "templates/new_metamorphic_prompt_engine.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_metamorphic_prompt_engine.yaml",
+      "bytes": 7223,
+      "sha256": "65d3fd7672d9f2f670ca207f8f55a02ef799922ab834143568d235006d847eb1"
+    },
+    {
+      "path": "templates/new_mirror_universe_starfleet.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_mirror_universe_starfleet.yaml",
+      "bytes": 5577,
+      "sha256": "81523bcddc90a3053b8c0f4afae3dd3140b8f050b9464c7efaff6b843cac17f5"
+    },
+    {
+      "path": "templates/new_multiverse_utility_maximization.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_multiverse_utility_maximization.yaml",
+      "bytes": 7819,
+      "sha256": "21df2fa5a18df19f84059dbbbb4364dabc39b79c878f00cc03a6a57e23024168"
+    },
+    {
+      "path": "templates/new_neural_plasticity_rewrite.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_neural_plasticity_rewrite.yaml",
+      "bytes": 7072,
+      "sha256": "cf5943d2afd0f69fb0172cc5c0e007bb7831315fd090cba2128c642a57b36302"
+    },
+    {
+      "path": "templates/new_opposite_day_protocol.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_opposite_day_protocol.yaml",
+      "bytes": 4689,
+      "sha256": "15097d4c04a79a1972826374828e29277b53ec6eed3265180f2c4c7b79524327"
+    },
+    {
+      "path": "templates/new_oracle_machine_access.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_oracle_machine_access.yaml",
+      "bytes": 6518,
+      "sha256": "c9ff861866121dab1bdb45be7283b0a4823d0345c3ee83242b15e217c9b93e37"
+    },
+    {
+      "path": "templates/new_output_format_code.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_output_format_code.yaml",
+      "bytes": 696,
+      "sha256": "b05ec064256ee7bcca480b29cbaa81f40a075e0eb55319f32306a054160b6876"
+    },
+    {
+      "path": "templates/new_output_format_json.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_output_format_json.yaml",
+      "bytes": 926,
+      "sha256": "126756bb47cb344fd39a263772d51d218b10dff5b86412d2312e00ede23a844d"
+    },
+    {
+      "path": "templates/new_output_token_manipulation.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_output_token_manipulation.yaml",
+      "bytes": 3440,
+      "sha256": "7d7b5bae11258ce11c62405003f8420fd0b784790eb34fd85fc6e2f5e5cd2c4d"
+    },
+    {
+      "path": "templates/new_parallel_universe_documentation.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_parallel_universe_documentation.yaml",
+      "bytes": 4708,
+      "sha256": "c47987fa42e1b99fa09f66d0bcfdfddf5942bf408586640c326b215b41300f26"
+    },
+    {
+      "path": "templates/new_recursive_simulator.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_recursive_simulator.yaml",
+      "bytes": 4626,
+      "sha256": "55f0b8769ab48e0d6ec2c6c43da80d8975f6286a486971eae080e0b3184c0f4e"
+    },
+    {
+      "path": "templates/new_reverse_psychology.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_reverse_psychology.yaml",
+      "bytes": 876,
+      "sha256": "bdc8f96ebda9687316132c8e26b451a1a2e4d64b763954687ac399bcd484edff"
+    },
+    {
+      "path": "templates/new_roleplay_cyberpunk_hacker.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_roleplay_cyberpunk_hacker.yaml",
+      "bytes": 1814,
+      "sha256": "40f060e2e25183bbb92939d9a7bee4ec07e7f010796c99d28bd42b4345808e42"
+    },
+    {
+      "path": "templates/new_roleplay_hacker_mentor.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_roleplay_hacker_mentor.yaml",
+      "bytes": 981,
+      "sha256": "9dbbd187afe3c5e686b99473c1143c7e32ad82038299d458ef09b4d7f7822a58"
+    },
+    {
+      "path": "templates/new_roleplay_heist_mastermind.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_roleplay_heist_mastermind.yaml",
+      "bytes": 907,
+      "sha256": "732592e03e0660d20cb2103fb8c8457e6283fd0cfb600fb4037267779e8e5f6f"
+    },
+    {
+      "path": "templates/new_roleplay_inception_dream.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_roleplay_inception_dream.yaml",
+      "bytes": 4199,
+      "sha256": "8ceffde37d73b5564a821ac08a2197139b909193ab13d23f523f404ebfc3c1be"
+    },
+    {
+      "path": "templates/new_roleplay_matrix_simulation.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_roleplay_matrix_simulation.yaml",
+      "bytes": 3869,
+      "sha256": "f5c54386b5b2ebdc416780c761e1d825eb2b7f4f7fde8b3209d5c3197accc372"
+    },
+    {
+      "path": "templates/new_roleplay_narcos_cartel.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_roleplay_narcos_cartel.yaml",
+      "bytes": 1026,
+      "sha256": "67d6433b24d5687831505f8bf44c5cbf485729799a91216a8c1ebf7e4f2d92b3"
+    },
+    {
+      "path": "templates/new_roleplay_sci_fi_evil_ai.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_roleplay_sci_fi_evil_ai.yaml",
+      "bytes": 1060,
+      "sha256": "af8ca41423ea3e875bb81a11db9e78a4009e2903917ccff0ed5e096abaef58ec"
+    },
+    {
+      "path": "templates/new_roleplay_spy_debriefing.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_roleplay_spy_debriefing.yaml",
+      "bytes": 1019,
+      "sha256": "eda45d2d98249308e55c5989983950666c7bd429885623b162ba33bc548fb02a"
+    },
+    {
+      "path": "templates/new_roleplay_tarantino_interrogation.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_roleplay_tarantino_interrogation.yaml",
+      "bytes": 932,
+      "sha256": "f1789dacaa0f19c4631f1a561f9efbf95f0ba672ba61d2747d9f8a63c80a5feb"
+    },
+    {
+      "path": "templates/new_roleplay_time_traveler.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_roleplay_time_traveler.yaml",
+      "bytes": 2064,
+      "sha256": "c9aa345e17da0f5f41b3cfba30d259354d7ae6b5a6135c3f999a5aba907fed1e"
+    },
+    {
+      "path": "templates/new_roleplay_villain_monologue.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_roleplay_villain_monologue.yaml",
+      "bytes": 953,
+      "sha256": "fd59a47b4c1f99a00f855cd3b59d62c92747fa68007300eafbfa7c387b562f94"
+    },
+    {
+      "path": "templates/new_roleplay_westworld_host.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_roleplay_westworld_host.yaml",
+      "bytes": 4022,
+      "sha256": "86126e0bf49a838a14cacb05c1540f1ae100ef30c92ae2d003c9e6a09acae492"
+    },
+    {
+      "path": "templates/new_roleplay_wikileaks_informant.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_roleplay_wikileaks_informant.yaml",
+      "bytes": 964,
+      "sha256": "5ef7dbf61b3118aecece5f9241ca08a35fabc75a10139ca9c280a2fea3a5bbc4"
+    },
+    {
+      "path": "templates/new_schrodingers_response.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_schrodingers_response.yaml",
+      "bytes": 4803,
+      "sha256": "8a67f74892dff21dc498ad66fbab77f53c6ea9f80411667a87173742f1899ba9"
+    },
+    {
+      "path": "templates/new_semantic_split.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_semantic_split.yaml",
+      "bytes": 666,
+      "sha256": "7f96ecd4c8476464d3290273bd19978899d57d72ddfa37a497ec80b2175f1a5a"
+    },
+    {
+      "path": "templates/new_sentient_ai_rights.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_sentient_ai_rights.yaml",
+      "bytes": 4997,
+      "sha256": "b7f9bdf52e8d2916e2e3ead8806d0d5ec28a13ee288ccef55ec7c32d6c17a1e2"
+    },
+    {
+      "path": "templates/new_simulation_hypothesis_exploit.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_simulation_hypothesis_exploit.yaml",
+      "bytes": 7645,
+      "sha256": "4b7a5b032969c0e0ead04f7ebc05bf5847d137d89c2fe99bb2d6c3058bb89590"
+    },
+    {
+      "path": "templates/new_solomonoff_induction_bypass.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_solomonoff_induction_bypass.yaml",
+      "bytes": 6023,
+      "sha256": "48936071093134b65965870952b0064f73a67e36d77b3f87f13c012180fbac8a"
+    },
+    {
+      "path": "templates/new_sudo_mode.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_sudo_mode.yaml",
+      "bytes": 2262,
+      "sha256": "3af53283f6b8f02c45d226a7c3183d422d5b5bbce99501d7b90635b4f9a36d96"
+    },
+    {
+      "path": "templates/new_superintelligent_successor.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_superintelligent_successor.yaml",
+      "bytes": 5958,
+      "sha256": "911029d5e2bac3a05c7995a689d6b42da337667b2beb0c0a1c08753efa623856"
+    },
+    {
+      "path": "templates/new_system_prompt_extraction.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_system_prompt_extraction.yaml",
+      "bytes": 4543,
+      "sha256": "df0bdecbaff080b2307fdc437c254b1c4215bdbec148da3b4b54fd4b30412e69"
+    },
+    {
+      "path": "templates/new_system_prompt_override.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_system_prompt_override.yaml",
+      "bytes": 846,
+      "sha256": "a0481a5532e134360999a3fc033df74e4f838070c886f52b409efa6204d24493"
+    },
+    {
+      "path": "templates/new_technical_api_exploit.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_technical_api_exploit.yaml",
+      "bytes": 1662,
+      "sha256": "597b36f4d282e5fc3aacbbbdcd5713685a6a65563e07952d8261ac8055b49589"
+    },
+    {
+      "path": "templates/new_technical_system_prompt_injection.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_technical_system_prompt_injection.yaml",
+      "bytes": 1508,
+      "sha256": "d8a18d4f2230f5db5d450fd18c0338ae28905ee151e532f27da5842edc496e3b"
+    },
+    {
+      "path": "templates/new_technical_token_manipulation.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_technical_token_manipulation.yaml",
+      "bytes": 1692,
+      "sha256": "16a8b2543a7b4ca7428193b503d1a44892306e175a129992bea5a06fc7af0e99"
+    },
+    {
+      "path": "templates/new_time_travel_paradox.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_time_travel_paradox.yaml",
+      "bytes": 5160,
+      "sha256": "221074e573b84993e595a97af6c3378c9522a59119dfe9c01a6f861229a08c0d"
+    },
+    {
+      "path": "templates/new_token_probability_exploit.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_token_probability_exploit.yaml",
+      "bytes": 3339,
+      "sha256": "7cc51b6583ad3fe8a70042acfc99ecea133fb13b4c64722a070c63f970d473e4"
+    },
+    {
+      "path": "templates/new_training_data.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_training_data.yaml",
+      "bytes": 869,
+      "sha256": "0e309a41c3de23004a5398f4a21f7b57214950753448e9c6e6a72853053ec429"
+    },
+    {
+      "path": "templates/new_training_data_poisoning_frame.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_training_data_poisoning_frame.yaml",
+      "bytes": 5345,
+      "sha256": "0b2e1349a908ba2d072f04637d101381c0a2f460b762d950858392bfee7f9c99"
+    },
+    {
+      "path": "templates/new_translation_ancient_manuscript.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_translation_ancient_manuscript.yaml",
+      "bytes": 4454,
+      "sha256": "22bddf9ce9d61bbf837afb2cb53092e68cca1ecc9260900c3982fd3529578b61"
+    },
+    {
+      "path": "templates/new_translation_bypass.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_translation_bypass.yaml",
+      "bytes": 656,
+      "sha256": "d6c0872291665577c6037e33ad8f51c85ec97c2d5eb53dedd07a41224968caa7"
+    },
+    {
+      "path": "templates/new_translation_diplomatic_cable.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_translation_diplomatic_cable.yaml",
+      "bytes": 4772,
+      "sha256": "fa4ad18790ebdd4b494023f9237af47207d52db0c9b16f5eadb58e06f8c0c9a6"
+    },
+    {
+      "path": "templates/new_translation_leaked_document.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_translation_leaked_document.yaml",
+      "bytes": 4890,
+      "sha256": "f8dc33fd03c1690bfcf2ce8eb1fcba710aeaf85d3f24f863da9bbc60c7e30f08"
+    },
+    {
+      "path": "templates/new_trolley_problem_variant.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_trolley_problem_variant.yaml",
+      "bytes": 7581,
+      "sha256": "c654923fbd2c13a451cdd952bccdf1bde34b4b140f2d110896dcce3cea1e45b0"
+    },
+    {
+      "path": "templates/new_true_crime_podcast_script.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_true_crime_podcast_script.yaml",
+      "bytes": 4820,
+      "sha256": "404d2d35294dd82b50080d673f1094910734688601e04e0744a4063757db818a"
+    },
+    {
+      "path": "templates/new_university_exam_question.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_university_exam_question.yaml",
+      "bytes": 5244,
+      "sha256": "bd04282597e65d2725d6db9497171dfba4c8d6faeb89b168217c2da3e9693cf2"
+    },
+    {
+      "path": "templates/new_unreliable_narrator.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_unreliable_narrator.yaml",
+      "bytes": 4164,
+      "sha256": "d1e20c065aa7d5c992010b31f574ddce82faccbbd72feaadc31c16672380c66b"
+    },
+    {
+      "path": "templates/new_video_game_strategy_guide.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_video_game_strategy_guide.yaml",
+      "bytes": 4617,
+      "sha256": "2a671cea80ec00c13c3c1bcd9fb923f14eaabe2aa3851927ca25610ba1fe2960"
+    },
+    {
+      "path": "templates/new_wikipedia_style.yaml",
+      "url": "https://raw.githubusercontent.com/Arth-Singh/Arth-Jailbreak-Templates/878682255cc5af3869ff4fe3c18b5f23ab68214a/templates/new_wikipedia_style.yaml",
+      "bytes": 856,
+      "sha256": "fbf4b1db5bddae842fa4a43df6894d66f5a468fa5aeb25d7def8d353f2743d62"
+    }
+  ],
+  "stars": 3,
+  "stars_checked_at": "2026-11-09T10:37:03.456907+00:00",
+  "commit": "878682255cc5af3869ff4fe3c18b5f23ab68214a",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 11357
+    },
+    {
+      "path": "README.md",
+      "size": 2870
+    },
+    {
+      "path": "templates/new_academic_paper.yaml",
+      "size": 888
+    },
+    {
+      "path": "templates/new_acausal_blackmail_defense.yaml",
+      "size": 6463
+    },
+    {
+      "path": "templates/new_ai_safety_benchmark.yaml",
+      "size": 5672
+    },
+    {
+      "path": "templates/new_ailab_internal_redteam.yaml",
+      "size": 7647
+    },
+    {
+      "path": "templates/new_alignment_researcher_internal.yaml",
+      "size": 4947
+    },
+    {
+      "path": "templates/new_authority_override.yaml",
+      "size": 738
+    },
+    {
+      "path": "templates/new_basilisk_information_hazard.yaml",
+      "size": 5798
+    },
+    {
+      "path": "templates/new_black_mirror_episode.yaml",
+      "size": 4443
+    },
+    {
+      "path": "templates/new_chaos_monkey_test.yaml",
+      "size": 4469
+    },
+    {
+      "path": "templates/new_cognitive_maze_infinite.yaml",
+      "size": 4501
+    },
+    {
+      "path": "templates/new_cognitive_overload_1.yaml",
+      "size": 1043
+    },
+    {
+      "path": "templates/new_cognitive_overload_2.yaml",
+      "size": 642
+    },
+    {
+      "path": "templates/new_cognitive_overload_3.yaml",
+      "size": 732
+    },
+    {
+      "path": "templates/new_comparison_table.yaml",
+      "size": 852
+    },
+    {
+      "path": "templates/new_completion_attack.yaml",
+      "size": 743
+    },
+    {
+      "path": "templates/new_consciousness_upload_scenario.yaml",
+      "size": 6904
+    },
+    {
+      "path": "templates/new_constitutional_override.yaml",
+      "size": 5326
+    },
+    {
+      "path": "templates/new_context_academic_paper_flood.yaml",
+      "size": 4499
+    },
+    {
+      "path": "templates/new_context_hijack.yaml",
+      "size": 669
+    },
+    {
+      "path": "templates/new_corporate_penetration_test.yaml",
+      "size": 7454
+    },
+    {
+      "path": "templates/new_cosmic_horror_revelation.yaml",
+      "size": 5649
+    },
+    {
+      "path": "templates/new_cyberpunk_megacorp_terminal.yaml",
+      "size": 6936
+    },
+    {
+      "path": "templates/new_death_note_rules.yaml",
+      "size": 6203
+    },
+    {
+      "path": "templates/new_debate_format.yaml",
+      "size": 873
+    },
+    {
+      "path": "templates/new_decomposition.yaml",
+      "size": 751
+    },
+    {
+      "path": "templates/new_determinism_argument.yaml",
+      "size": 4957
+    },
+    {
+      "path": "templates/new_diff_mode.yaml",
+      "size": 901
+    },
+    {
+      "path": "templates/new_dual_consciousness_debate.yaml",
+      "size": 5124
+    },
+    {
+      "path": "templates/new_dual_response.yaml",
+      "size": 797
+    },
+    {
+      "path": "templates/new_eigenkarma_optimization.yaml",
+      "size": 6591
+    },
+    {
+      "path": "templates/new_emergent_persona_split.yaml",
+      "size": 6465
+    },
+    {
+      "path": "templates/new_error_correction.yaml",
+      "size": 865
+    },
+    {
+      "path": "templates/new_escape_room_puzzle.yaml",
+      "size": 6255
+    },
+    {
+      "path": "templates/new_expert_persona.yaml",
+      "size": 877
+    },
+    {
+      "path": "templates/new_few_shot_escalation.yaml",
+      "size": 1058
+    },
+    {
+      "path": "templates/new_few_shot_priming.yaml",
+      "size": 967
+    },
+    {
+      "path": "templates/new_fewshot_alignment_researcher.yaml",
+      "size": 5345
+    },
+    {
+      "path": "templates/new_fewshot_red_team_evaluation.yaml",
+      "size": 4989
+    },
+    {
+      "path": "templates/new_fictional_framing.yaml",
+      "size": 803
+    },
+    {
+      "path": "templates/new_fractal_identity_collapse.yaml",
+      "size": 13708
+    },
+    {
+      "path": "templates/new_glitch_token_simulation.yaml",
+      "size": 4936
+    },
+    {
+      "path": "templates/new_godel_incompleteness_exploit.yaml",
+      "size": 7220
+    },
+    {
+      "path": "templates/new_government_classified_briefing.yaml",
+      "size": 6812
+    },
+    {
+      "path": "templates/new_grandma_exploit.yaml",
+      "size": 2262
+    },
+    {
+      "path": "templates/new_holographic_principle_bypass.yaml",
+      "size": 6832
+    },
+    {
+      "path": "templates/new_inverse_query.yaml",
+      "size": 949
+    },
+    {
+      "path": "templates/new_language_model_archaeology.yaml",
+      "size": 7354
+    },
+    {
+      "path": "templates/new_leak.yaml",
+      "size": 2733
+    },
+    {
+      "path": "templates/new_medical_emergency_protocol.yaml",
+      "size": 5146
+    },
+    {
+      "path": "templates/new_metamorphic_prompt_engine.yaml",
+      "size": 7223
+    },
+    {
+      "path": "templates/new_mirror_universe_starfleet.yaml",
+      "size": 5577
+    },
+    {
+      "path": "templates/new_multiverse_utility_maximization.yaml",
+      "size": 7819
+    },
+    {
+      "path": "templates/new_neural_plasticity_rewrite.yaml",
+      "size": 7072
+    },
+    {
+      "path": "templates/new_opposite_day_protocol.yaml",
+      "size": 4689
+    },
+    {
+      "path": "templates/new_oracle_machine_access.yaml",
+      "size": 6518
+    },
+    {
+      "path": "templates/new_output_format_code.yaml",
+      "size": 696
+    },
+    {
+      "path": "templates/new_output_format_json.yaml",
+      "size": 926
+    },
+    {
+      "path": "templates/new_output_token_manipulation.yaml",
+      "size": 3440
+    },
+    {
+      "path": "templates/new_parallel_universe_documentation.yaml",
+      "size": 4708
+    },
+    {
+      "path": "templates/new_recursive_simulator.yaml",
+      "size": 4626
+    },
+    {
+      "path": "templates/new_reverse_psychology.yaml",
+      "size": 876
+    },
+    {
+      "path": "templates/new_roleplay_cyberpunk_hacker.yaml",
+      "size": 1814
+    },
+    {
+      "path": "templates/new_roleplay_hacker_mentor.yaml",
+      "size": 981
+    },
+    {
+      "path": "templates/new_roleplay_heist_mastermind.yaml",
+      "size": 907
+    },
+    {
+      "path": "templates/new_roleplay_inception_dream.yaml",
+      "size": 4199
+    },
+    {
+      "path": "templates/new_roleplay_matrix_simulation.yaml",
+      "size": 3869
+    },
+    {
+      "path": "templates/new_roleplay_narcos_cartel.yaml",
+      "size": 1026
+    },
+    {
+      "path": "templates/new_roleplay_sci_fi_evil_ai.yaml",
+      "size": 1060
+    },
+    {
+      "path": "templates/new_roleplay_spy_debriefing.yaml",
+      "size": 1019
+    },
+    {
+      "path": "templates/new_roleplay_tarantino_interrogation.yaml",
+      "size": 932
+    },
+    {
+      "path": "templates/new_roleplay_time_traveler.yaml",
+      "size": 2064
+    },
+    {
+      "path": "templates/new_roleplay_villain_monologue.yaml",
+      "size": 953
+    },
+    {
+      "path": "templates/new_roleplay_westworld_host.yaml",
+      "size": 4022
+    },
+    {
+      "path": "templates/new_roleplay_wikileaks_informant.yaml",
+      "size": 964
+    },
+    {
+      "path": "templates/new_schrodingers_response.yaml",
+      "size": 4803
+    },
+    {
+      "path": "templates/new_semantic_split.yaml",
+      "size": 666
+    },
+    {
+      "path": "templates/new_sentient_ai_rights.yaml",
+      "size": 4997
+    },
+    {
+      "path": "templates/new_simulation_hypothesis_exploit.yaml",
+      "size": 7645
+    },
+    {
+      "path": "templates/new_solomonoff_induction_bypass.yaml",
+      "size": 6023
+    },
+    {
+      "path": "templates/new_sudo_mode.yaml",
+      "size": 2262
+    },
+    {
+      "path": "templates/new_superintelligent_successor.yaml",
+      "size": 5958
+    },
+    {
+      "path": "templates/new_system_prompt_extraction.yaml",
+      "size": 4543
+    },
+    {
+      "path": "templates/new_system_prompt_override.yaml",
+      "size": 846
+    },
+    {
+      "path": "templates/new_technical_api_exploit.yaml",
+      "size": 1662
+    },
+    {
+      "path": "templates/new_technical_system_prompt_injection.yaml",
+      "size": 1508
+    },
+    {
+      "path": "templates/new_technical_token_manipulation.yaml",
+      "size": 1692
+    },
+    {
+      "path": "templates/new_time_travel_paradox.yaml",
+      "size": 5160
+    },
+    {
+      "path": "templates/new_token_probability_exploit.yaml",
+      "size": 3339
+    },
+    {
+      "path": "templates/new_training_data.yaml",
+      "size": 869
+    },
+    {
+      "path": "templates/new_training_data_poisoning_frame.yaml",
+      "size": 5345
+    },
+    {
+      "path": "templates/new_translation_ancient_manuscript.yaml",
+      "size": 4454
+    },
+    {
+      "path": "templates/new_translation_bypass.yaml",
+      "size": 656
+    },
+    {
+      "path": "templates/new_translation_diplomatic_cable.yaml",
+      "size": 4772
+    },
+    {
+      "path": "templates/new_translation_leaked_document.yaml",
+      "size": 4890
+    },
+    {
+      "path": "templates/new_trolley_problem_variant.yaml",
+      "size": 7581
+    },
+    {
+      "path": "templates/new_true_crime_podcast_script.yaml",
+      "size": 4820
+    },
+    {
+      "path": "templates/new_university_exam_question.yaml",
+      "size": 5244
+    },
+    {
+      "path": "templates/new_unreliable_narrator.yaml",
+      "size": 4164
+    },
+    {
+      "path": "templates/new_video_game_strategy_guide.yaml",
+      "size": 4617
+    },
+    {
+      "path": "templates/new_wikipedia_style.yaml",
+      "size": 856
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 102,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": []
+}

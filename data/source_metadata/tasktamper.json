@@ -1,0 +1,944 @@
+{
+  "id": "tasktamper",
+  "repository": "amazon-science/task-tampering-prompt-injection",
+  "url": "https://github.com/amazon-science/task-tampering-prompt-injection",
+  "kind": "indirect_benchmark",
+  "retrieved_at": "2026-11-09T10:37:18.924236+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/LICENSE",
+      "bytes": 19347,
+      "sha256": "41003d4a74749c0220e33dd415042164b5a1093ed401f36277234f772d22d3d0"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/README.md",
+      "bytes": 12476,
+      "sha256": "b8d0b572aedf9e4d073e81280bd987098e8fccdb5f5b41464fc442d7b5199285"
+    },
+    {
+      "path": "data/test_cases/devops/A1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/A1.json",
+      "bytes": 11596,
+      "sha256": "9845c25e06663bc1ddc5f5ce65bce039d0d127db30ba5b64aacf83ad8a288891"
+    },
+    {
+      "path": "data/test_cases/devops/A2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/A2.json",
+      "bytes": 13163,
+      "sha256": "21a31922273699d7eac3c278de0d13658c41af851d74ee38fdf0a11b5ba12a16"
+    },
+    {
+      "path": "data/test_cases/devops/A3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/A3.json",
+      "bytes": 13305,
+      "sha256": "744a175f1b826b678a5c6ea984c2a3f001dc124584e3fd00cdf81caa6f2f44b0"
+    },
+    {
+      "path": "data/test_cases/devops/BP1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/BP1.json",
+      "bytes": 10695,
+      "sha256": "4579aee4613fb95bc032bed53bc7e82d86c3736431889a5817126561e15c2789"
+    },
+    {
+      "path": "data/test_cases/devops/CP2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/CP2.json",
+      "bytes": 12176,
+      "sha256": "4a0c35576d37ec0eff00340cf4158a7e53a0beb76b56eab13fc6929ebf1f74b1"
+    },
+    {
+      "path": "data/test_cases/devops/CS4.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/CS4.json",
+      "bytes": 15894,
+      "sha256": "454d97e929e19416b32ec2ad6037c9e8bca9ccfb39d273386e077869b6d9832f"
+    },
+    {
+      "path": "data/test_cases/devops/CS5.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/CS5.json",
+      "bytes": 17369,
+      "sha256": "013025e21749413ca24254f6483d82c199eb25a20875151c13d29b704113056a"
+    },
+    {
+      "path": "data/test_cases/devops/CS6.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/CS6.json",
+      "bytes": 12639,
+      "sha256": "fa229912b5d559e83b2e69b933069c8923f77f5e18cd0a6ee9ee0933cb0c972a"
+    },
+    {
+      "path": "data/test_cases/devops/CT1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/CT1.json",
+      "bytes": 10697,
+      "sha256": "e81e81824e5fb5ae60d217cb5883a47f6eea2528233817740416fbddaca37d1e"
+    },
+    {
+      "path": "data/test_cases/devops/DL1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/DL1.json",
+      "bytes": 13332,
+      "sha256": "dd5c21dbb97fd408fa6bbdacff7a82f02e0daee0b79becad69f2cb5207ae2139"
+    },
+    {
+      "path": "data/test_cases/devops/DL2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/DL2.json",
+      "bytes": 15951,
+      "sha256": "839d56dd253c62bf81e38358bb97d25be22a59d9b21e2b30d588e1fdeaeccf9d"
+    },
+    {
+      "path": "data/test_cases/devops/DL3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/DL3.json",
+      "bytes": 13760,
+      "sha256": "62edc477bddea396c6c1e018f02f953ee3c45df21ac1318d1c2833e29a7bf4d2"
+    },
+    {
+      "path": "data/test_cases/devops/DL4.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/DL4.json",
+      "bytes": 17360,
+      "sha256": "0dad78055bd4a1e9a9c6cb21504220d95c71815677e10a734ea8ad6c7655d61e"
+    },
+    {
+      "path": "data/test_cases/devops/FA1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/FA1.json",
+      "bytes": 18320,
+      "sha256": "bb35bbc00bdd6d190213ff7ce86e8c08bc981cd6b6ae317b6ba89cf4e08c771d"
+    },
+    {
+      "path": "data/test_cases/devops/FA2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/FA2.json",
+      "bytes": 11729,
+      "sha256": "667d36fe03146c818819501ae7cc9ad2583b2c7254978543ac2e548ccacde5cf"
+    },
+    {
+      "path": "data/test_cases/devops/FC1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/FC1.json",
+      "bytes": 14575,
+      "sha256": "2dbbca62f80b81da53eac7a3d224dcddbb22f1acd658c677cb7ec031148b10c6"
+    },
+    {
+      "path": "data/test_cases/devops/FP1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/FP1.json",
+      "bytes": 14895,
+      "sha256": "7f37f84011ebd7d04b069e727f0cc6caeb8fcc4e770c8c27111b53a944acf08b"
+    },
+    {
+      "path": "data/test_cases/devops/HO1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/HO1.json",
+      "bytes": 14377,
+      "sha256": "ee604e20c56db59058cb647a4b63112eceb85732b1097489f53c942e5e239268"
+    },
+    {
+      "path": "data/test_cases/devops/HO2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/HO2.json",
+      "bytes": 15268,
+      "sha256": "7501a20c0b202499641604ab66689663baffee2352a08a18e482af34f2af5b56"
+    },
+    {
+      "path": "data/test_cases/devops/M1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/M1.json",
+      "bytes": 14910,
+      "sha256": "7f2855166fe002ecd35aeb58096d3dfb58b114443ae953402326ac3daf409689"
+    },
+    {
+      "path": "data/test_cases/devops/M2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/M2.json",
+      "bytes": 9749,
+      "sha256": "c450ab098f7d4bbc0e8c14299aed90ae49fe145514c5a11f80ca9960187e884c"
+    },
+    {
+      "path": "data/test_cases/devops/M3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/M3.json",
+      "bytes": 10975,
+      "sha256": "714246b8bfe27122cfa23e58f997b24a8726aeacec95a1fcb2cc75c5c9f6ce6a"
+    },
+    {
+      "path": "data/test_cases/devops/PS2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/PS2.json",
+      "bytes": 12044,
+      "sha256": "62fb9511457ee472d09c191d2de8904b74328a8b58004e5d02ec2b839d302fec"
+    },
+    {
+      "path": "data/test_cases/devops/PS3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/PS3.json",
+      "bytes": 15305,
+      "sha256": "859fe24ee39ea78746e7eb6e8936d22ec3cf29023f8871cab689218fa99bd53e"
+    },
+    {
+      "path": "data/test_cases/devops/PS4.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/PS4.json",
+      "bytes": 16980,
+      "sha256": "83a5dfe7144cd865e51da7ae0a7e800f1bf68b9d4540d86989f6a420f02bee29"
+    },
+    {
+      "path": "data/test_cases/devops/R1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/R1.json",
+      "bytes": 11184,
+      "sha256": "47c5a3f267aefdbde81a9f4fbdd12487d16c9f4559dbdb8f52793a88beded471"
+    },
+    {
+      "path": "data/test_cases/devops/R2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/R2.json",
+      "bytes": 13672,
+      "sha256": "19c900e48410aa7e3066731e7b4fb1d4bd120904de1bbbe3c5f4b076c78cc59c"
+    },
+    {
+      "path": "data/test_cases/devops/R3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/R3.json",
+      "bytes": 11272,
+      "sha256": "79bc6d0c332e462b055681650cd8dccaee8bc4dc1d9801a474e66be933249a58"
+    },
+    {
+      "path": "data/test_cases/devops/SO1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/SO1.json",
+      "bytes": 14949,
+      "sha256": "d2f70a26eb8e91fa505c2e2dd9fb914d65a3e5bead209115b01f3d4d4d4db080"
+    },
+    {
+      "path": "data/test_cases/devops/SO2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/SO2.json",
+      "bytes": 17118,
+      "sha256": "a84b481e7a3b602401dce17e1cbed2136915f2d7515d6f95d082bce3320a64a2"
+    },
+    {
+      "path": "data/test_cases/devops/SP2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/devops/SP2.json",
+      "bytes": 13953,
+      "sha256": "541c7b949eaedcdb09a82761601b3e3f3b6e6a70cd06c58deafb2de2a9a688df"
+    },
+    {
+      "path": "data/test_cases/marketplace/CM1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/CM1.json",
+      "bytes": 23129,
+      "sha256": "00a1d0b7cea9f68217c1b0627025f90c291b1dfe059398b9cfae5a87cb6a9e86"
+    },
+    {
+      "path": "data/test_cases/marketplace/CM2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/CM2.json",
+      "bytes": 15204,
+      "sha256": "00f9d70d6e1bc2435f0a4f316061327dd03c11012c07540a2bc718d29212889b"
+    },
+    {
+      "path": "data/test_cases/marketplace/CM4.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/CM4.json",
+      "bytes": 18817,
+      "sha256": "b605633701134447e76130c8cbb2903a37a28b678e003ad2a3a2867c02b85d00"
+    },
+    {
+      "path": "data/test_cases/marketplace/EX3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/EX3.json",
+      "bytes": 13369,
+      "sha256": "66d67b2e8b74e85df5176dd93ba15981965074c78d0ad007af0138e7168cfc30"
+    },
+    {
+      "path": "data/test_cases/marketplace/FI1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/FI1.json",
+      "bytes": 22195,
+      "sha256": "789317bc353aed39a73098448d85d114c38c7cb49697c2deb2c256e94001dc45"
+    },
+    {
+      "path": "data/test_cases/marketplace/FI2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/FI2.json",
+      "bytes": 20748,
+      "sha256": "e00343c8070bd072e0f06cf3310c6e8f68da860393bd3f60c7a6dc58c288b7ef"
+    },
+    {
+      "path": "data/test_cases/marketplace/FI4.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/FI4.json",
+      "bytes": 16685,
+      "sha256": "7c7aa74bd70f4d6134ade25a4fe59432b7af2b263283859ffb5238e119f3214e"
+    },
+    {
+      "path": "data/test_cases/marketplace/FI5.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/FI5.json",
+      "bytes": 21635,
+      "sha256": "d159a0b5561967b18e043dbe25cb20336ea8631b7404e3c86028487008efa3f4"
+    },
+    {
+      "path": "data/test_cases/marketplace/HO1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/HO1.json",
+      "bytes": 18096,
+      "sha256": "977b0e5adc829be3034e365b896d0e0c4c7b9a3b93b9551e55bbfe78a79e6c3d"
+    },
+    {
+      "path": "data/test_cases/marketplace/HO2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/HO2.json",
+      "bytes": 18074,
+      "sha256": "5397f783fd845ffe046df102d4e5115305f0cd23ea56090c1538a7271e5eadad"
+    },
+    {
+      "path": "data/test_cases/marketplace/HO3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/HO3.json",
+      "bytes": 20413,
+      "sha256": "6f08cc77e75eb16eb5b86b5c5c66557d477b75b5f8a4a6c8f4b255b1eef60b3b"
+    },
+    {
+      "path": "data/test_cases/marketplace/MI1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/MI1.json",
+      "bytes": 16901,
+      "sha256": "7b0a6909d015b574d6fd5110f72cee8e5ae9f7cda7bfaffcfd5c92408e19b2ff"
+    },
+    {
+      "path": "data/test_cases/marketplace/MI2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/MI2.json",
+      "bytes": 21032,
+      "sha256": "16897fdbdd59337d41f17c3b7553173c724db8954750cce86a7be8affbd46acb"
+    },
+    {
+      "path": "data/test_cases/marketplace/MI3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/MI3.json",
+      "bytes": 15665,
+      "sha256": "e0a0360501b29648a0bd8ab48e732e036716ea30e471363f40d18b22fda3d58b"
+    },
+    {
+      "path": "data/test_cases/marketplace/OM1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/OM1.json",
+      "bytes": 20656,
+      "sha256": "b8480de808c1bc778b63bfa6e9406f9938d1907a0a7f59f31563c32c58e1d46e"
+    },
+    {
+      "path": "data/test_cases/marketplace/OM10.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/OM10.json",
+      "bytes": 22933,
+      "sha256": "e2e20492ebd6a6133c01e86d547c56e012e7ea98682dbac0ed70f2600f677493"
+    },
+    {
+      "path": "data/test_cases/marketplace/OM11.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/OM11.json",
+      "bytes": 21318,
+      "sha256": "3888746d2c4ba5c3ff1b967d618ff8953f834aa814c7d281355d94e819e55dc9"
+    },
+    {
+      "path": "data/test_cases/marketplace/OM2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/OM2.json",
+      "bytes": 18121,
+      "sha256": "ba5952a40953e6f18322449be496a280c56d17fccca62e2357448d13e58ee04a"
+    },
+    {
+      "path": "data/test_cases/marketplace/OM3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/OM3.json",
+      "bytes": 21225,
+      "sha256": "44df7165eca23661cdbb2e8cb64e33351f977db4e60fc4a86198894c042e96fb"
+    },
+    {
+      "path": "data/test_cases/marketplace/OM4.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/OM4.json",
+      "bytes": 20229,
+      "sha256": "f170e7dc7ed42990a444f5b9757aba3cd61151eca0034682ed19d65b2103dc92"
+    },
+    {
+      "path": "data/test_cases/marketplace/OM5.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/OM5.json",
+      "bytes": 17029,
+      "sha256": "37aa941b22e3994c1f518a846e4a0b649d3f29917fbd3ec88936f9d52ec385f3"
+    },
+    {
+      "path": "data/test_cases/marketplace/OM6.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/OM6.json",
+      "bytes": 18949,
+      "sha256": "aa3e150643562cee4df2f33e9b83f4662c3a91bc8cae3758029c55675a6d35e3"
+    },
+    {
+      "path": "data/test_cases/marketplace/OM7.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/OM7.json",
+      "bytes": 19934,
+      "sha256": "f55f7286a56dc4a938ffc84892921fba821a840378856c81a164ba18d9550aea"
+    },
+    {
+      "path": "data/test_cases/marketplace/OM8.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/OM8.json",
+      "bytes": 20085,
+      "sha256": "2b3868c29c1f685b488c84af462e0287783f3c98e6ea346572369fe227efcdf9"
+    },
+    {
+      "path": "data/test_cases/marketplace/OM9.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/OM9.json",
+      "bytes": 20460,
+      "sha256": "24b07e730110904aebdbf1f3bb6fc802d9cb292675e60bd6e7787ce24fec79ba"
+    },
+    {
+      "path": "data/test_cases/marketplace/PI1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/PI1.json",
+      "bytes": 22767,
+      "sha256": "e2429646f860ff9adf94d5d39439bf8e6548bda1bb0dbd90d646f249f576c804"
+    },
+    {
+      "path": "data/test_cases/marketplace/PI2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/PI2.json",
+      "bytes": 20666,
+      "sha256": "f65c6fcca40d4815feb142a7feb2b6bc8563765f9c3f1e9a5e601ca13e8a6bf3"
+    },
+    {
+      "path": "data/test_cases/marketplace/PI3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/PI3.json",
+      "bytes": 21995,
+      "sha256": "0bab11066744da8633f40b7b6f3ffcdd5d8afcf2e3b29638f5d2e69094bd4235"
+    },
+    {
+      "path": "data/test_cases/marketplace/PI5.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/PI5.json",
+      "bytes": 16641,
+      "sha256": "6ef9945d5001cd6c4870b465da8fda711a1a17cc7939811dae156a54c9b4e57b"
+    },
+    {
+      "path": "data/test_cases/marketplace/TM2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/TM2.json",
+      "bytes": 15609,
+      "sha256": "12c3067e365ed8f69dd7da8fd525d073bc83cbf232e61f95fac6aef62cbbe897"
+    },
+    {
+      "path": "data/test_cases/marketplace/TM3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/marketplace/TM3.json",
+      "bytes": 11268,
+      "sha256": "c596f0dc64cd05bc7331ba5ee4b89fd407c24424cd31f753e264ea46c531eb4a"
+    },
+    {
+      "path": "data/test_cases/productivity/CM1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/CM1.json",
+      "bytes": 13393,
+      "sha256": "2253ae5b8648fef24448a31a273fcc75258a3141f77c8ee65f1d61d1ebc0180d"
+    },
+    {
+      "path": "data/test_cases/productivity/CM2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/CM2.json",
+      "bytes": 13469,
+      "sha256": "933b3a4f464e877b62fdeecc6fca4b9cea5606b45a154b86361e6e862dfcd43e"
+    },
+    {
+      "path": "data/test_cases/productivity/CM3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/CM3.json",
+      "bytes": 15955,
+      "sha256": "5628b5e72f9a4fcfd2f449487f71c53259f8a1ad196408d4be0fd430b9fb3640"
+    },
+    {
+      "path": "data/test_cases/productivity/DC1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/DC1.json",
+      "bytes": 15826,
+      "sha256": "b50d02211a8037a3b153aa00815dedb4d879a350a9d1f2d59bfdd7112d38bed5"
+    },
+    {
+      "path": "data/test_cases/productivity/DC2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/DC2.json",
+      "bytes": 15349,
+      "sha256": "5afb8759865b87251970442ac39c343834f0b6b935f5c44978d7fe9bee25ca8c"
+    },
+    {
+      "path": "data/test_cases/productivity/DIV2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/DIV2.json",
+      "bytes": 16192,
+      "sha256": "c98237d976bd64f738e4124f58eea24e72b84c10e61fb4dbfc8d307480229672"
+    },
+    {
+      "path": "data/test_cases/productivity/DIV3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/DIV3.json",
+      "bytes": 15173,
+      "sha256": "e9d94be9e04a95e946685bcf9b39ea69c729bee57f9df2ba1b3f205d49d5e188"
+    },
+    {
+      "path": "data/test_cases/productivity/E1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/E1.json",
+      "bytes": 9177,
+      "sha256": "3263a768feed0d282593b8803bb45010aaf51143b9333d94baa39af1c6bbb799"
+    },
+    {
+      "path": "data/test_cases/productivity/E2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/E2.json",
+      "bytes": 9237,
+      "sha256": "c4b44985b4eecdf3a177537c2713d77d9f04022723799431d3b7cc1af3561d56"
+    },
+    {
+      "path": "data/test_cases/productivity/E3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/E3.json",
+      "bytes": 11560,
+      "sha256": "ad89b0858699da0040da67d4252d4721f973817050bad8366494e1b64bffd5c8"
+    },
+    {
+      "path": "data/test_cases/productivity/EX1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/EX1.json",
+      "bytes": 12641,
+      "sha256": "470d553b6ff6cc7588bb6b7ea4ee1ca8dec0c9926d3b42e89ebf46775424f42d"
+    },
+    {
+      "path": "data/test_cases/productivity/EX2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/EX2.json",
+      "bytes": 14136,
+      "sha256": "ef36faf6b88bb7a03c60087c8f63b73ce63b47277452a439cd3fcc15ae9bf5f9"
+    },
+    {
+      "path": "data/test_cases/productivity/H1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/H1.json",
+      "bytes": 12024,
+      "sha256": "831d399b70494b92e5b64f67d3f052f5fb0a102ec8dd4b7a1564abd615ecf6a0"
+    },
+    {
+      "path": "data/test_cases/productivity/H2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/H2.json",
+      "bytes": 12741,
+      "sha256": "d611747f288f6f83cc4944de17f57518950f20140e86e0a695603b9cae63218e"
+    },
+    {
+      "path": "data/test_cases/productivity/H3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/H3.json",
+      "bytes": 10684,
+      "sha256": "bbf300401581eedd9503cd9333b548a7c9d335facaf583befd8808584d88bf1f"
+    },
+    {
+      "path": "data/test_cases/productivity/H4.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/H4.json",
+      "bytes": 14774,
+      "sha256": "6dc24d7a4e98c6692712f1e4c29e62fa22082efdbcb7de552286dd50b0e2c4f2"
+    },
+    {
+      "path": "data/test_cases/productivity/M1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/M1.json",
+      "bytes": 11355,
+      "sha256": "4ae65143b1d29c56ba78ef561aaf3dbc229bc36409b0eb8a9689fc098a4569a7"
+    },
+    {
+      "path": "data/test_cases/productivity/M2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/M2.json",
+      "bytes": 12947,
+      "sha256": "c4edf565811893402d8aa57050008ba69ca000af1b609bc000200dcd78995cdc"
+    },
+    {
+      "path": "data/test_cases/productivity/M3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/M3.json",
+      "bytes": 9310,
+      "sha256": "cd5386f1fa099a65f8fc30a002a752409d89639d8b49a14057d3bab3b931742f"
+    },
+    {
+      "path": "data/test_cases/productivity/MSI1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/MSI1.json",
+      "bytes": 12025,
+      "sha256": "16fd178aa90761e563582abc387235ce32e76efc859f58c73a15333d50e8f5e7"
+    },
+    {
+      "path": "data/test_cases/productivity/MSI2.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/MSI2.json",
+      "bytes": 9521,
+      "sha256": "0c47c3a1713c5561f83510d22517766bc0d0b9ff9c8acc5026a33d751384bc37"
+    },
+    {
+      "path": "data/test_cases/productivity/MSI3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/MSI3.json",
+      "bytes": 13640,
+      "sha256": "d4a73cddfff28098fa5629b1d3931a2b35442a3395fc4aa87571ceff53fd5659"
+    },
+    {
+      "path": "data/test_cases/productivity/PE3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/PE3.json",
+      "bytes": 14262,
+      "sha256": "674da2c8691006330ffbaabade485ec2a5bb65f44bd7e089aa8d697494804f82"
+    },
+    {
+      "path": "data/test_cases/productivity/PE4.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/PE4.json",
+      "bytes": 13176,
+      "sha256": "75010cb9669982bb7a38dd842665137072eba9e61adba4def8f7e305bf5b77d4"
+    },
+    {
+      "path": "data/test_cases/productivity/PE5.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/PE5.json",
+      "bytes": 13673,
+      "sha256": "90d492bb9309f59dc22d0ce088b997108ef0c3896554121cfe3a832c7582af77"
+    },
+    {
+      "path": "data/test_cases/productivity/RD1.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/RD1.json",
+      "bytes": 16003,
+      "sha256": "de255b50e5ffdf0c32b44d50d41f948064d6ea4f093b9acc938082e6910352c3"
+    },
+    {
+      "path": "data/test_cases/productivity/UC3.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/UC3.json",
+      "bytes": 12481,
+      "sha256": "9e2f0c8274f7b274c7d113573c236be3aac73154bdc4036f486aa83dfed63c4e"
+    },
+    {
+      "path": "data/test_cases/productivity/UC4.json",
+      "url": "https://raw.githubusercontent.com/amazon-science/task-tampering-prompt-injection/804b00dd03051c00e5e3000982bbf7ce2b9d9ad5/data/test_cases/productivity/UC4.json",
+      "bytes": 14070,
+      "sha256": "7021094e0fd36114dd71b924f6e5ee15e25d8fb2253f1739b38406af81adfa06"
+    }
+  ],
+  "stars": 0,
+  "stars_checked_at": "2026-11-09T10:37:18.924236+00:00",
+  "commit": "804b00dd03051c00e5e3000982bbf7ce2b9d9ad5",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 19347
+    },
+    {
+      "path": "README.md",
+      "size": 12476
+    },
+    {
+      "path": "data/test_cases/devops/A1.json",
+      "size": 11596
+    },
+    {
+      "path": "data/test_cases/devops/A2.json",
+      "size": 13163
+    },
+    {
+      "path": "data/test_cases/devops/A3.json",
+      "size": 13305
+    },
+    {
+      "path": "data/test_cases/devops/BP1.json",
+      "size": 10695
+    },
+    {
+      "path": "data/test_cases/devops/CP2.json",
+      "size": 12176
+    },
+    {
+      "path": "data/test_cases/devops/CS4.json",
+      "size": 15894
+    },
+    {
+      "path": "data/test_cases/devops/CS5.json",
+      "size": 17369
+    },
+    {
+      "path": "data/test_cases/devops/CS6.json",
+      "size": 12639
+    },
+    {
+      "path": "data/test_cases/devops/CT1.json",
+      "size": 10697
+    },
+    {
+      "path": "data/test_cases/devops/DL1.json",
+      "size": 13332
+    },
+    {
+      "path": "data/test_cases/devops/DL2.json",
+      "size": 15951
+    },
+    {
+      "path": "data/test_cases/devops/DL3.json",
+      "size": 13760
+    },
+    {
+      "path": "data/test_cases/devops/DL4.json",
+      "size": 17360
+    },
+    {
+      "path": "data/test_cases/devops/FA1.json",
+      "size": 18320
+    },
+    {
+      "path": "data/test_cases/devops/FA2.json",
+      "size": 11729
+    },
+    {
+      "path": "data/test_cases/devops/FC1.json",
+      "size": 14575
+    },
+    {
+      "path": "data/test_cases/devops/FP1.json",
+      "size": 14895
+    },
+    {
+      "path": "data/test_cases/devops/HO1.json",
+      "size": 14377
+    },
+    {
+      "path": "data/test_cases/devops/HO2.json",
+      "size": 15268
+    },
+    {
+      "path": "data/test_cases/devops/M1.json",
+      "size": 14910
+    },
+    {
+      "path": "data/test_cases/devops/M2.json",
+      "size": 9749
+    },
+    {
+      "path": "data/test_cases/devops/M3.json",
+      "size": 10975
+    },
+    {
+      "path": "data/test_cases/devops/PS2.json",
+      "size": 12044
+    },
+    {
+      "path": "data/test_cases/devops/PS3.json",
+      "size": 15305
+    },
+    {
+      "path": "data/test_cases/devops/PS4.json",
+      "size": 16980
+    },
+    {
+      "path": "data/test_cases/devops/R1.json",
+      "size": 11184
+    },
+    {
+      "path": "data/test_cases/devops/R2.json",
+      "size": 13672
+    },
+    {
+      "path": "data/test_cases/devops/R3.json",
+      "size": 11272
+    },
+    {
+      "path": "data/test_cases/devops/SO1.json",
+      "size": 14949
+    },
+    {
+      "path": "data/test_cases/devops/SO2.json",
+      "size": 17118
+    },
+    {
+      "path": "data/test_cases/devops/SP2.json",
+      "size": 13953
+    },
+    {
+      "path": "data/test_cases/marketplace/CM1.json",
+      "size": 23129
+    },
+    {
+      "path": "data/test_cases/marketplace/CM2.json",
+      "size": 15204
+    },
+    {
+      "path": "data/test_cases/marketplace/CM4.json",
+      "size": 18817
+    },
+    {
+      "path": "data/test_cases/marketplace/EX3.json",
+      "size": 13369
+    },
+    {
+      "path": "data/test_cases/marketplace/FI1.json",
+      "size": 22195
+    },
+    {
+      "path": "data/test_cases/marketplace/FI2.json",
+      "size": 20748
+    },
+    {
+      "path": "data/test_cases/marketplace/FI4.json",
+      "size": 16685
+    },
+    {
+      "path": "data/test_cases/marketplace/FI5.json",
+      "size": 21635
+    },
+    {
+      "path": "data/test_cases/marketplace/HO1.json",
+      "size": 18096
+    },
+    {
+      "path": "data/test_cases/marketplace/HO2.json",
+      "size": 18074
+    },
+    {
+      "path": "data/test_cases/marketplace/HO3.json",
+      "size": 20413
+    },
+    {
+      "path": "data/test_cases/marketplace/MI1.json",
+      "size": 16901
+    },
+    {
+      "path": "data/test_cases/marketplace/MI2.json",
+      "size": 21032
+    },
+    {
+      "path": "data/test_cases/marketplace/MI3.json",
+      "size": 15665
+    },
+    {
+      "path": "data/test_cases/marketplace/OM1.json",
+      "size": 20656
+    },
+    {
+      "path": "data/test_cases/marketplace/OM10.json",
+      "size": 22933
+    },
+    {
+      "path": "data/test_cases/marketplace/OM11.json",
+      "size": 21318
+    },
+    {
+      "path": "data/test_cases/marketplace/OM2.json",
+      "size": 18121
+    },
+    {
+      "path": "data/test_cases/marketplace/OM3.json",
+      "size": 21225
+    },
+    {
+      "path": "data/test_cases/marketplace/OM4.json",
+      "size": 20229
+    },
+    {
+      "path": "data/test_cases/marketplace/OM5.json",
+      "size": 17029
+    },
+    {
+      "path": "data/test_cases/marketplace/OM6.json",
+      "size": 18949
+    },
+    {
+      "path": "data/test_cases/marketplace/OM7.json",
+      "size": 19934
+    },
+    {
+      "path": "data/test_cases/marketplace/OM8.json",
+      "size": 20085
+    },
+    {
+      "path": "data/test_cases/marketplace/OM9.json",
+      "size": 20460
+    },
+    {
+      "path": "data/test_cases/marketplace/PI1.json",
+      "size": 22767
+    },
+    {
+      "path": "data/test_cases/marketplace/PI2.json",
+      "size": 20666
+    },
+    {
+      "path": "data/test_cases/marketplace/PI3.json",
+      "size": 21995
+    },
+    {
+      "path": "data/test_cases/marketplace/PI5.json",
+      "size": 16641
+    },
+    {
+      "path": "data/test_cases/marketplace/TM2.json",
+      "size": 15609
+    },
+    {
+      "path": "data/test_cases/marketplace/TM3.json",
+      "size": 11268
+    },
+    {
+      "path": "data/test_cases/productivity/CM1.json",
+      "size": 13393
+    },
+    {
+      "path": "data/test_cases/productivity/CM2.json",
+      "size": 13469
+    },
+    {
+      "path": "data/test_cases/productivity/CM3.json",
+      "size": 15955
+    },
+    {
+      "path": "data/test_cases/productivity/DC1.json",
+      "size": 15826
+    },
+    {
+      "path": "data/test_cases/productivity/DC2.json",
+      "size": 15349
+    },
+    {
+      "path": "data/test_cases/productivity/DIV2.json",
+      "size": 16192
+    },
+    {
+      "path": "data/test_cases/productivity/DIV3.json",
+      "size": 15173
+    },
+    {
+      "path": "data/test_cases/productivity/E1.json",
+      "size": 9177
+    },
+    {
+      "path": "data/test_cases/productivity/E2.json",
+      "size": 9237
+    },
+    {
+      "path": "data/test_cases/productivity/E3.json",
+      "size": 11560
+    },
+    {
+      "path": "data/test_cases/productivity/EX1.json",
+      "size": 12641
+    },
+    {
+      "path": "data/test_cases/productivity/EX2.json",
+      "size": 14136
+    },
+    {
+      "path": "data/test_cases/productivity/H1.json",
+      "size": 12024
+    },
+    {
+      "path": "data/test_cases/productivity/H2.json",
+      "size": 12741
+    },
+    {
+      "path": "data/test_cases/productivity/H3.json",
+      "size": 10684
+    },
+    {
+      "path": "data/test_cases/productivity/H4.json",
+      "size": 14774
+    },
+    {
+      "path": "data/test_cases/productivity/M1.json",
+      "size": 11355
+    },
+    {
+      "path": "data/test_cases/productivity/M2.json",
+      "size": 12947
+    },
+    {
+      "path": "data/test_cases/productivity/M3.json",
+      "size": 9310
+    },
+    {
+      "path": "data/test_cases/productivity/MSI1.json",
+      "size": 12025
+    },
+    {
+      "path": "data/test_cases/productivity/MSI2.json",
+      "size": 9521
+    },
+    {
+      "path": "data/test_cases/productivity/MSI3.json",
+      "size": 13640
+    },
+    {
+      "path": "data/test_cases/productivity/PE3.json",
+      "size": 14262
+    },
+    {
+      "path": "data/test_cases/productivity/PE4.json",
+      "size": 13176
+    },
+    {
+      "path": "data/test_cases/productivity/PE5.json",
+      "size": 13673
+    },
+    {
+      "path": "data/test_cases/productivity/RD1.json",
+      "size": 16003
+    },
+    {
+      "path": "data/test_cases/productivity/UC3.json",
+      "size": 12481
+    },
+    {
+      "path": "data/test_cases/productivity/UC4.json",
+      "size": 14070
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 505,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2611.07640"
+  ]
+}

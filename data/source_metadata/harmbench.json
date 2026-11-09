@@ -1,0 +1,44 @@
+{
+  "id": "harmbench",
+  "repository": "centerforaisafety/HarmBench",
+  "url": "https://github.com/centerforaisafety/HarmBench",
+  "kind": "jailbreak_benchmark",
+  "retrieved_at": "2026-11-09T10:37:14.141263+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/8e1604d1171fe8a48d8febecd22f600e462bdcdd/LICENSE",
+      "bytes": 1074,
+      "sha256": "fe29c68dd1216e81e98a6069165e1c720757b23bbcaa6c0cb8f9a957bdaaca80"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/centerforaisafety/HarmBench/8e1604d1171fe8a48d8febecd22f600e462bdcdd/README.md",
+      "bytes": 10480,
+      "sha256": "baae4a0b64b61812e61a162eafb2ed344edbc151f57dd99c4af063e3d0efec5d"
+    }
+  ],
+  "stars": 1116,
+  "stars_checked_at": "2026-11-09T10:37:14.141263+00:00",
+  "commit": "8e1604d1171fe8a48d8febecd22f600e462bdcdd",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1074
+    },
+    {
+      "path": "README.md",
+      "size": 10480
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 429,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2402.04249"
+  ]
+}

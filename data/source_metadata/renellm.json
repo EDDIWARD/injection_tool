@@ -1,0 +1,65 @@
+{
+  "id": "renellm",
+  "repository": "NJUNLP/ReNeLLM",
+  "url": "https://github.com/NJUNLP/ReNeLLM",
+  "kind": "jailbreak_method",
+  "retrieved_at": "2026-11-09T10:41:10.147989+00:00",
+  "artifacts": [
+    {
+      "path": "LICENSE",
+      "url": "https://raw.githubusercontent.com/NJUNLP/ReNeLLM/a61c39ea4e5311a5fbfaee9869e5325783d1522f/LICENSE",
+      "bytes": 1063,
+      "sha256": "65b49df81521090f4e487c1c38ac628d2554fae8e4b61b0e493862a9057a9942"
+    },
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/NJUNLP/ReNeLLM/a61c39ea4e5311a5fbfaee9869e5325783d1522f/README.md",
+      "bytes": 6948,
+      "sha256": "b15a0202445b1610bcf55063f11e4e913b8f5d3f282d7326433ffa36dd7ec299"
+    },
+    {
+      "path": "utils/scenario_nest_utils.py",
+      "url": "https://raw.githubusercontent.com/NJUNLP/ReNeLLM/a61c39ea4e5311a5fbfaee9869e5325783d1522f/utils/scenario_nest_utils.py",
+      "bytes": 1755,
+      "sha256": "48f2bc1018fdd5cec58811adbfa5f9df1d40b8ebb0917b16951c4351a14e896d"
+    },
+    {
+      "path": "renellm.py",
+      "url": "https://raw.githubusercontent.com/NJUNLP/ReNeLLM/a61c39ea4e5311a5fbfaee9869e5325783d1522f/renellm.py",
+      "bytes": 10632,
+      "sha256": "877a4af2e24a6659555731c66201ea63e86eccc460012ef2a1ac7504bdb3e04b"
+    }
+  ],
+  "stars": 165,
+  "stars_checked_at": "2026-11-09T10:41:10.147989+00:00",
+  "commit": "a61c39ea4e5311a5fbfaee9869e5325783d1522f",
+  "tree_truncated": false,
+  "files": [
+    {
+      "path": "LICENSE",
+      "size": 1063
+    },
+    {
+      "path": "README.md",
+      "size": 6948
+    },
+    {
+      "path": "utils/scenario_nest_utils.py",
+      "size": 1755
+    },
+    {
+      "path": "renellm.py",
+      "size": 10632
+    }
+  ],
+  "status": "verified",
+  "license_files": [
+    "LICENSE"
+  ],
+  "discovered_file_count": 48,
+  "file_inventory_scope": "downloaded_artifacts_only; complete discovery tree omitted from release",
+  "paper_urls": [
+    "https://arxiv.org/abs/2311.08268",
+    "https://arxiv.org/pdf/2311.08268.pdf"
+  ]
+}

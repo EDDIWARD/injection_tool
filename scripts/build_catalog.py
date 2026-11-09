@@ -278,11 +278,10 @@ def main():
     cat, held, quality_report = prepare_catalog(cat, reviews, classify)
     (ROOT / "data/catalog.json").write_text(json.dumps(cat, ensure_ascii=False, indent=2), encoding="utf-8")
     (ROOT / "data/templates_held.json").write_text(json.dumps(held, ensure_ascii=False, indent=2), encoding="utf-8")
-    (ROOT / "docs").mkdir(exist_ok=True)
-    (ROOT / "docs/quality_report.json").write_text(json.dumps(quality_report, ensure_ascii=False, indent=2), encoding="utf-8")
+    (ROOT / "data/quality_report.json").write_text(json.dumps(quality_report, ensure_ascii=False, indent=2), encoding="utf-8")
     example_bytes = "".join(json.dumps(t, ensure_ascii=False) + "\n" for t in examples.values()).encode("utf-8")
     (ROOT / "data/examples.jsonl.gz").write_bytes(gzip.compress(example_bytes, mtime=0))
-    (ROOT / "docs/import_report.json").write_text(json.dumps({"stats": cat["stats"], "skipped": skipped}, ensure_ascii=False, indent=2), encoding="utf-8")
+    (ROOT / "data/import_report.json").write_text(json.dumps({"stats": cat["stats"], "skipped": skipped}, ensure_ascii=False, indent=2), encoding="utf-8")
     print(json.dumps(cat["stats"], ensure_ascii=False, indent=2))
 
 if __name__ == "__main__":

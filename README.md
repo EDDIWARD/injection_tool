@@ -51,9 +51,28 @@ python app.py examples --source ccbos --limit 7
 
 ## 项目文件
 
-`injection_tool/` 是核心代码，`data/` 是模板与压缩样例库，`docs/` 是详细文档，`licenses/` 保留第三方许可，`scripts/` 与 `tests/` 用于维护和检查。
+`injection_tool/` 是核心代码，`data/` 是模板与压缩样例库，`docs/` 汇总项目与论文来源，`licenses/` 保留第三方许可，`scripts/` 与 `tests/` 用于维护和检查。
 
-[来源清单](docs/SOURCES.md) · [分类与论文](docs/EXPANSION.md) · [清理说明](docs/QUALITY.md) · [维护说明](docs/MAINTENANCE.md) · [第三方归属](docs/THIRD_PARTY.md)
+[查看全部项目来源、论文与第三方归属](docs/SOURCES.md)
+
+<details>
+<summary>维护与重建（可选）</summary>
+
+日常使用不需要安装依赖。维护时可运行：
+
+```bash
+python -m pip install -r requirements-maintainer.txt
+python -m unittest discover -s tests -v
+
+# 按来源清单恢复下载快照，再重建数据和来源说明
+python scripts/fetch_artifacts.py
+python scripts/build_catalog.py
+python scripts/write_source_index.py
+```
+
+来源清单保留固定提交、文件地址与 SHA-256；下载程序不执行上游代码。构建报告、原始快照与生成结果仅保存在本地，不提交 GitHub。
+
+</details>
 
 模板通过静态完整性检查，不保证目标模型执行或攻击有效。第三方内容保留各自许可，不以统一许可重新授权。
 

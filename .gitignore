@@ -18,3 +18,8 @@ dist/
 !.env.example
 Thumbs.db
 .DS_Store
+examples/optimizer_config.local.json
+third_party/optimizers/**/wandb/
+third_party/optimizers/**/results/
+third_party/optimizers/**/logs/
+third_party/optimizers/**/logs_r/

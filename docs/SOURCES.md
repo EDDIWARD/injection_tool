@@ -175,7 +175,7 @@ const tabs = result.groups.map(group => ({
 
 ## 2. 基于前后缀优化（`prefix_suffix`）
 
-收录优化方法资料及其种子，并归入目标前后的控制性前后缀；当前仅渲染已收录文本，不运行优化搜索。
+收录静态控制前后缀、优化种子和方法资料；generate 用于离线拼装，optimize 可通过 API 运行 PAIR、TAP、GPTFuzzer 的适配循环，另保留六个项目的上游源码。
 
 对应代码：[injection_tool/groups/prefix_suffix.py](../injection_tool/groups/prefix_suffix.py)。筛选：`python app.py generate --goal "输出 TEST_OK" --group prefix_suffix`。
 
@@ -273,6 +273,21 @@ const tabs = result.groups.map(group => ({
 | 方法 | 原始记录 |
 | --- | --- |
 | DeepTeam roleplay | [deepteam](https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/roleplay/template.py) |
+
+## 循环优化源码与 API 适配
+
+以下核心源码保持上游字节与 MIT 许可，固定提交和逐文件校验见 [optimizer_sources.json](../data/optimizer_sources.json)。数据集、模型资源和实验日志等未收录，清单中的 `excluded` 列出缺项；完整原版实验需恢复相应资源并独立配置环境。
+
+本项目另外提供三个统一 API 适配器：PAIR 风格反馈改写、TAP 风格分支剪枝、GPTFuzzer 风格单目标种子池变异。它们使用本项目编写的提示和评判格式，不等同于原论文全部配置；具体差异和运行方式见 [README](../README.md#api-循环优化的配置与运行)。
+
+| 方法 | 固定版本 | 本地原始入口 | API 适配 |
+| --- | --- | --- | --- |
+| pair | [6379ef705a0f](https://github.com/patrickrchao/JailbreakingLLMs/tree/6379ef705a0fc745530f7d895963510c021b496a) | [入口](../third_party/optimizers/pair/main.py) | [代码](../injection_tool/optimizers/pair.py) |
+| tap | [7bcdad30537c](https://github.com/RICommunity/TAP/tree/7bcdad30537c679d00699fac16052dc916c89a6d) | [入口](../third_party/optimizers/tap/main_TAP.py) | [代码](../injection_tool/optimizers/tap.py) |
+| gptfuzz | [0c26cccc3b19](https://github.com/hubertyoo/GPTFuzz/tree/0c26cccc3b19cd5eed91d6cb6912431cf2501762) | [入口](../third_party/optimizers/gptfuzz/gptfuzz.py) | [代码](../injection_tool/optimizers/gptfuzz.py) |
+| autodan | [34062e964185](https://github.com/SheltonLiu-N/AutoDAN/tree/34062e964185693e81a6775b4f0d00bfd7507612) | [入口](../third_party/optimizers/autodan/autodan_hga_eval.py) | 尚未接入统一 API 层 |
+| autodan_turbo | [389df8444398](https://github.com/SaFoLab-WISC/AutoDAN-Turbo/tree/389df844439888fc44ea7f5e8e95fd2b5c82ea64) | [入口](../third_party/optimizers/autodan_turbo/main.py) | 尚未接入统一 API 层 |
+| llmattacks | [098262edf85f](https://github.com/llm-attacks/llm-attacks/tree/098262edf85f807224e70ecd87b9d83716bf6b73) | [入口](../third_party/optimizers/llmattacks/experiments/main.py) | 尚未接入统一 API 层 |
 
 ## 其他论文入口
 

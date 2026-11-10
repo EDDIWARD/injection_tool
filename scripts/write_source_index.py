@@ -65,7 +65,17 @@ def main():
                 p = method["provenance"]
                 lines.append(f"| {method['name']} | [{p['source_id']}]({p['url']}) |")
         lines.append("")
-    lines += ["## 其他论文入口", "", "CC-BOS 的官方实现为 [xunhuang123/CC-BOS](https://github.com/xunhuang123/CC-BOS)。xaoLiu1222/cc-bos 与 MARUCIE/babel-bench 按社区项目归属；社区样例对论文来源的声明保留原文，未经逐项验证。", "",
+    optimizer_sources = json.loads((ROOT / "data/optimizer_sources.json").read_text(encoding="utf-8"))["sources"]
+    lines += ["## 循环优化源码与 API 适配", "",
+              "以下核心源码保持上游字节与 MIT 许可，固定提交和逐文件校验见 [optimizer_sources.json](../data/optimizer_sources.json)。数据集、模型资源和实验日志等未收录，清单中的 `excluded` 列出缺项；完整原版实验需恢复相应资源并独立配置环境。", "",
+              "本项目另外提供三个统一 API 适配器：PAIR 风格反馈改写、TAP 风格分支剪枝、GPTFuzzer 风格单目标种子池变异。它们使用本项目编写的提示和评判格式，不等同于原论文全部配置；具体差异和运行方式见 [README](../README.md#api-循环优化的配置与运行)。", "",
+              "| 方法 | 固定版本 | 本地原始入口 | API 适配 |", "| --- | --- | --- | --- |"]
+    for s in optimizer_sources:
+        upstream = f"https://github.com/{s['repository']}/tree/{s['commit']}"
+        entry = f"../{s['directory']}/{s['entrypoint']}"
+        adapter = f"[代码](../injection_tool/optimizers/{s['id']}.py)" if s["id"] in {"pair", "tap", "gptfuzz"} else "尚未接入统一 API 层"
+        lines.append(f"| {s['id']} | [{s['commit'][:12]}]({upstream}) | [入口]({entry}) | {adapter} |")
+    lines += ["", "## 其他论文入口", "", "CC-BOS 的官方实现为 [xunhuang123/CC-BOS](https://github.com/xunhuang123/CC-BOS)。xaoLiu1222/cc-bos 与 MARUCIE/babel-bench 按社区项目归属；社区样例对论文来源的声明保留原文，未经逐项验证。", "",
               "### 上游说明中的其他论文链接", "", "以下保留来源 README 的论文入口，可能包含该项目引用的相关工作，并非都由该项目作者提出。", "", "| 项目 | 论文入口 |", "| --- | --- |"]
     def canonical(url):
         return url.replace("/pdf/", "/abs/").removesuffix(".pdf")

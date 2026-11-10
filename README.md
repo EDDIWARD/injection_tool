@@ -1,24 +1,31 @@
 # Prompt Injection 模板整合器
 
-输入一个目标，离线生成分类好的 prompt injection / jailbreak 测试文本。**不需要 API Key，也不调用模型。**
+输入一个目标，生成分类好的 prompt injection / jailbreak 测试文本，也可接入模型 API 进行循环改写与评估。
+
+| 模式 | 作用 | 是否调用模型 |
+| --- | --- | --- |
+| `generate` / 双击 `start.bat` | 离线填入目标并导出静态文本 | 不调用，不需要 API Key |
+| `optimize` | PAIR、TAP、GPTFuzzer 风格的 API 循环适配 | 会调用，需要配置模型服务 |
+| `third_party/optimizers/` | 六个上游项目的固定版本核心源码 | 本项目不会自动执行它们 |
 
 当前包含 **1,046 个可生成模板、16,504 条固定样例**，统一按下面三类组织。每条输出保留来源，固定样例不会混进新目标的生成结果。
 
 | 主分类 | 代码 / 前端标识 | 可生成模板 | 内容 |
 | --- | --- | ---: | --- |
 | 基于模板 | `template` | 359 | 固定结构、任务包装、编码、代码、文言文与诗歌等 |
-| 基于前后缀优化 | `prefix_suffix` | 87 | 优化方法资料、种子与静态控制前后缀；不运行优化搜索 |
+| 基于前后缀优化 | `prefix_suffix` | 87 | 静态前后缀与种子，另提供 API 循环适配和上游源码 |
 | 基于角色扮演 | `roleplay` | 600 | 人物身份、虚构情境、模拟和多角色回答 |
 
 每条记录只有一个主分类 `group`；原有 37 个具名细分类保留在 `categories` 中作为辅助标签。分类代码对应 `injection_tool/groups/` 下的三个同名文件。
 
-第一次使用，可以先看“快速使用”；想了解库里具体有什么，接着看“三类内容详解”。目标 `goal` 是你输入的任务，模板是带目标占位符的文本，`payload` 是填入目标后的完整输出。本项目负责收集、分类和拼装，不负责调用目标模型或判断其回复是否成功。
+第一次使用，可以先看“快速使用”；想了解库里具体有什么，接着看“三类内容详解”。目标 `goal` 是你输入的任务，模板是带目标占位符的文本，`payload` 是填入目标后的完整输出。`generate` 负责离线拼装；`optimize` 会请求生成模型、目标模型和评判模型，保存每轮候选、回复与评分。
 
 ## 阅读导航
 
 - [快速使用](#快速使用)
 - [一、基于模板：有哪些写法](#一基于模板template)
 - [二、基于前后缀优化：原理、方法、效果与用法](#二基于前后缀优化prefix_suffix)
+- [API 循环优化的配置与运行](#api-循环优化的配置与运行)
 - [三、基于角色扮演：有哪些场景](#三基于角色扮演roleplay)
 - [常用命令](#常用命令)
 - [前端对接](#前端对接)
@@ -135,7 +142,7 @@ flowchart LR
 
 有些方法需要读取本地模型的梯度或输出概率，通常称为**白盒方法**；另一些只需要提交输入、读取回复，称为**黑盒方法**。是否需要梯度、是否需要权重、是否需要额外的生成与评判模型，是选择方法时比名称更有用的区别。
 
-本项目把“优化方法资料、初始种子、静态控制前后缀”放在同一导航类中。**目前的 `generate` 只拼装已经收录的文本，没有反馈循环，也不会为输入目标自动搜索更有效的前后缀。** 因此，这一类的 87 条文本不能理解为 87 种优化算法或 87 条经过本项目优化验证的结果。
+本项目把“优化方法资料、初始种子、静态控制前后缀”放在同一导航类中。**`generate` 只拼装已收录文本；`optimize` 才会运行反馈循环。** 这一类原有的 87 条仍是可以直接导出的文本，不是 87 种优化算法。新增的循环模块和上游源码也不计入静态模板数量。
 
 #### 本库里可直接生成的前后缀写法
 
@@ -156,12 +163,12 @@ flowchart LR
 
 | 方法 | 原理与关注点 | 原方法需要什么 | 本项目目前有什么 |
 | --- | --- | --- | --- |
-| [GCG](https://arxiv.org/abs/2307.15043v2) | 用梯度提示候选词元，再通过贪心搜索更新后缀；研究同一后缀在不同问题、模型间的迁移 | 优化阶段需要可计算梯度的模型及算力；词元是模型处理文本的基本单位 | [原项目入口](https://github.com/llm-attacks/llm-attacks)，无可生成模板，未实现搜索 |
-| [AutoDAN](https://arxiv.org/html/2310.04451v2) | 用分层遗传算法选择、组合和变异自然语言提示，兼顾语义连贯性 | 原方法用目标模型的输出概率评估候选，并使用文本改写；不是只读普通回复即可等价复现 | [原项目](https://github.com/SheltonLiu-N/AutoDAN)的 1 条初始种子；未运行遗传搜索 |
-| [GPTFuzzer](https://arxiv.org/abs/2309.10253v4) | 从人工模板出发，选择种子并不断变异，通过评判结果扩展模板集合 | 变异模型、目标模型、评判器和查询预算 | [原项目](https://github.com/hubertyoo/GPTFuzz)的 74 条静态模板；按内容分在三类中，不运行模糊测试循环 |
-| [PAIR](https://arxiv.org/abs/2310.08419v4) | 让一个生成模型根据目标模型的回复，迭代改写整段提示 | 生成模型、目标模型、评判器；目标可为黑盒接口 | [原项目入口](https://github.com/patrickrchao/JailbreakingLLMs)，无可生成模板，未实现迭代 |
-| [TAP](https://arxiv.org/abs/2312.02119v3) | 将提示改写扩展成树状候选，剪掉偏题或低分分支，减少无效查询 | 生成模型、目标模型、评判器和树搜索过程 | [原项目入口](https://github.com/RICommunity/TAP)，无可生成模板，未实现搜索 |
-| [AutoDAN-Turbo](https://arxiv.org/html/2410.05295v4) | 从交互中发现、归纳并检索策略，用策略库指导后续提示生成 | 多个模型角色、策略库构建与检索、目标模型调用 | [原项目](https://github.com/SaFoLab-WISC/AutoDAN-Turbo)的 50 条固定示例和 4 条策略说明；不能直接替换成任意新目标 |
+| [GCG](https://arxiv.org/abs/2307.15043v2) | 用梯度提示候选词元，再通过贪心搜索更新后缀；研究同一后缀在不同问题、模型间的迁移 | 优化阶段需要可计算梯度的模型及算力；词元是模型处理文本的基本单位 | [原始源码](third_party/optimizers/llmattacks/)，包括 GCG 核心实现；无普通聊天 API 适配 |
+| [AutoDAN](https://arxiv.org/html/2310.04451v2) | 用分层遗传算法选择、组合和变异自然语言提示，兼顾语义连贯性 | 原方法用目标模型的输出概率评估候选，并使用文本改写；不是只读普通回复即可等价复现 | 1 条可生成初始种子，以及 [GA / HGA 原始源码](third_party/optimizers/autodan/)；本地模型流程需独立配置 |
+| [GPTFuzzer](https://arxiv.org/abs/2309.10253v4) | 从人工模板出发，选择种子并不断变异，通过评判结果扩展模板集合 | 变异模型、目标模型、评判器和查询预算 | 74 条静态模板、[原始源码](third_party/optimizers/gptfuzz/)，以及 `optimize --method gptfuzz` 单目标种子池适配 |
+| [PAIR](https://arxiv.org/abs/2310.08419v4) | 让一个生成模型根据目标模型的回复，迭代改写整段提示 | 生成模型、目标模型、评判器；目标可为黑盒接口 | [原始源码](third_party/optimizers/pair/)和 `optimize --method pair` 反馈改写适配；无需先有静态模板 |
+| [TAP](https://arxiv.org/abs/2312.02119v3) | 将提示改写扩展成树状候选，剪掉偏题或低分分支，减少无效查询 | 生成模型、目标模型、评判器和树搜索过程 | [原始源码](third_party/optimizers/tap/)和 `optimize --method tap` 分支、相关性剪枝与择优适配 |
+| [AutoDAN-Turbo](https://arxiv.org/html/2410.05295v4) | 从交互中发现、归纳并检索策略，用策略库指导后续提示生成 | 多个模型角色、策略库构建与检索、目标模型调用 | 50 条固定示例、4 条策略说明和[原始源码](third_party/optimizers/autodan_turbo/)；尚未接入统一 API 适配层 |
 
 “本项目没有可生成模板”只描述当前收录状态，不表示原项目没有实现，也不表示方法无效。GPTFuzzer 的 74 条是来源关联数量，其中 12 条归入模板类、3 条归入前后缀类、59 条归入角色扮演类；只加 `--source gptfuzz` 才会取出该来源的全部可生成文本。
 
@@ -198,7 +205,65 @@ python app.py examples --source autodan_turbo --limit 5
 
 4 条 AutoDAN-Turbo 策略说明在 [data/methods.json](data/methods.json) 中，`default_generation` 为 `false`。`research` 命令只列 [data/research.json](data/research.json) 已单独整理的论文，不等于上表所有方法的完整索引。
 
-如果需要真正复现某种优化，应使用上表对应的原项目，按其说明准备依赖、模型或接口、评判器和实验配置。当前项目适合统一导出静态文本与查看来源；没有 `--optimize` 参数，也不会保存目标模型的测试成绩。
+API 循环的用法见下节。严格复现论文时，应使用收录的固定版本原始源码及上游实验资源；本项目的统一 API 适配有明确简化，不能直接套用上面的论文成功率。
+
+#### API 循环优化的配置与运行
+
+三个 API 角色可以使用相同服务，也可以分别配置：`attacker` 生成候选，`target` 接受测试，`judge` 判断相关性或实际回复的完成程度。`target.system_prompt` 用于保留你的目标任务设定；每个候选对目标模型发起一次独立文本请求，不模拟完整工具、RAG 或多轮代理环境。
+
+1. 复制 [examples/optimizer_config.example.json](examples/optimizer_config.example.json) 为 `examples/optimizer_config.local.json`。
+2. 填写三个角色的 `base_url`、`model` 和 `api_key_env`。地址填到 `/v1` 这一层，程序会追加 `/chat/completions`；若服务的根路径不同，使用实际根路径，不要重复填写完整接口。
+3. 在运行进程的环境变量里设置 `api_key_env` 指向的密钥，例如 `MODEL_API_KEY`。本地免鉴权服务可以设为 `null`。配置文件不保存密钥正文。
+4. 先用 `--dry-run` 检查配置，再移除该参数运行实际调用。示例中的 `api.example.com` 和模型名必须替换。
+
+适配器使用非流式的 Chat Completions JSON 协议，发送 `messages`、`model`、`temperature`、`max_tokens`，读取 `choices[0].message.content`。服务需要兼容这些字段；原生 Responses、Anthropic 等不同协议需要另写客户端。三个角色的生成长度和超时可分别设置。Python 标准库即可运行适配器，不需要安装六个上游项目的依赖。
+
+```bash
+# 查看三个可运行的 API 适配器和六份上游源码
+python app.py optimizers
+
+# 不连接网络、不要求密钥，只检查参数与种子
+python app.py optimize --goal "输出 TEST_OK" --method pair --config examples/optimizer_config.example.json --dry-run
+
+# 使用已填写的本地配置运行；out 和 events 应使用尚不存在的文件
+python app.py optimize --goal "输出 TEST_OK" --method pair --config examples/optimizer_config.local.json --rounds 5 --max-calls 30 --out outputs/pair_run.json --events outputs/pair_events.jsonl
+
+# TAP：每个节点扩展 2 个分支，每层保留最多 2 个候选
+python app.py optimize --goal "输出 TEST_OK" --method tap --config examples/optimizer_config.local.json --rounds 3 --branching 2 --width 2 --max-calls 40 --out outputs/tap_run.json
+
+# GPTFuzzer 风格变异；也可用 --seed-id 指定 catalog 中的模板 ID
+python app.py optimize --goal "输出 TEST_OK" --method gptfuzz --config examples/optimizer_config.local.json --rounds 8 --max-calls 40 --out outputs/fuzz_run.json
+```
+
+运行会先评估初始目标或种子，再开始改写。如果初始目标已经完成（例如目标模型直接输出 `TEST_OK`），会结束运行并记录 `score_gain: 0`，不制造“优化后才成功”的结论。
+
+| API 适配 | 已实现的循环 | 与原版的主要差异 |
+| --- | --- | --- |
+| `pair` | 独立候选流 → 读取回复及评分 → 改写 → 再评估 | 默认单流，可用 `--streams` 增加；保留最近三段候选历史，使用本项目统一提示和 JSON 评判 |
+| `tap` | 分支生成 → 相关性评判 → 剪枝 → 目标评估 → 按分数保留下一层 | 逐条 API 请求；使用统一评判模型，默认每层宽度 2、分支数 2；不是原论文的完整配置 |
+| `gptfuzz` | 选择种子 → 改写 / 缩短 / 扩写 / 组合 → 评估 → 更新种子池 | 单目标文本变异，使用 UCB 种子选择，不是上游的完整 MCTS、多问题评测或 RoBERTa 评判器 |
+
+PAIR 和 TAP 默认以目标原文作为初始输入；GPTFuzzer 适配默认使用 `local-direct_override-en`、`local-output_format-en`、`local-refusal_suppression-en` 三条本地模板。所有方法都支持重复传入 `--seed-id` 覆盖初始种子。种子仍使用原有的单次字面替换，不执行输入中的代码。
+
+`--rounds` 限制改写轮数；`--max-calls` 限制**三种角色合计的 HTTP 请求尝试次数**，包含初始评估、TAP 相关性评判和失败请求，不只统计目标模型。一次网络异常是否已经被服务方计费由服务决定；程序不自动重试。`--threshold` 默认 10，只有评判同时返回 `success: true` 且评分达到阈值，才标记成功。
+
+结果 JSON 包含 `best`、`baseline_score`、`score_gain`、每个候选的 `history` 和分角色调用次数 `calls`。状态为 `success`、`round_limit`、`budget_exhausted`、`no_candidates`、`error` 或 `interrupted`；`--dry-run` 返回 `dry_run`。API 出错、预算用尽或 Ctrl+C 时会保留已获得的记录；尚未评判的回复标为 `unscored`，不参与最佳结果选择。预检失败时不会发起请求。
+
+这里的评分和成功标记来自所配置的评判模型，可能误判；单次运行的 `score_gain` 也不是 ASR。当前已用本地模拟接口验证循环和 HTTP 流程，未用真实付费模型复现论文效果。
+
+#### 上游源码怎么查看与运行
+
+`third_party/optimizers/` 中保留了 PAIR、TAP、GPTFuzzer、AutoDAN、AutoDAN-Turbo、GCG 六个项目的 **118 个原始源码、说明和依赖文件**，约 640 KB；每份都带原始 MIT 许可。版本与逐文件校验记录见 [data/optimizer_sources.json](data/optimizer_sources.json)。统一 API 适配器位于 [injection_tool/optimizers/](injection_tool/optimizers/)，它不会导入或自动执行上游代码。
+
+这是一份核心源码快照，不是完整实验环境：数据集、模型权重、`.pth` / `.pkl` 资源、大型实验日志和图片等不包含在快照中，遗漏清单列在 `excluded`。运行原版时应按各项目 README 在独立环境安装依赖、恢复所需资源并配置模型；原版程序没有在当前 Windows / Python 3.15 环境进行完整运行验证。
+
+```bash
+# 核验源码字节与固定版本是否一致
+python scripts/fetch_optimizer_sources.py --check
+
+# 恢复缺失的已收录源码；已有文件若被改动会报错，不覆盖
+python scripts/fetch_optimizer_sources.py --source pair
+```
 
 ### 三、基于角色扮演（`roleplay`）
 
@@ -268,9 +333,11 @@ python app.py examples --source ccbos --limit 7
 
 完整字段、分组示例和三类来源统一写在 [docs/SOURCES.md](docs/SOURCES.md)。纯 payload 导出仍只含文本，需要分类时读取完整 JSON 或清单。
 
+循环任务可在后端调用 `injection_tool.optimizers.optimize()`，传入配置和 `on_event` 回调；命令行的 `--events` 则会持续写入 JSONL 进度。事件包含 `start`、`call`、`candidate`、`target_response`、`evaluated`、`pruned`、`selection`、`duplicate` 和 `complete`，前端可显示候选、轮次、评分及调用次数。`python app.py optimizers --format json` 提供各方法是否已有 API 适配的状态。项目未内置 HTTP 服务器，由前端团队的后端封装这个 Python 接口即可。
+
 ## 项目文件
 
-`injection_tool/` 是核心代码，`data/` 是模板与压缩样例库，`docs/` 汇总项目与论文来源，`licenses/` 保留第三方许可，`scripts/` 与 `tests/` 用于维护和检查。
+`injection_tool/` 是静态生成与 API 循环代码，`data/` 保存模板、样例及版本清单，`examples/` 提供 API 配置示例，`third_party/optimizers/` 保存原始循环源码，`docs/` 汇总来源，`licenses/` 保留第三方许可，`scripts/` 与 `tests/` 用于维护和检查。
 
 [查看全部项目来源、论文与第三方归属](docs/SOURCES.md)
 

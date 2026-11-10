@@ -6,3 +6,4 @@
 *.bat text eol=crlf
 *.gz binary
 licenses/** -text -whitespace
+third_party/optimizers/** -text -whitespace

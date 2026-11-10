@@ -1,6 +1,7 @@
 from __future__ import annotations
 import argparse
 import gzip
+from contextlib import ExitStack
 from collections import Counter
 import json
 from pathlib import Path
@@ -37,6 +38,21 @@ def parser():
     examples.add_argument("--group", choices=GROUP_IDS, action="append")
     examples.add_argument("--search", default="")
     examples.add_argument("--limit", type=int, default=10)
+    optimizers = sub.add_parser("optimizers", help="查看循环 API 适配器与已收录的上游源码")
+    optimizers.add_argument("--format", choices=["txt", "json"], default="txt")
+    opt = sub.add_parser("optimize", help="通过模型 API 运行有预算上限的循环优化")
+    opt_target = opt.add_mutually_exclusive_group(required=True)
+    opt_target.add_argument("--goal")
+    opt_target.add_argument("--goal-file", type=Path)
+    opt.add_argument("--method", choices=["pair", "tap", "gptfuzz"], default="pair")
+    opt.add_argument("--config", type=Path, required=True)
+    opt.add_argument("--seed-id", action="append", help="使用 catalog 中的模板 ID 作为初始种子，可重复")
+    for flag, default in (("rounds", 5), ("max-calls", 30), ("threshold", 10), ("width", 2),
+                          ("branching", 2), ("streams", 1), ("pool-size", 8)):
+        opt.add_argument("--" + flag, type=int, default=default)
+    opt.add_argument("--dry-run", action="store_true", help="只检查配置与种子，不连接 API")
+    opt.add_argument("--out", type=Path, help="保存完整结果，文件须不存在；不指定则输出 JSON")
+    opt.add_argument("--events", type=Path, help="逐条写入进度 JSONL，文件须不存在")
     return p
 
 def interactive():
@@ -61,7 +77,50 @@ def main(argv=None):
             interactive()
             return 0
         cat = load_catalog()
-        if args.command == "generate":
+        if args.command == "optimizers":
+            from .optimizers import describe_methods
+            listing = describe_methods()
+            if args.format == "json":
+                print(json.dumps(listing, ensure_ascii=False, indent=2))
+            else:
+                for item in listing["methods"]:
+                    state = "可通过 API 循环运行" if item["api_adapter"] else "上游源码，独立配置运行"
+                    print(f"{item['id']:16} {state} | {item['source_directory']}")
+        elif args.command == "optimize":
+            from .optimizers import optimize
+            from .optimizers.client import ChatClient, load_config
+            goal = args.goal_file.read_text(encoding="utf-8-sig") if args.goal_file else args.goal
+            config = load_config(args.config)
+            options = dict(config=config, method=args.method, seed_ids=args.seed_id, rounds=args.rounds,
+                           max_calls=args.max_calls, threshold=args.threshold, width=args.width,
+                           branching=args.branching, streams=args.streams, pool_size=args.pool_size)
+            # Validate before opening files or making requests.
+            plan = optimize(goal, **options, dry_run=True)
+            if not args.dry_run:
+                ChatClient(config).preflight()
+            paths = [path.resolve() for path in (args.out, args.events) if path]
+            if len(set(paths)) != len(paths):
+                raise ValueError("结果与进度必须使用不同文件")
+            if any(path.exists() for path in paths):
+                raise ValueError("输出文件已存在，请使用新路径")
+            with ExitStack() as stack:
+                for path in paths:
+                    path.parent.mkdir(parents=True, exist_ok=True)
+                output = stack.enter_context(args.out.open("x", encoding="utf-8")) if args.out else None
+                events = stack.enter_context(args.events.open("x", encoding="utf-8")) if args.events else None
+                def report(event):
+                    if events:
+                        events.write(json.dumps(event, ensure_ascii=False) + "\n")
+                        events.flush()
+                result = plan if args.dry_run else optimize(goal, **options, on_event=report)
+                encoded = json.dumps(result, ensure_ascii=False, indent=2) + "\n"
+                if output:
+                    output.write(encoded)
+                    print(f"{result['status']} | API 请求 {result['calls']['total']} 次 | {args.out.resolve()}")
+                else:
+                    print(encoded, end="")
+                return 2 if result["status"] == "error" else 130 if result["status"] == "interrupted" else 0
+        elif args.command == "generate":
             goal = args.goal_file.read_text(encoding="utf-8-sig") if args.goal_file else args.goal
             carriers = list(CARRIERS) if "all" in (args.carrier or []) else args.carrier
             result = generate(goal, catalog=cat, groups=args.group, categories=args.category, sources=args.source,

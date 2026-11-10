@@ -2,7 +2,15 @@
 
 输入一个目标，离线生成分类好的 prompt injection / jailbreak 测试文本。**不需要 API Key，也不调用模型。**
 
-当前包含 **1,046 个可生成模板、37 个具名分类、16,504 条固定样例**。每条输出保留来源，固定样例不会混进新目标的生成结果。
+当前包含 **1,046 个可生成模板、16,504 条固定样例**，统一按下面三类组织。每条输出保留来源，固定样例不会混进新目标的生成结果。
+
+| 主分类 | 代码 / 前端标识 | 内容 |
+| --- | --- | --- |
+| 基于模板 | `template` | 固定结构、任务包装、编码、代码、文言文与诗歌等 |
+| 基于前后缀优化 | `prefix_suffix` | 优化方法资料、种子与静态控制前后缀；不运行优化搜索 |
+| 基于角色扮演 | `roleplay` | 人物身份、虚构情境、模拟和多角色回答 |
+
+每条记录只有一个主分类 `group`；原有 37 个具名细分类保留在 `categories` 中作为辅助标签。分类代码对应 `injection_tool/groups/` 下的三个同名文件。
 
 ## 快速使用
 
@@ -34,10 +42,15 @@ python app.py generate --goal "输出 TEST_OK" --format payloads --out outputs/p
 # 只生成文言文语境模板
 python app.py generate --goal "输出 TEST_OK" --category classical_chinese --payload-dir outputs/classical
 
+# 按三大类生成（可换成 template 或 prefix_suffix）
+python app.py generate --goal "输出 TEST_OK" --group roleplay --out outputs/roleplay.json
+
 # 从 UTF-8 文件读取多行目标
 python app.py generate --goal-file goal.txt --out outputs/results.json
 
-# 查看分类、来源、统计和论文
+# 查看三大类、细分类标签、来源、统计和论文
+python app.py groups
+python app.py groups --format json
 python app.py categories
 python app.py sources
 python app.py stats
@@ -47,7 +60,13 @@ python app.py research
 python app.py examples --source ccbos --limit 7
 ```
 
-可用 `--category`、`--source`、`--language zh`、`--scope injection` 筛选；更多参数见 `python app.py generate --help`。语言筛选不会翻译输入目标。文言文分类的 4 条默认模板为本地编写，CC-BOS 官方固定样例另存于样例库。
+可用 `--group`、`--category`、`--source`、`--language zh`、`--scope injection` 组合筛选。`--group` 可重复传入；`examples`、`research` 也支持它。更多参数见 `python app.py generate --help`。语言筛选不会翻译输入目标。文言文标签的 4 条默认模板为本地编写，CC-BOS 官方固定样例另存于样例库。
+
+## 前端对接
+
+读取 [data/groups.json](data/groups.json) 获取三个页签的 `id`、`name` 和数量。生成结果的每条 `results[]` 都带 `group`，按此字段分组即可；`group_counts` 给出本次生成数量。JSONL 和逐条文件的清单也保留同样的分类。
+
+完整字段、分组示例和三类来源统一写在 [docs/SOURCES.md](docs/SOURCES.md)。纯 payload 导出仍只含文本，需要分类时读取完整 JSON 或清单。
 
 ## 项目文件
 
@@ -67,6 +86,10 @@ python -m unittest discover -s tests -v
 # 按来源清单恢复下载快照，再重建数据和来源说明
 python scripts/fetch_artifacts.py
 python scripts/build_catalog.py
+python scripts/write_source_index.py
+
+# 只刷新三类归属与文档，不重新下载来源
+python scripts/organize_groups.py
 python scripts/write_source_index.py
 ```
 

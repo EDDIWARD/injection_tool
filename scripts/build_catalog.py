@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from injection_tool.core import validate_template
 from injection_tool.quality import prepare_catalog
+from injection_tool.groups import organize
 from expanded_adapters import import_expansion
 
 UP = ROOT / "data/upstream"
@@ -247,7 +248,6 @@ def main():
                         add_example(row["instruction"], sid, path, target.id + "." + key, target.id, kind="fixed_or_output_string_template")
 
     methods = import_expansion(sources, read, provenance, add_template, add_example, skipped)
-    (ROOT / "data/methods.json").write_text(json.dumps(methods, ensure_ascii=False, indent=2), encoding="utf-8")
     counts = Counter(p["source_id"] for t in templates.values() for p in {p['source_id']: p for p in t['provenance']}.values())
     ecounts = Counter(p["source_id"] for t in examples.values() for p in {p['source_id']: p for p in t['provenance']}.values())
     summaries = []
@@ -276,6 +276,10 @@ def main():
     (ROOT / "data/catalog_raw.json").write_text(json.dumps(cat, ensure_ascii=False, indent=2), encoding="utf-8")
     reviews = json.loads((ROOT / "data/template_reviews.json").read_text(encoding="utf-8"))
     cat, held, quality_report = prepare_catalog(cat, reviews, classify)
+    research = json.loads((ROOT / "data/research.json").read_text(encoding="utf-8"))
+    group_index = organize(cat, list(examples.values()), methods, research)
+    for name, value in (("groups", group_index), ("methods", methods), ("research", research)):
+        (ROOT / f"data/{name}.json").write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf-8")
     (ROOT / "data/catalog.json").write_text(json.dumps(cat, ensure_ascii=False, indent=2), encoding="utf-8")
     (ROOT / "data/templates_held.json").write_text(json.dumps(held, ensure_ascii=False, indent=2), encoding="utf-8")
     (ROOT / "data/quality_report.json").write_text(json.dumps(quality_report, ensure_ascii=False, indent=2), encoding="utf-8")

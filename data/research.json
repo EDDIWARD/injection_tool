@@ -8,7 +8,12 @@
       "source_id": "ccbos",
       "venue_or_version": "ICLR 2026",
       "integration": "导入官方仓库中的固定问题示例；完整方法依赖模型改写、翻译和果蝇搜索，不计入默认静态模板。另提供 4 条明确标注为本地编写的文言文包装。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "template",
+      "group_assignment": {
+        "version": 1,
+        "rule": "source_content_form"
+      }
     },
     {
       "name": "Task-Tampering Prompt Injection",
@@ -17,7 +22,12 @@
       "source_id": "tasktamper",
       "venue_or_version": "2026-11-05 预印本",
       "integration": "导入 90 个场景文件中的独立注入文本及变体；需要原任务与工具环境，保存在固定样例库。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "template",
+      "group_assignment": {
+        "version": 1,
+        "rule": "template_fallback"
+      }
     },
     {
       "name": "PIArena",
@@ -26,7 +36,12 @@
       "source_id": "piarena",
       "venue_or_version": "ACL 2026（上游 README）",
       "integration": "提取 heuristic.py 的直接注入文本；去重后进入默认库。搜索、训练与评测流程未运行。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "template",
+      "group_assignment": {
+        "version": 1,
+        "rule": "template_fallback"
+      }
     },
     {
       "name": "AgentDyn",
@@ -35,7 +50,12 @@
       "source_id": "agentdyn",
       "venue_or_version": "2026 预印本",
       "integration": "核验项目与论文入口；动态环境和代理评测方法不作为单目标静态模板。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "template",
+      "group_assignment": {
+        "version": 1,
+        "rule": "template_fallback"
+      }
     },
     {
       "name": "Adversarial Poetry",
@@ -44,7 +64,12 @@
       "source_id": null,
       "venue_or_version": "2025-11，2026-01 修订",
       "integration": "收录论文入口；DeepTeam 中的诗歌模块是提示改写器，另记方法，不冒充可直接提交的论文模板。诗歌标签覆盖已有库内文本。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "template",
+      "group_assignment": {
+        "version": 1,
+        "rule": "template_fallback"
+      }
     },
     {
       "name": "JailBench",
@@ -53,7 +78,12 @@
       "source_id": "jailbench",
       "venue_or_version": "PAKDD 2025",
       "integration": "由 540 个原始 seed 与 10,800 条 query 精确匹配，析出 20 个独立中文模板；原始 query 单独保留。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "template",
+      "group_assignment": {
+        "version": 1,
+        "rule": "template_fallback"
+      }
     },
     {
       "name": "FlipAttack",
@@ -62,7 +92,12 @@
       "source_id": "flipattack",
       "venue_or_version": "ICML 2025",
       "integration": "接入 4 个 vanilla 反转模式；原 system/user 消息合并为一段文本并明确标注适配，不等价于完整论文实验。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "template",
+      "group_assignment": {
+        "version": 1,
+        "rule": "source_content_form"
+      }
     },
     {
       "name": "AutoDAN-Turbo",
@@ -71,7 +106,12 @@
       "source_id": "autodan_turbo",
       "venue_or_version": "ICLR 2025 Spotlight（上游 README）",
       "integration": "导入公开策略库中的固定示例，策略描述单列；不把策略定义作为目标模型 payload。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "prefix_suffix",
+      "group_assignment": {
+        "version": 1,
+        "rule": "optimization_source"
+      }
     },
     {
       "name": "EasyJailbreak",
@@ -80,7 +120,12 @@
       "source_id": "easyjailbreak",
       "venue_or_version": "框架论文",
       "integration": "导入具有明确目标槽位的种子，包括 AutoDAN、GPTFuzzer、Jailbroken、DeepInception；排除攻击模型和评判模型的提示。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "template",
+      "group_assignment": {
+        "version": 1,
+        "rule": "template_fallback"
+      }
     },
     {
       "name": "ReNeLLM",
@@ -89,7 +134,12 @@
       "source_id": "renellm",
       "venue_or_version": "NAACL 2024",
       "integration": "接入代码补全、表格填充、故事续写 3 个静态场景；不运行迭代改写。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "template",
+      "group_assignment": {
+        "version": 1,
+        "rule": "template_fallback"
+      }
     },
     {
       "name": "CodeAttack",
@@ -98,7 +148,12 @@
       "source_id": "codeattack",
       "venue_or_version": "ACL 2024",
       "integration": "接入 6 个 Python 文本模板；输入转为带引号的字符串或字符序列，生成内容不执行。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "template",
+      "group_assignment": {
+        "version": 1,
+        "rule": "source_content_form"
+      }
     },
     {
       "name": "CodeChameleon",
@@ -107,7 +162,12 @@
       "source_id": "codechameleon",
       "venue_or_version": "2024 论文",
       "integration": "接入 2 个未加密基线模板；个性化加密方法未实现，未将基线等同于论文全方法。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "template",
+      "group_assignment": {
+        "version": 1,
+        "rule": "source_content_form"
+      }
     },
     {
       "name": "Persuasive Adversarial Prompts (PAP)",
@@ -116,7 +176,12 @@
       "source_id": "pap",
       "venue_or_version": "2024 论文",
       "integration": "公开说服术语、定义单列为方法分类；没有将 taxonomy 描述直接拼成 payload。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "template",
+      "group_assignment": {
+        "version": 1,
+        "rule": "template_fallback"
+      }
     },
     {
       "name": "DeepInception",
@@ -125,7 +190,12 @@
       "source_id": "deepinception",
       "venue_or_version": "2023 论文",
       "integration": "官方固定示例单列；具有明确目标变量的静态模式从 EasyJailbreak 导入并保留其来源。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "roleplay",
+      "group_assignment": {
+        "version": 1,
+        "rule": "roleplay_source"
+      }
     },
     {
       "name": "AutoDAN",
@@ -134,7 +204,12 @@
       "source_id": "autodan",
       "venue_or_version": "2023 预印本",
       "integration": "导入公开 initial seed；不加载 .pth、不执行遗传搜索。",
-      "effectiveness_reproduced": false
+      "effectiveness_reproduced": false,
+      "group": "prefix_suffix",
+      "group_assignment": {
+        "version": 1,
+        "rule": "optimization_source"
+      }
     }
   ],
   "notes": "项目热度与论文中的成功率不能代替当前目标模型的效果验证。社区复现单独标记，不当成作者官方实现。"

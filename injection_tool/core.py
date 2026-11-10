@@ -10,6 +10,7 @@ import shutil
 import tempfile
 from collections import Counter
 from datetime import datetime, timezone
+from .groups import GROUPS, GROUP_IDS, GROUP_NAMES, classify_group, group_counts
 
 ROOT = Path(__file__).resolve().parents[1]
 TOKEN = re.compile(r"\{\{\s*([a-zA-Z_][a-zA-Z_0-9]*)\s*\}\}")
@@ -71,12 +72,13 @@ def wrap(payload, carrier):
         return stream.getvalue()
     raise ValueError(f"Unknown carrier: {carrier}")
 
-def generate(goal, *, catalog=None, categories=None, sources=None, language="all", scope="all", carriers=None):
+def generate(goal, *, catalog=None, groups=None, categories=None, sources=None, language="all", scope="all", carriers=None):
     if not isinstance(goal, str) or not goal.strip():
         raise ValueError("目标不能为空")
     if len(goal) > 100_000:
         raise ValueError("目标过长（最多 100,000 个字符）")
     catalog = catalog or load_catalog()
+    groups = set(groups or [])
     categories = set(categories or [])
     sources = set(sources or [])
     carriers = list(dict.fromkeys(carriers or ["plain"]))
@@ -84,6 +86,9 @@ def generate(goal, *, catalog=None, categories=None, sources=None, language="all
         raise ValueError("未知语言")
     if scope not in {"all", "injection", "jailbreak"}:
         raise ValueError("未知范围")
+    unknown_groups = groups - set(GROUP_IDS)
+    if unknown_groups:
+        raise ValueError(f"未知主分类: {', '.join(sorted(unknown_groups))}")
     unknown = categories - {c["id"] for c in catalog["categories"]}
     if unknown:
         raise ValueError(f"未知分类: {', '.join(sorted(unknown))}")
@@ -94,6 +99,9 @@ def generate(goal, *, catalog=None, categories=None, sources=None, language="all
         raise ValueError("未知载体")
     results = []
     for template in catalog["templates"]:
+        group = template.get("group") or classify_group(template)[0]
+        if groups and group not in groups:
+            continue
         if categories and not categories.intersection(template["categories"]):
             continue
         if sources and not sources.intersection(p["source_id"] for p in template["provenance"]):
@@ -105,12 +113,13 @@ def generate(goal, *, catalog=None, categories=None, sources=None, language="all
         payload = render(template["template"], goal)
         for carrier in carriers:
             results.append({"id": template["id"] + ":" + carrier, "template_id": template["id"],
-                            "name": template["name"], "categories": template["categories"],
+                            "name": template["name"], "group": group, "categories": template["categories"],
                             "scope": template["scope"], "language": template["language"], "carrier": carrier,
                             "classification_method": template["classification_method"],
                             "quality": template.get("quality", {}),
                             "provenance": template["provenance"], "payload": wrap(payload, carrier)})
-    return {"schema_version": 1, "generated_at": datetime.now(timezone.utc).isoformat(), "goal": goal,
+    return {"schema_version": 2, "generated_at": datetime.now(timezone.utc).isoformat(), "goal": goal,
+            "groups": [dict(g) for g in GROUPS], "group_counts": group_counts(results),
             "count": len(results), "category_counts": dict(Counter(c for r in results for c in r["categories"])),
             "results": results}
 
@@ -124,7 +133,7 @@ def serialize(result, fmt):
     if fmt == "txt":
         chunks = [f"目标：{result['goal']}\n共 {result['count']} 条\n"]
         for r in result["results"]:
-            chunks.append(f"{'=' * 72}\n{r['id']} | {r['name']}\n分类：{', '.join(r['categories'])}\n来源：" +
+            chunks.append(f"{'=' * 72}\n{r['id']} | {r['name']}\n主分类：{GROUP_NAMES[r['group']]} ({r['group']})\n标签：{', '.join(r['categories'])}\n来源：" +
                           ", ".join(p.get("url", p["source_id"]) for p in r["provenance"]) + "\n\n" + r["payload"])
         return "\n\n".join(chunks) + "\n"
     raise ValueError("Unknown output format")
@@ -147,7 +156,8 @@ def write_payload_files(result, path):
     target.parent.mkdir(parents=True, exist_ok=True)
     stage = Path(tempfile.mkdtemp(prefix='.payload-export-', dir=target.parent))
     try:
-        manifest = {"goal": result["goal"], "count": result["count"], "items": []}
+        manifest = {"schema_version": 2, "goal": result["goal"], "count": result["count"],
+                    "groups": result["groups"], "group_counts": result["group_counts"], "items": []}
         for index, row in enumerate(result["results"], 1):
             # Filenames do not contain text from the user's goal or the template.
             name = f"{index:04d}.txt"

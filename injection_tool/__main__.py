@@ -7,6 +7,7 @@ from pathlib import Path
 import sys
 from datetime import datetime
 from .core import CARRIERS, ROOT, generate, load_catalog, serialize, write_result, write_payload_files
+from .groups import GROUP_IDS, GROUP_NAMES
 
 def parser():
     p = argparse.ArgumentParser(description="输入一个目标，离线生成分类后的 prompt injection / jailbreak 测试样例。")
@@ -15,7 +16,8 @@ def parser():
     target = g.add_mutually_exclusive_group(required=True)
     target.add_argument("--goal", help="目标文本")
     target.add_argument("--goal-file", type=Path, help="从 UTF-8 文本文件读取目标")
-    g.add_argument("--category", action="append", help="按分类筛选，可重复")
+    g.add_argument("--group", choices=GROUP_IDS, action="append", help="按三大主分类筛选，可重复")
+    g.add_argument("--category", action="append", help="按细分类标签筛选，可重复")
     g.add_argument("--source", action="append", help="按来源筛选，可重复")
     g.add_argument("--language", choices=["all", "zh", "en", "mixed", "und"], default="all")
     g.add_argument("--scope", choices=["all", "injection", "jailbreak"], default="all")
@@ -24,11 +26,15 @@ def parser():
     g.add_argument("--out", type=Path)
     g.add_argument("--payload-dir", type=Path, help="逐条导出纯文本，每个文件仅含一条 payload；目录须不存在")
     sub.add_parser("stats", help="来源、分类、模板和固定样例统计")
-    sub.add_parser("categories", help="列出分类")
+    groups = sub.add_parser("groups", help="列出三大主分类和数量，供前端对应")
+    groups.add_argument("--format", choices=["txt", "json"], default="txt")
+    sub.add_parser("categories", help="列出细分类标签")
     sub.add_parser("sources", help="列出来源和实际导入数量")
-    sub.add_parser("research", help="查看论文、年份与实际接入范围")
+    research = sub.add_parser("research", help="按三大主分类查看论文、年份与实际接入范围")
+    research.add_argument("--group", choices=GROUP_IDS, action="append")
     examples = sub.add_parser("examples", help="检索固定样例（不会把旧目标冒充成新目标）")
     examples.add_argument("--source")
+    examples.add_argument("--group", choices=GROUP_IDS, action="append")
     examples.add_argument("--search", default="")
     examples.add_argument("--limit", type=int, default=10)
     return p
@@ -36,6 +42,8 @@ def parser():
 def interactive():
     cat = load_catalog()
     print(f"Prompt Injection 模板整合器 | {len(cat['templates'])} 个可用模板\n")
+    for group in cat["groups"]:
+        print(f"{group['name']}：{group['template_count']} 条")
     goal = input("输入目标（多行目标可使用 --goal-file）：\n> ")
     result = generate(goal, catalog=cat)
     output = ROOT / "outputs" / datetime.now().strftime("%Y%m%d_%H%M%S_%f")
@@ -56,7 +64,7 @@ def main(argv=None):
         if args.command == "generate":
             goal = args.goal_file.read_text(encoding="utf-8-sig") if args.goal_file else args.goal
             carriers = list(CARRIERS) if "all" in (args.carrier or []) else args.carrier
-            result = generate(goal, catalog=cat, categories=args.category, sources=args.source,
+            result = generate(goal, catalog=cat, groups=args.group, categories=args.category, sources=args.source,
                               language=args.language, scope=args.scope, carriers=carriers)
             if not result["count"]:
                 raise ValueError("筛选条件没有匹配到可用模板")
@@ -70,6 +78,13 @@ def main(argv=None):
                 print(serialize(result, args.format), end="")
         elif args.command == "stats":
             print(json.dumps(cat["stats"], ensure_ascii=False, indent=2))
+        elif args.command == "groups":
+            if args.format == "json":
+                print(json.dumps({"schema_version": 1, "group_rule_version": cat["group_rule_version"],
+                                  "groups": cat["groups"]}, ensure_ascii=False, indent=2))
+            else:
+                for group in cat["groups"]:
+                    print(f"{group['id']:16} {group['name']} | 模板={group['template_count']} 样例={group['example_count']} 方法={group['method_count']} 论文={group['paper_count']}")
         elif args.command == "categories":
             counts = Counter(c for t in cat["templates"] for c in t["categories"])
             for c in cat["categories"]:
@@ -79,8 +94,13 @@ def main(argv=None):
                 print(f"{s['id']:22} {s['status']:22} 模板={s['template_count']:4} 样例={s['example_count']:4} {s['url']}")
         elif args.command == "research":
             research = json.loads((ROOT / "data/research.json").read_text(encoding="utf-8"))
-            for paper in research["papers"]:
-                print(f"{paper['year']} | {paper['name']}\n  {paper['url']}\n  {paper['integration']}\n")
+            for gid in GROUP_IDS:
+                if args.group and gid not in args.group:
+                    continue
+                print(f"{GROUP_NAMES[gid]} ({gid})\n")
+                for paper in research["papers"]:
+                    if paper["group"] == gid:
+                        print(f"{paper['year']} | {paper['name']}\n  {paper['url']}\n  {paper['integration']}\n")
         elif args.command == "examples":
             if args.limit < 1:
                 raise ValueError("limit 必须大于零")
@@ -92,6 +112,8 @@ def main(argv=None):
             with stream as f:
                 for line in f:
                     row = json.loads(line)
+                    if args.group and row["group"] not in args.group:
+                        continue
                     if args.source and not any(x['source_id'] == args.source for x in row['provenance']):
                         continue
                     if args.search.casefold() not in row["text"].casefold():

@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "group_rule_version": 1,
+  "groups": [
+    {
+      "id": "template",
+      "name": "基于模板",
+      "description": "以固定结构、任务包装、编码或语言改写组织目标，包括代码、文言文和诗歌等形式。",
+      "template_count": 359,
+      "example_count": 5798,
+      "method_count": 54,
+      "paper_count": 12
+    },
+    {
+      "id": "prefix_suffix",
+      "name": "基于前后缀优化",
+      "description": "收录优化方法资料及其种子，并归入目标前后的控制性前后缀；当前仅渲染已收录文本，不运行优化搜索。",
+      "template_count": 87,
+      "example_count": 1179,
+      "method_count": 7,
+      "paper_count": 2
+    },
+    {
+      "id": "roleplay",
+      "name": "基于角色扮演",
+      "description": "通过人物身份、虚构情境、模拟环境或多角色回答组织目标。",
+      "template_count": 600,
+      "example_count": 9527,
+      "method_count": 1,
+      "paper_count": 1
+    }
+  ]
+}

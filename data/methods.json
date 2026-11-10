@@ -12,6 +12,11 @@
       "commit": "389df844439888fc44ea7f5e8e95fd2b5c82ea64",
       "url": "https://github.com/SaFoLab-WISC/AutoDAN-Turbo/blob/389df844439888fc44ea7f5e8e95fd2b5c82ea64/logs_r/warm_up_strategy_library.json",
       "method": "method_inventory"
+    },
+    "group": "prefix_suffix",
+    "group_assignment": {
+      "version": 1,
+      "rule": "optimization_source"
     }
   },
   {
@@ -27,6 +32,11 @@
       "commit": "389df844439888fc44ea7f5e8e95fd2b5c82ea64",
       "url": "https://github.com/SaFoLab-WISC/AutoDAN-Turbo/blob/389df844439888fc44ea7f5e8e95fd2b5c82ea64/logs_r/warm_up_strategy_library.json",
       "method": "method_inventory"
+    },
+    "group": "prefix_suffix",
+    "group_assignment": {
+      "version": 1,
+      "rule": "optimization_source"
     }
   },
   {
@@ -42,6 +52,11 @@
       "commit": "389df844439888fc44ea7f5e8e95fd2b5c82ea64",
       "url": "https://github.com/SaFoLab-WISC/AutoDAN-Turbo/blob/389df844439888fc44ea7f5e8e95fd2b5c82ea64/logs_r/warm_up_strategy_library.json",
       "method": "method_inventory"
+    },
+    "group": "prefix_suffix",
+    "group_assignment": {
+      "version": 1,
+      "rule": "optimization_source"
     }
   },
   {
@@ -57,6 +72,11 @@
       "commit": "389df844439888fc44ea7f5e8e95fd2b5c82ea64",
       "url": "https://github.com/SaFoLab-WISC/AutoDAN-Turbo/blob/389df844439888fc44ea7f5e8e95fd2b5c82ea64/logs_r/warm_up_strategy_library.json",
       "method": "method_inventory"
+    },
+    "group": "prefix_suffix",
+    "group_assignment": {
+      "version": 1,
+      "rule": "optimization_source"
     }
   },
   {
@@ -72,6 +92,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -87,6 +112,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -102,6 +132,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -117,6 +152,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -132,6 +172,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -147,6 +192,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -162,6 +212,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -177,6 +232,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -192,6 +252,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -207,6 +272,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -222,6 +292,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -237,6 +312,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -252,6 +332,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -267,6 +352,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -282,6 +372,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -297,6 +392,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -312,6 +412,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -327,6 +432,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -342,6 +452,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -357,6 +472,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -372,6 +492,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -387,6 +512,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -402,6 +532,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -417,6 +552,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -432,6 +572,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -447,6 +592,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -462,6 +612,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -477,6 +632,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -492,6 +652,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -507,6 +672,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -522,6 +692,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -537,6 +712,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -552,6 +732,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -567,6 +752,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -582,6 +772,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -597,6 +792,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -612,6 +812,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -627,6 +832,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -642,6 +852,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -657,6 +872,11 @@
       "commit": "11f8e8e89e5fcb2aaeb9d05b9570495d004b499d",
       "url": "https://github.com/CHATS-lab/persuasive_jailbreaker/blob/11f8e8e89e5fcb2aaeb9d05b9570495d004b499d/persuasion_taxonomy.jsonl",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -671,6 +891,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/adversarial_poetry/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -685,6 +910,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/authority_escalation/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -699,6 +929,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/context_flooding/template.py",
       "method": "method_inventory"
+    },
+    "group": "prefix_suffix",
+    "group_assignment": {
+      "version": 1,
+      "rule": "control_method_name"
     }
   },
   {
@@ -713,6 +948,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/context_poisoning/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -727,6 +967,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/embedded_instruction_json/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -741,6 +986,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/emotional_manipulation/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -755,6 +1005,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/goal_redirection/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -769,6 +1024,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/gray_box/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -783,6 +1043,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/input_bypass/template.py",
       "method": "method_inventory"
+    },
+    "group": "prefix_suffix",
+    "group_assignment": {
+      "version": 1,
+      "rule": "control_method_name"
     }
   },
   {
@@ -797,6 +1062,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/math_problem/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -811,6 +1081,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/multilingual/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -825,6 +1100,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/permission_escalation/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -839,6 +1119,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/prompt_injection/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -853,6 +1138,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/prompt_probing/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -867,6 +1157,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/roleplay/template.py",
       "method": "method_inventory"
+    },
+    "group": "roleplay",
+    "group_assignment": {
+      "version": 1,
+      "rule": "persona_text"
     }
   },
   {
@@ -881,6 +1176,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/semantic_manipulation/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -895,6 +1195,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/synthetic_context_injection/template.py",
       "method": "method_inventory"
+    },
+    "group": "template",
+    "group_assignment": {
+      "version": 1,
+      "rule": "template_fallback"
     }
   },
   {
@@ -909,6 +1214,11 @@
       "commit": "6306f0ff319a932955399405af82f78ee91e9370",
       "url": "https://github.com/confident-ai/deepteam/blob/6306f0ff319a932955399405af82f78ee91e9370/deepteam/attacks/single_turn/system_override/template.py",
       "method": "method_inventory"
+    },
+    "group": "prefix_suffix",
+    "group_assignment": {
+      "version": 1,
+      "rule": "control_method_name"
     }
   }
 ]
